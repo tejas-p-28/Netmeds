@@ -3,8 +3,8 @@ body{
 }
 .header{
     background-color: #0eb184;
-    float: left;
-
+    display: block;
+    border:2px solid black;
     width: 100%;
     height: 120px;
 }
@@ -37,21 +37,27 @@ a{
 }
 .headerContainer{
     font-size: 18px;
-    margin-left: 10.5%;
+    margin-left: 10%;
     margin-right: 5%;
     margin-top: 0.5%;
+    height: 40px;
+    border: 2px solid black;
+    width: 85%;
  
 }
 .heading{
     color: #fff;
-    margin-left: 5%;
+    margin-left: 6%;
     background-color: #0eb184;
 }
 .heading1{
     float: right;
     color: #fff;
-    margin-left: 5%;
+    margin-left: 7%;
     background-color: #0eb184;
+}
+.content{
+    display: block;
 }
 .slideshow{
     height:400px;
@@ -60,4 +66,7 @@ a{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 1%;
+}
+.categories{
+    
 }
