@@ -1,28 +1,38 @@
 body{
     margin: auto;
 }
-.header{
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/*Header Css Starts*/
+.form-horizontal{
     background-color: #0eb184;
     display: block;
-    border:2px solid black;
     width: 100%;
     height: 120px;
+
 }
-.header > h1 {
+
+.form-horizontal > h1 {
     color: #fff;
-    margin-left: 2%
+    margin-left: 2%;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.select{
-    display: inline-block;
-    margin-left: 15%;
-    margin-top: -4%;
+.form-control{
+    float: left;
+
 }
+
 select{
     float: left;
     height: 40px;
     width: 150px;
     color:#0eb184 ;
     border-radius: 7px;
+    margin-top: 2%;
+    margin-left: 4%;
 }
 input{
     height: 40px;
@@ -30,43 +40,46 @@ input{
     color: grey;
     border-radius: 7px;
     border: 1px solid ;
+    margin-top: 2%;
 }
-a{
-    text-decoration: none;
-    color: #fff;
-}
+
 .headerContainer{
     font-size: 18px;
-    margin-left: 10%;
+    margin-left: 6%;
     margin-right: 5%;
-    margin-top: 0.5%;
     height: 40px;
-    border: 2px solid black;
     width: 85%;
+    margin-top: 1%;
  
 }
 .heading{
     color: #fff;
-    margin-left: 6%;
+    margin-left: 8%;
     background-color: #0eb184;
 }
-.heading1{
-    float: right;
-    color: #fff;
-    margin-left: 7%;
-    background-color: #0eb184;
+/*Header Css Ends */
+/* Slideshow Css Starts */
+.carousel-inner > img{
+    height:300px;
+    width:100%;
 }
-.content{
-    display: block;
-}
-.slideshow{
-    height:400px;
-    width: 80%;
-    border: 2px solid black;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 1%;
-}
+/* Slideshow Css Ends */
+/* Main Content Css Starts */
 .categories{
+    margin-top: 2%;
     
 }
+.categories > p{
+    margin-left: 4%;
+    color: #39b76b;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.categoriesContainer > a{
+    float: left;
+    margin-left: 1%;
+    margin-top: 2%;
+
+}
+/* Main Content Css Ends */
