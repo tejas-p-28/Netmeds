@@ -58,12 +58,31 @@ input{
     background-color: #0eb184;
 }
 /*Header Css Ends */
+
 /* Slideshow Css Starts */
+.imgAnimation{
+    height: 170px;
+    animation: moving 10s infinite;
+}
+
+@keyframes moving {
+    0% {margin-left: 20%; margin-top: 2%;}
+    50%{margin-left: 70%; margin-top: 2%;}
+    100% {margin-left: 70%; margin-top: 2%; height: 0px; width: 0px;}  
+}
+.imgAnimation > img{
+    width: 120px;
+    height: 120px;
+    margin-top: 2%;
+    float: left !important;
+}
+
 .carousel-inner > img{
     height:300px;
     width:100%;
 }
 /* Slideshow Css Ends */
+
 /* Main Content Css Starts */
 .categories{
     margin-top: 2%;
