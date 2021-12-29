@@ -1,16 +1,17 @@
 body{
     margin: auto;
+    background-color: #cae9e0 !important;
 }
 a{
     text-decoration: none;
-    color: #fff;
+    color: #fff !important;
 }
 /*Header Css Starts*/
 .form-horizontal{
     background-color: #0eb184;
-    display: block;
+    display: inline-block;
     width: 100%;
-    height: 120px;
+    height: auto;
 
 }
 
@@ -24,63 +25,31 @@ a{
     float: left;
 
 }
-
-select{
-    float: left;
-    height: 40px;
-    width: 150px;
-    color:#0eb184 ;
-    border-radius: 7px;
-    margin-top: 2%;
-    margin-left: 4%;
-}
-input{
-    height: 40px;
-    width: 650px;
-    color: grey;
-    border-radius: 7px;
-    border: 1px solid ;
-    margin-top: 2%;
+.navbar{
+    background-color: #0eb184 !important;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
-.headerContainer{
-    font-size: 18px;
-    margin-left: 6%;
-    margin-right: 5%;
-    height: 40px;
-    width: 85%;
-    margin-top: 1%;
- 
+.btn{
+    float: right; 
+    margin-right: 2%;
 }
-.heading{
-    color: #fff;
-    margin-left: 8%;
-    background-color: #0eb184;
-}
+
+
 /*Header Css Ends */
 
 /* Slideshow Css Starts */
-.imgAnimation{
-    height: 170px;
-    animation: moving 10s infinite;
-}
 
-@keyframes moving {
-    0% {margin-left: 20%; margin-top: 2%;}
-    50%{margin-left: 70%; margin-top: 2%;}
-    100% {margin-left: 70%; margin-top: 2%; height: 0px; width: 0px;}  
-}
-.imgAnimation > img{
-    width: 120px;
-    height: 120px;
-    margin-top: 2%;
-    float: left !important;
-}
 
 .carousel-inner > img{
     height:300px;
     width:100%;
 }
+#slideshow{
+    margin-top: 4.5%;
+}
+
 /* Slideshow Css Ends */
 
 /* Main Content Css Starts */
