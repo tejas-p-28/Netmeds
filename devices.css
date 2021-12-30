@@ -10,7 +10,6 @@ a{
 .form-horizontal{
     background-color: #0eb184;
     width: 100%;
-    margin-bottom: 1%;
 }
 
 .navbar-brand {
@@ -57,61 +56,3 @@ form.example button {
     margin-left: 25%;
     color: #fff;
 } 
-form.example button:hover {
-    background: #0b7dda;
-}
-
-.navbar{
-    background-color: #0eb184 !important;
-    margin-left: 12%;
-}
-
-.nav-link{
-    font-size: 20px;
-}
-.btn{
-    height: 35px;
-    width: 70px;
-    display: inline-block;
-    margin-left: 2%;
-}
-.btn-primary{
-    
-}
-
-
-
-  
-
-/*Header Css Ends */
-
-/* Slideshow Css Starts */
-
-
-.carousel-inner > img{
-    height:300px;
-    width:100%;
-}
-
-
-/* Slideshow Css Ends */
-
-/* Main Content Css Starts */
-.categories{
-    margin-top: 2%;
-    
-}
-.categories > p{
-    margin-left: 4%;
-    color: #39b76b;
-    font-size: 30px;
-    font-weight: bolder;
-}
-
-.categoriesContainer > a{
-    float: left;
-    margin-left: 1%;
-    margin-top: 2%;
-
-}
-/* Main Content Css Ends */
