@@ -1,14 +1,26 @@
 [
     {
         "id":1,
-        "name":"Order Medicines"
+        "name":"Order_Medicines"
     },
     {
         "id":2,
-        "name":"Healthcare Products"
+        "name":"Healthcare_Products"
     },
     {
         "id":3,
         "name":"Devices"
+    },
+    {
+        "id":4,
+        "name":"Nutrition_Drinks"
+    },
+    {
+        "id":5,
+        "name":"Baby_&_Mo_Care"
+    },
+    {
+        "id":6,
+        "name":"Ayurvedic_Care"
     }
 ]

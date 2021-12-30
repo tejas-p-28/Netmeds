@@ -10,7 +10,6 @@ a{
 .form-horizontal{
     background-color: #0eb184;
     width: 100%;
-    margin-bottom: 1%;
 }
 
 .navbar-brand {
@@ -25,6 +24,7 @@ a{
     display:inline-block;
     width:10%;
     height: 50px;
+    border: 1px solid grey;
 }
 .example{
     display: inline-block;
