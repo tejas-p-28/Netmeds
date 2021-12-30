@@ -9,31 +9,27 @@ a{
 /*Header Css Starts*/
 .form-horizontal{
     background-color: #0eb184;
-    display: inline-block;
     width: 100%;
-    height: auto;
-
 }
 
-.form-horizontal > h1 {
+.navbar-brand {
     color: #fff;
-    margin-left: 2%;
     float: left;
+    font-size: 32px;
+    font-weight: bolder !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.form-control{
-    float: left;
 
-}
 .navbar{
     background-color: #0eb184 !important;
-    font-size: 22px;
-    font-weight: bolder;
 }
-
+.nav-link{
+    font-size: 20px;
+    margin-left: 4%;
+}
 .btn{
-    float: right; 
-    margin-right: 2%;
+    height: 35px;
+    width: 70px;
 }
 
 
@@ -46,9 +42,7 @@ a{
     height:300px;
     width:100%;
 }
-#slideshow{
-    margin-top: 4.5%;
-}
+
 
 /* Slideshow Css Ends */
 
