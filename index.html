@@ -1,218 +1,232 @@
 <html>
-    <head>
-        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Pharmaco</title>
-        <link rel="icon" href="images/icon1.jpeg">
-        <link rel="stylesheet" href="first.css">
-    </head>
-    <body>
-        <!--Header Starts-->
-        <div class="form-horizontal">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Pharmaco</a>
-                <button class="dropbtn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                    Pincode <i class="fa fa-caret-down"></i>
-                </button>  
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                    <div class="offcanvas-header">
-                        <h1 class="offcanvas-title" id="offcanvasExampleLabel">Choose Your Location</h1>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <div>
-                            <input type="text" placeholder="Enter Your Pincode" style="height:50px">
-                            <button type="button" class="btn btn-primary" id="pincodecheckbutton" data-bs-toggle="dropdown" style="height:50px">Check</button>
-                        </div>
-                    </div>
-                </div>
-                <form class="example" action="" style="margin:auto;">
-                    <input type="text" placeholder="Search medicines/Healthcare products @18% Off" name="search2">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-                <i class="fa fa-cart-plus"></i>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#staticBackdrop">Login</button>
-                <button type="button" class="btn btn-success" data-bs-toggle="modal"data-bs-target="#staticBackdrop">Signup</button>   
-            </div>
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="medicine.html">Order Medicines</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Healthcare Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Offers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <!--Header Ends-->
 
-        <!--Slideshow Starts-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/slideshow/slideshow1.jpeg" alt="Los Angeles" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/slideshow/slideshow2.jpeg" alt="Chicago" class="d-block w-100">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/slideshow/slideshow3.jpeg" alt="New York" class="d-block w-100">
-                </div>
-            </div>
-            <div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
-        </div>
-        <!--Slideshow Ends-->
+<head>
 
-        <!--Main Content Starts-->
-        <div class="categories">
-            <p>Top categories</p>
-            <div class="categoriesContainer">
-                <a href="devices.html"><img src="images/categories images/Accucheck-Devices.jpg" alt="Devices"></a>
-            </div>
-            <div class="categoriesContainer">
-                <a href="#"><img src="images/categories images/Nutrition-drinks.jpg" alt="Nutrition Drinks"></a>
-            </div>
-            <div class="categoriesContainer">
-                <a href="#"><img src="images/categories images/Baby-Mom-care.jpg" alt="Baby and Mom Care"></a>
-            </div>
-            <div class="categoriesContainer">
-                <a href="#"><img src="images/categories images/Ayurvedic-care.jpg" alt="Ayurvedic Care"></a>
-            </div>
-        </div>
-        <div class="safetymeasures">
-            <div class="safety1">
-                <img src="images/precautions/safety-assured.png" alt="">
-            </div>
-            <div class="safety">
-                <img src="images/precautions/no-contact-delivery.png" alt="">
-            </div>
-            <div class="safety">
-                <img src="images/precautions/regular-sanitization.png" alt="">
-            </div>
-            <div class="safety">
-                <img src="images/precautions/secure-packaging.png" alt="">
-            </div>
-            <div class="safety">
-                <img src="images/precautions/stored-safely.png" alt="">
-            </div>
-            <div class="safety">
-                <img src="images/precautions/temperature-checks.png" alt="">
-            </div>
-        </div>
-        <div class="featuredbrand">
-            <h2>Featured Brand</h2>
-            <div class="feature">
-                <img src="images/Cetaphil.jpg" alt="">
-            </div>
-            <div class="feature">
-                <img src="images/Dabur.jpg" alt="">
-            </div>
-            <div class="feature">
-                <img src="images/Liveasy.jpg" alt="">
-            </div>
-            <div class="feature">
-                <img src="images/Nivea.jpg" alt="">
-            </div>
-            <div class="feature">
-                <img src="images/healthcare products/Vasliene.jpg" alt="">
-            </div>
-            <div class="feature">
-                <img src="images/Volini.png" alt="">
-            </div>
-            <div class="feature">
-                <img src="images/Accuchek.jpg" alt="">
-            </div>
-        </div>
-        <div class="deals">
-            <div class="dealarea">
-                <img src="images/deal/deal.svg" alt="">
-                <h4>Deal of the Day</h4>
-            </div>
-            <div class="row">
-                <div class="col-md-2">
-                    <div class="card">
-                        <img src="images/deal/Cetaphil.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h6 class="card-title">Cetaphil Baby Massage Oil-200ml</h6>
-                            <p class="card-text">MRP <strike>₹580</strike><b>₹480</b></p>
-                        </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pharmaco</title>
+    <link rel="icon" href="images/icon1.jpeg">
+    <link rel="stylesheet" href="first.css">
+</head>
+
+<body>
+    <!--Header Starts-->
+    <div class="form-horizontal">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pharmaco</a>
+            <button class="dropbtn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                Pincode <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h1 class="offcanvas-title" id="offcanvasExampleLabel">Choose Your Location</h1>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        <input type="text" placeholder="Enter Your Pincode" style="height:50px">
+                        <button type="button" class="btn btn-primary" id="pincodecheckbutton" data-bs-toggle="dropdown"
+                            style="height:50px">Check</button>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <div class="card">
-                        <img src="images/deal/digene.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h6 class="card-title">Digene Gel Acidity & Gas Relief-200ml Mint Flavour</h6>
-                            <p class="card-text">MRP <strike>₹131</strike><b>₹105</b></p>
-                        </div>
+            </div>
+            <form class="example" action="" style="margin:auto;">
+                <input type="text" placeholder="Search medicines/Healthcare products @18% Off" name="search2">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <i class="fa fa-cart-plus"></i>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">Login</button>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">Signup</button>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="medicine.html">Order Medicines</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="#">Healthcare Products</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="#">Offers</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--Header Ends-->
+
+    <!--Slideshow Starts-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slideshow/slideshow1.jpeg" alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slideshow/slideshow2.jpeg" alt="Chicago" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slideshow/slideshow3.jpeg" alt="New York" class="d-block w-100">
+            </div>
+        </div>
+        <div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <!--Slideshow Ends-->
+
+    <!--Main Content Starts-->
+    <div class="categories">
+        <p>Top categories</p>
+        <div class="categoriesContainer">
+            <a href="devices.html"><img src="images/categories images/Accucheck-Devices.jpg" alt="Devices"></a>
+        </div>
+        <div class="categoriesContainer">
+            <a href="#"><img src="images/categories images/Nutrition-drinks.jpg" alt="Nutrition Drinks"></a>
+        </div>
+        <div class="categoriesContainer">
+            <a href="#"><img src="images/categories images/Baby-Mom-care.jpg" alt="Baby and Mom Care"></a>
+        </div>
+        <div class="categoriesContainer">
+            <a href="#"><img src="images/categories images/Ayurvedic-care.jpg" alt="Ayurvedic Care"></a>
+        </div>
+    </div>
+    <div class="safetymeasures">
+        <div class="safety1">
+            <img src="images/precautions/safety-assured.png" alt="">
+        </div>
+        <div class="safety">
+            <img src="images/precautions/no-contact-delivery.png" alt="">
+        </div>
+        <div class="safety">
+            <img src="images/precautions/regular-sanitization.png" alt="">
+        </div>
+        <div class="safety">
+            <img src="images/precautions/secure-packaging.png" alt="">
+        </div>
+        <div class="safety">
+            <img src="images/precautions/stored-safely.png" alt="">
+        </div>
+        <div class="safety">
+            <img src="images/precautions/temperature-checks.png" alt="">
+        </div>
+    </div>
+    <div class="featuredbrand">
+        <h2>Featured Brand</h2>
+        <div class="feature">
+            <img src="images/Cetaphil.jpg" alt="">
+        </div>
+        <div class="feature">
+            <img src="images/Dabur.jpg" alt="">
+        </div>
+        <div class="feature">
+            <img src="images/Liveasy.jpg" alt="">
+        </div>
+        <div class="feature">
+            <img src="images/Nivea.jpg" alt="">
+        </div>
+        <div class="feature">
+            <img src="images/healthcare products/Vasliene.jpg" alt="">
+        </div>
+        <div class="feature">
+            <img src="images/Volini.png" alt="">
+        </div>
+        <div class="feature">
+            <img src="images/Accuchek.jpg" alt="">
+        </div>
+    </div>
+    <div class="deals">
+        <div class="dealarea">
+            <img src="images/deal/deal.svg" alt="">
+            <h4>Deal of the Day</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/deal/Cetaphil.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Cetaphil Baby Massage Oil-200ml</h6>
+                        <p class="card-text">MRP <strike>₹580</strike><b>₹480</b></p>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <div class="card">
-                        <img src="images/deal/DrVaidya's Alovera Juice.webp" class="card-img-top" alt="...">
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/deal/digene.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Digene Gel Acidity & Gas Relief-200ml Mint Flavour</h6>
+                        <p class="card-text">MRP <strike>₹131</strike><b>₹105</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/deal/DrVaidya's Alovera Juice.webp" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h6 class="card-title">DrVaidya's Alovera Juice</h6>
                         <p class="card-text">MRP <strike>₹250</strike><b>₹180</b></p>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <div class="card">
-                        <img src="images/deal/Dabur.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h6 class="card-title">Dabur Shwaasamrit 400gm</h6>
-                            <p class="card-text">MRP <strike>₹350</strike><b>₹280</b></p>
-                        </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/deal/Dabur.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Dabur Shwaasamrit 400gm</h6>
+                        <p class="card-text">MRP <strike>₹350</strike><b>₹280</b></p>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <div class="card">
-                        <img src="images/deal/Horlicks.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h6 class="card-title">Horlicks Health & Nutrition Drink, Chocolate</h6>
-                            <p class="card-text">MRP <strike>₹350</strike><b>₹280</b></p>
-                        </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/deal/Horlicks.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Horlicks Health & Nutrition Drink, Chocolate</h6>
+                        <p class="card-text">MRP <strike>₹350</strike><b>₹280</b></p>
                     </div>
                 </div>
-                <div class="col-md-2">
-                    <div class="card">
-                        <img src="images/deal/Volini.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h6 class="card-title">Volini All Round 360 Action Spray Bottle Of 60G</h6>
-                            <p class="card-text">MRP <strike>₹208</strike><b>₹180</b></p>
-                        </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card">
+                    <img src="images/deal/Volini.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Volini All Round 360 Action Spray Bottle Of 60G</h6>
+                        <p class="card-text">MRP <strike>₹208</strike><b>₹180</b></p>
                     </div>
                 </div>
             </div>
         </div>
-        <!--Main Content Ends-->
-    </body>
-    <footer>
-        
-    </footer>
+    </div>
+    <!--Main Content Ends-->
+</body>
+<footer>
+
+</footer>
+
 </html>
