@@ -14,17 +14,25 @@ a{
 
 .navbar-brand {
     color: #fff;
-    display: inline-block;
+    float: left;
     font-size: 32px;
     margin-top: 1%;
     font-weight: bolder !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .dropbtn {
-    display:inline-block;
+    float: left;
     width:10%;
     height: 50px;
     border: 1px solid grey;
+    text-align: center;
+    margin-top: 2%;
+}
+.dropbtn > p{
+    margin-top: 8%;
+}
+.d-flex{
+    float: left;
 }
 .example{
     display: inline-block;
@@ -38,7 +46,9 @@ form.example input[type=text] {
     background: #f1f1f1;
     height: 50px;
 }
-  
+.fa-caret-down{
+    height: 50px;
+} 
 form.example button {
     width: 10%;
     padding: 10px;
@@ -54,7 +64,6 @@ form.example button {
 .fa-cart-plus{
     font-size: 35px;
     display: inline-block;
-    margin-left: 25%;
     color: #fff;
 } 
 form.example button:hover {
@@ -63,6 +72,7 @@ form.example button:hover {
 
 .navbar{
     background-color: #0eb184 !important;
+    display: inline-block;
     margin-left: 12%;
 }
 
@@ -73,8 +83,9 @@ form.example button:hover {
     height: 35px;
     width: 70px;
     display: inline-block;
-    margin-left: 2%;
+    margin-top: 1%;
 }
+
 
 
 

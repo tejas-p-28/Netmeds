@@ -17,35 +17,29 @@
     <!--Header Starts-->
     <div class="form-horizontal">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Pharmaco</a>
-            <button class="dropbtn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                aria-controls="offcanvasExample">
-                Pincode <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                aria-labelledby="offcanvasExampleLabel">
+            <div class="header">
+                <a class="navbar-brand" href="#">Pharmaco</a>
+                <button class="dropbtn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                    aria-controls="offcanvasExample" style="margin-top: 1%;">
+                    <p>Pincode <i class="fa fa-caret-down" ></i></p>
+                </button>
+                <form class="d-flex col-md-5" style="height:50px; margin-top: 1%;">
+                    <input class="form-control me-2" type="search" placeholder="Search medicines/Healthcare products @18% Off" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                     <h1 class="offcanvas-title" id="offcanvasExampleLabel">Choose Your Location</h1>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <div>
                         <input type="text" placeholder="Enter Your Pincode" style="height:50px">
-                        <button type="button" class="btn btn-primary" id="pincodecheckbutton" data-bs-toggle="dropdown"
-                            style="height:50px">Check</button>
+                        <button type="button" class="btn btn-primary" id="pincodecheckbutton" data-bs-toggle="dropdown" style="height:50px">Check</button>
                     </div>
                 </div>
-            </div>
-            <form class="example" action="" style="margin:auto;">
-                <input type="text" placeholder="Search medicines/Healthcare products @18% Off" name="search2">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-            <i class="fa fa-cart-plus"></i>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">Login</button>
-            <button type="button" class="btn btn-success" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">Signup</button>
+            </div>    
         </div>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -61,6 +55,17 @@
                     </li>
                     <li class="nav-item pe-5">
                         <a class="nav-link" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="#"><i class="fa fa-cart-plus"></i></a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">Login</button>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">Signup</button>
                     </li>
                     
                 </ul>
