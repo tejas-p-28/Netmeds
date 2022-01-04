@@ -31,6 +31,11 @@ a{
 .dropbtn > p{
     margin-top: 8%;
 }
+.d-flex > button{
+    height:50px !important;
+    width: 50px !important;
+    margin-top: 0%;
+}
 .d-flex{
     float: left;
 }
@@ -124,6 +129,10 @@ form.example button:hover {
     margin-top: 2%;
 
 }
+.img{
+    margin-left: 0% !important;
+    display: inline-block;
+}
 .safetymeasures{
     height: 150px;
     width: 100%;
@@ -194,7 +203,6 @@ form.example button:hover {
 
 .row{
     margin-top: 1%;
-    margin-left: 1%;
 }
 .card > img{
     height: 180px;
@@ -209,3 +217,44 @@ form.example button:hover {
 }
 
 /* Main Content Css Ends */
+
+
+
+
+
+@media screen and (max-width:1350px){
+    
+    .img{
+        height:319px !important;
+        width: 250px !important;
+        margin-left: 4% !important;
+    }
+    
+}
+@media screen and (max-width:1250px){
+    
+    .img{
+        height:280px !important;
+        width: 250px !important;
+        margin-left: 3% !important;
+    }
+    
+}
+@media screen and (max-width:1200px){
+    
+    .img{
+        height:280px !important;
+        width: 255px !important;
+        margin-left: 2% !important;
+    }
+    
+}
+@media screen and (max-width:1150px){
+    
+    .img{
+        height:280px !important;
+        width: 245px !important;
+        margin-left: 2% !important;
+    }
+    
+}
