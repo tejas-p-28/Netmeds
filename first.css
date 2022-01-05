@@ -130,7 +130,7 @@ form.example button:hover {
 
 }
 .img{
-    margin-left: 0% !important;
+    margin-left: 1% !important;
     display: inline-block;
 }
 .safetymeasures{
@@ -204,16 +204,28 @@ form.example button:hover {
 .row{
     margin-top: 1%;
 }
+.card{
+    height: 265px;
+}
 .card > img{
     height: 180px;
     width: 100%;
-    border: 1px dotted grey;
+    
 }
 .card:hover{
     transform: scale(1.1);
 } 
 .card-body{
     background: rgb(250, 242, 242);
+}
+.offerimg{
+    background-image: url(images/deal/offerimg.svg);
+    width: 40%;
+    font-weight: bold;
+    color: #fff;
+}
+.cardborder{
+    border: 1px dotted grey;
 }
 
 /* Main Content Css Ends */
@@ -235,7 +247,7 @@ form.example button:hover {
     
     .img{
         height:280px !important;
-        width: 250px !important;
+        width: 245px !important;
         margin-left: 3% !important;
     }
     
@@ -247,6 +259,15 @@ form.example button:hover {
         width: 255px !important;
         margin-left: 2% !important;
     }
+    .card{
+        width: 250px !important;
+        height: 380px;
+        margin-bottom: 5%;
+        
+    }
+    .card > img{
+        height: 180px;   
+    }
     
 }
 @media screen and (max-width:1150px){
@@ -256,5 +277,61 @@ form.example button:hover {
         width: 245px !important;
         margin-left: 2% !important;
     }
+    .card{
+        width: 250px !important;
+        height: 400px;
+        margin-top: 7%;  
+        margin-left: 0%; 
+    }
+    .row{
+        margin-left: 2% !important;
+    }
+    .dealarea{
+        height: 100px;
+    }
     
 }
+
+@media screen and (max-width:1100px){
+    
+    .img{
+        height:280px !important;
+        width: 230px !important;
+        margin-left: 2% !important;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:1050px){
+    
+    .img{
+        height:280px !important;
+        width: 220px !important;
+        margin-left: 2% !important;
+    }
+    .card{
+        width: 250px !important;
+        height: 300px;
+        margin-top: 7%;   
+    }
+    
+    .feature > img{
+        height: 85%;
+    }
+    .featuredbrand > h2{
+        margin-left: 4%;
+        margin-bottom: 3%;
+    }
+    .safetymeasures{
+        height: 150px;
+        margin-top: 5%;
+    }
+    .safety1 > img{
+        height: 115px;
+    }
+    .safety > img{
+        height: 115px;
+    }
+}   
