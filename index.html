@@ -11,9 +11,15 @@
     <title>Pharmaco</title>
     <link rel="icon" href="images/icon1.jpeg">
     <link rel="stylesheet" href="first.css">
+    <script>
+        function changeMode(){
+            var mybody = document.body;
+            mybody.classList.toggle("mydark")
+        }
+    </script>
 </head>
 
-<body>
+<body >
     <!--Header Starts-->
     <div class="form-horizontal">
         <div class="container-fluid">
@@ -44,6 +50,7 @@
                     </div>
                 </div>
             </div>
+            <button class="btn btn-primary" onclick="changeMode()"><span class="glyphicon glyphicon-cloud"></span></button>
         </div>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">

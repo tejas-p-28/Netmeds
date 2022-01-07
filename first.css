@@ -2,6 +2,9 @@ body{
     margin: auto;
     background-color: #cae9e0 !important;
 }
+.mydark{
+    background-color: #000 !important;
+}
 a{
     text-decoration: none;
     color: #fff !important;
