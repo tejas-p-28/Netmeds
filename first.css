@@ -1,6 +1,8 @@
 body{
     margin: auto;
     background-color: #cae9e0 !important;
+    
+    margin-right:auto;
 }
 .mydark{
     background-color: #000 !important;
@@ -212,7 +214,6 @@ form.example button:hover {
 }
 .card > img{
     height: 180px;
-    width: 100%;
     
 }
 .card:hover{
@@ -259,13 +260,14 @@ form.example button:hover {
     
     .img{
         height:280px !important;
-        width: 255px !important;
-        margin-left: 2% !important;
+        width: 245px !important;
+        margin-left: 0% !important;
     }
     .card{
-        width: 250px !important;
-        height: 380px;
+        width: 270px !important;
+        height: 340px;
         margin-bottom: 5%;
+        margin-left: 14% !important;
         
     }
     .card > img{
@@ -282,13 +284,11 @@ form.example button:hover {
     }
     .card{
         width: 250px !important;
-        height: 400px;
+        height: 370px !important;
         margin-top: 7%;  
-        margin-left: 0%; 
+        margin-left: 2%; 
     }
-    .row{
-        margin-left: 2% !important;
-    }
+    
     .dealarea{
         height: 100px;
     }
@@ -317,7 +317,8 @@ form.example button:hover {
     .card{
         width: 250px !important;
         height: 300px;
-        margin-top: 7%;   
+        margin-top: 7%;  
+        margin-left: 10% !important; 
     }
     
     .feature > img{
@@ -338,3 +339,27 @@ form.example button:hover {
         height: 115px;
     }
 }   
+
+@media screen and (max-width:1000px){
+    .img{
+        height:350px !important;
+        width: 350px !important;
+        margin-left: 7% !important;
+        margin-bottom: 5%;
+    }
+    .safetymeasures{
+        height: 150px;
+        margin-top: 5%;
+    }
+    .safety1 > img{
+        height: 115px;
+        width: 250px;
+    }
+    .safety > img{
+        height: 115px;
+        width: 115px;
+    }
+    .carousel-inner > img{
+        height:400px !important;
+    }
+}
