@@ -104,6 +104,43 @@ form.example button:hover {
 
 /*Header Css Ends */
 
+.card2{
+    height: 400px;
+    background-color: #fff;
+    opacity: 1 !important;
+    z-index: 1;
+}
+.card2 > img{
+    justify-content: center;
+    height: 140px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 4%;
+    
+}
+hr{
+    border: 1px dotted grey;
+}
+.card-title > h4{
+    text-align: center;
+    margin-top: 4%;
+}
+.card-title > p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.couponbody > span{
+    font-weight: bold;
+    color: navy;
+}
+
+.btn-outline-dark{
+    margin-left: 90%;
+}
 /* Slideshow Css Starts */
 
 
@@ -209,16 +246,15 @@ form.example button:hover {
 .row{
     margin-top: 1%;
 }
-.card{
-    height: 265px;
+.card1{
+    height: 330px;
 }
-.card > img{
+.card1 > img{
     height: 180px;
+    border: 2px solid grey;
     
 }
-.card:hover{
-    transform: scale(1.1);
-} 
+
 .card-body{
     background: rgb(250, 242, 242);
 }

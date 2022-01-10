@@ -12,15 +12,76 @@
     <link rel="icon" href="images/icon1.jpeg">
     <link rel="stylesheet" href="first.css">
     <script>
-        function changeMode(){
+        function changeMode() {
             var mybody = document.body;
             mybody.classList.toggle("mydark")
         }
+        function test() {
+            document.getElementById('coupon').style.visibility = "visible"
+        }
+        function closeDiv() {
+            document.getElementById('coupon').style.visibility = "hidden"
+        }
+        function mice() {
+            document.getElementById('card').style.transform = "scale(1.1)"
+        }
+        function mice1() {
+            document.getElementById('card').style.transform = "none"
+        }
+        function mice2() {
+            document.getElementById('card1').style.transform = "scale(1.1)"
+        }
+        function mice3() {
+            document.getElementById('card1').style.transform = "none"
+        }
+        function mice4() {
+            document.getElementById('card2').style.transform = "scale(1.1)"
+        }
+        function mice5() {
+            document.getElementById('card2').style.transform = "none"
+        }
+        function mice6() {
+            document.getElementById('card3').style.transform = "scale(1.1)"
+        }
+        function mice7() {
+            document.getElementById('card3').style.transform = "none"
+        }
+        function mice8() {
+            document.getElementById('card4').style.transform = "scale(1.1)"
+        }
+        function mice9() {
+            document.getElementById('card4').style.transform = "none"
+        }
+        function mice10() {
+            document.getElementById('card5').style.transform = "scale(1.1)"
+        }
+        function mice11() {
+            document.getElementById('card5').style.transform = "none"
+        }
+        var myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
+        myModal.show()
     </script>
 </head>
 
-<body >
+<body>
     <!--Header Starts-->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                 ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="form-horizontal">
         <div class="container-fluid">
             <div class="header">
@@ -50,7 +111,8 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary" onclick="changeMode()"><span><i class="fa fa-lightbulb-on"></i></span></button>
+            <button class="btn btn-primary" onclick="changeMode()"><span><i
+                        class="fa fa-lightbulb-on"></i></span></button>
         </div>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -80,8 +142,55 @@
     </div>
     <!--Header Ends-->
 
+    <!--Coupon Starts-->
+    <div id="coupon">
+        <button class="btn btn-outline-dark" onclick="closeDiv()">&times;</button>
+        <div class="row" >
+            <div class="col-md-3" style="margin-left: 12%;">
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/coupon code/coupon2.png" alt="" ><hr>
+                        <div class="card-title">
+                            <h4><b>Get Medicines at your doorstep</b></h4>
+                            <p class="couponbody">Up to <span>25% off</span> on Medicines </p>
+                            <p class="couponbody">Up to <span>50% off</span> on healthcare products </p>
+                            <button class="btn btn-danger" style="width: 315px;">Explore Offers</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/coupon code/coupon3.png" alt="" ><hr>
+                        <div class="card-title">
+                            <h4><b>Consult an expert through videoconferencing</b></h4>
+                            <p class="couponbody"><span>Save up to 30%</span> on your first online doctor consultation</p>
+                            <p class="couponbody" style="text-align: center;"> Use code: <span>FIRST30</span></p>
+                            <button class="btn btn-danger" style="width: 315px;">Consult Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card2">
+                        <img src="images/coupon code/coupon4.png" alt="" ><hr>
+                        <div class="card-title">
+                            <h4><b>Book lab test from home</b></h4><br><br>
+                            <p class="couponbody">Get <span>flat 50% off</span> on popular health checkups</p>
+                            <br>
+                            <button class="btn btn-danger" style="width: 315px;">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Coupon Ends-->
+
     <!--Slideshow Starts-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-top: 3%;">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                 class="active"></button>
@@ -185,74 +294,86 @@
         </div>
         <div class="row">
             <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4">
-                <div class="card">
-                    <div class="cardborder">
-                        <div class="offerimg">22% OFF!</div>
-                        <img src="images/deal/Cetaphil.webp" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h6 class="card-title">Cetaphil Baby Massage Oil-200ml</h6>
-                        <p class="card-text">MRP <strike>₹580</strike><b>₹450</b></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4">
-                <div class="card">
-                    <div class="cardborder">
-                        <div class="offerimg">10% OFF!</div>
-                        <img src="images/deal/digene.webp" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h6 class="card-title">Digene Gel Acidity & Gas Relief-200ml </h6>
-                        <p class="card-text">MRP <strike>₹131</strike><b>₹117</b></p>
+                <div class="card" id="card" onmouseover="mice()" onmouseout="mice1()">
+                    <div class="card1">
+                        <div class="cardborder">
+                            <div class="offerimg">22% OFF!</div>
+                            <img src="images/deal/Cetaphil.webp" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Cetaphil Baby Massage Oil-200ml</h6>
+                            <p class="card-text">MRP <strike>₹580</strike><b>₹450</b></p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4">
-                <div class="card">
-                    <div class="cardborder">
-                        <div class="offerimg">18% OFF!</div>
-                        <img src="images/deal/DrVaidya's Alovera Juice.webp" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h6 class="card-title">DrVaidya's Alovera Juice</h6>
-                        <p class="card-text">MRP <strike>₹250</strike><b>₹205</b></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4">
-                <div class="card">
-                    <div class="cardborder">
-                        <div class="offerimg">15% OFF!</div>
-                        <img src="images/deal/Dabur.webp" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h6 class="card-title">Dabur Shwaasamrit 400gm</h6>
-                        <p class="card-text">MRP <strike>₹350</strike><b>₹298</b></p>
+                <div class="card" id="card1" onmouseover="mice2()" onmouseout="mice3()">
+                    <div class="card1">
+                        <div class="cardborder">
+                            <div class="offerimg">10% OFF!</div>
+                            <img src="images/deal/digene.webp" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Digene Gel Acidity & Gas Relief-200ml </h6>
+                            <p class="card-text">MRP <strike>₹131</strike><b>₹117</b></p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4">
-                <div class="card">
-                    <div class="cardborder">
-                        <div class="offerimg">18% OFF!</div>
-                        <img src="images/deal/Horlicks.webp" class="card-img-top" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h6 class="card-title">Horlicks Health & Nutrition Drink</h6>
-                        <p class="card-text">MRP <strike>₹350</strike><b>₹280</b></p>
+                <div class="card" id="card2" onmouseover="mice4()" onmouseout="mice5()">
+                    <div class="card1">
+                        <div class="cardborder">
+                            <div class="offerimg">18% OFF!</div>
+                            <img src="images/deal/DrVaidya's Alovera Juice.webp" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">DrVaidya's Alovera Juice</h6>
+                            <p class="card-text">MRP <strike>₹250</strike><b>₹205</b></p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4">
-                <div class="card">
-                    <div class="cardborder">
-                        <div class="offerimg">20% OFF!</div>
-                        <img src="images/deal/Volini.webp" class="card-img-top" alt="...">
+                <div class="card" id="card3" onmouseover="mice6()" onmouseout="mice7()">
+                    <div class="card1">
+                        <div class="cardborder">
+                            <div class="offerimg">15% OFF!</div>
+                            <img src="images/deal/Dabur.webp" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Dabur Shwaasamrit 400gm</h6>
+                            <p class="card-text">MRP <strike>₹350</strike><b>₹298</b></p>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h6 class="card-title">Volini All Round 360 Action Spray Bottle</h6>
-                        <p class="card-text">MRP <strike>₹208</strike><b>₹165</b></p>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4">
+                <div class="card"  id="card4" onmouseover="mice8()" onmouseout="mice9()">
+                    <div class="card1">
+                        <div class="cardborder">
+                            <div class="offerimg">18% OFF!</div>
+                            <img src="images/deal/Horlicks.webp" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Horlicks Health & Nutrition Drink</h6>
+                            <p class="card-text">MRP <strike>₹350</strike><b>₹280</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4">
+                <div class="card" id="card5" onmouseover="mice10()" onmouseout="mice11()">
+                    <div class="card1">
+                        <div class="cardborder">
+                            <div class="offerimg">20% OFF!</div>
+                            <img src="images/deal/Volini.webp" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h6 class="card-title">Volini All Round 360 Action Spray Bottle</h6>
+                            <p class="card-text">MRP <strike>₹208</strike><b>₹165</b></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -265,5 +386,8 @@
     <h4>Follow us on</h4>
 
 </footer>
+<script>
+    window.onload = test()
+</script>
 
 </html>
