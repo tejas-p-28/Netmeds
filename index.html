@@ -16,12 +16,8 @@
             var mybody = document.body;
             mybody.classList.toggle("mydark")
         }
-        function test() {
-            document.getElementById('coupon').style.visibility = "visible"
-        }
-        function closeDiv() {
-            document.getElementById('coupon').style.visibility = "hidden"
-        }
+
+
         function mice() {
             document.getElementById('card').style.transform = "scale(1.1)"
         }
@@ -58,30 +54,97 @@
         function mice11() {
             document.getElementById('card5').style.transform = "none"
         }
-        var myModal = new bootstrap.Modal(document.getElementById('myModal'), {})
-        myModal.show()
+        function test() {
+            document.getElementById('myModal').style.visibility = "visible"
+        }
+        function closeDiv() {
+            document.getElementById('myModal').style.visibility = "hidden"
+        };
+        
+
+        $(document).ready(function () {
+            $("#myModal").modal('show');
+        });
+
+
     </script>
 </head>
 
 <body>
-    <!--Header Starts-->
-    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
+    <!--Coupon Starts-->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+        Open modal
+    </button>
+
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal" onload="test()">
+        <div class="modal-dialog" >
+            <div class="modal-content" >
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h3 class="modal-title" style="margin-left: 30%;"><b>We got all your needs covered</b></h3>
+                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal" onclick="closeDiv()">&times;</button>
                 </div>
                 <div class="modal-body">
-                 ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <div id="coupon">
+                        <div class="row">
+                            <div class="col-md-4" >
+                                <div class="card">
+                                    <div class="card2">
+                                        <img src="images/coupon code/coupon2.png" alt="">
+                                        <hr>
+                                        <div class="card-title">
+                                            <p class="cardTitle"><b>Get Medicines at your doorstep</b></p>
+                                            <p class="couponbody">Up to <span>25% off</span> on Medicines </p>
+                                            <p class="couponbody">Up to <span>50% off</span> on healthcare products
+                                            </p>
+                                            <button class="btn btn-danger">Explore
+                                                Offers</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card2">
+                                        <img src="images/coupon code/coupon3.png" alt="">
+                                        <hr>
+                                        <div class="card-title">
+                                            <p class="cardTitle"><b>Consult an expert via conference</b></p>
+                                            <p class="couponbody"><span>Save up to 30%</span> on your first consult</p>
+                                            <p class="couponbody" style="text-align: center;"> Use code:
+                                                <span>FIRST30</span>
+                                            </p>
+                                            <button class="btn btn-danger" >Consult
+                                                Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card2">
+                                        <img src="images/coupon code/coupon4.png" alt="">
+                                        <hr>
+                                        <div class="card-title">
+                                            <p class="cardTitle"><b>Book lab test from home</b></p>
+                                            <p class="couponbody">Get <span>flat 50% off</span> on health
+                                                checkups</p>
+                                            <p  class="couponbody">Use Code: <span>FIRST50</span></p>
+                                            <button class="btn btn-danger">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--Coupon Ends-->
+
+    <!--Header Starts-->
     <div class="form-horizontal">
         <div class="container-fluid">
             <div class="header">
@@ -142,55 +205,8 @@
     </div>
     <!--Header Ends-->
 
-    <!--Coupon Starts-->
-    <div id="coupon">
-        <button class="btn btn-outline-dark" onclick="closeDiv()">&times;</button>
-        <div class="row" >
-            <div class="col-md-3" style="margin-left: 12%;">
-                <div class="card">
-                    <div class="card2">
-                        <img src="images/coupon code/coupon2.png" alt="" ><hr>
-                        <div class="card-title">
-                            <h4><b>Get Medicines at your doorstep</b></h4>
-                            <p class="couponbody">Up to <span>25% off</span> on Medicines </p>
-                            <p class="couponbody">Up to <span>50% off</span> on healthcare products </p>
-                            <button class="btn btn-danger" style="width: 315px;">Explore Offers</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card2">
-                        <img src="images/coupon code/coupon3.png" alt="" ><hr>
-                        <div class="card-title">
-                            <h4><b>Consult an expert through videoconferencing</b></h4>
-                            <p class="couponbody"><span>Save up to 30%</span> on your first online doctor consultation</p>
-                            <p class="couponbody" style="text-align: center;"> Use code: <span>FIRST30</span></p>
-                            <button class="btn btn-danger" style="width: 315px;">Consult Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card2">
-                        <img src="images/coupon code/coupon4.png" alt="" ><hr>
-                        <div class="card-title">
-                            <h4><b>Book lab test from home</b></h4><br><br>
-                            <p class="couponbody">Get <span>flat 50% off</span> on popular health checkups</p>
-                            <br>
-                            <button class="btn btn-danger" style="width: 315px;">Book Now</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Coupon Ends-->
-
     <!--Slideshow Starts-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="margin-top: 3%;">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                 class="active"></button>
@@ -350,7 +366,7 @@
                 </div>
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4">
-                <div class="card"  id="card4" onmouseover="mice8()" onmouseout="mice9()">
+                <div class="card" id="card4" onmouseover="mice8()" onmouseout="mice9()">
                     <div class="card1">
                         <div class="cardborder">
                             <div class="offerimg">18% OFF!</div>
@@ -386,8 +402,6 @@
     <h4>Follow us on</h4>
 
 </footer>
-<script>
-    window.onload = test()
-</script>
+
 
 </html>

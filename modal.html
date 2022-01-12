@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Example of Auto Loading Bootstrap Modal on Page Load</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#myModal").modal('show');
+        });
+    </script>
+</head>
+
+<body>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h5 class="modal-title">We got all your needs covered</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div id="coupon">
+
+                        <div class="row">
+                            <div class="col-md-3" style="margin-left: 12%;">
+                                <div class="card">
+                                    <div class="card2">
+                                        <img src="images/coupon code/coupon2.png" alt="">
+                                        <hr>
+                                        <div class="card-title">
+                                            <h4><b>Get Medicines at your doorstep</b></h4>
+                                            <p class="couponbody">Up to <span>25% off</span> on Medicines </p>
+                                            <p class="couponbody">Up to <span>50% off</span> on healthcare products
+                                            </p>
+                                            <button class="btn btn-danger" style="width: 315px;">Explore
+                                                Offers</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card2">
+                                        <img src="images/coupon code/coupon3.png" alt="">
+                                        <hr>
+                                        <div class="card-title">
+                                            <h4><b>Consult an expert through videoconferencing</b></h4>
+                                            <p class="couponbody"><span>Save up to 30%</span> on your first online
+                                                doctor consultation</p>
+                                            <p class="couponbody" style="text-align: center;"> Use code:
+                                                <span>FIRST30</span>
+                                            </p>
+                                            <button class="btn btn-danger" style="width: 315px;">Consult
+                                                Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card">
+                                    <div class="card2">
+                                        <img src="images/coupon code/coupon4.png" alt="">
+                                        <hr>
+                                        <div class="card-title">
+                                            <h4><b>Book lab test from home</b></h4><br><br>
+                                            <p class="couponbody">Get <span>flat 50% off</span> on popular health
+                                                checkups</p>
+                                            <br>
+                                            <button class="btn btn-danger" style="width: 315px;">Book Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
