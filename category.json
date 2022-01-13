@@ -1,26 +1,792 @@
-[
-    {
-        "id":1,
-        "name":"Order_Medicines"
-    },
-    {
-        "id":2,
-        "name":"Healthcare_Products"
-    },
-    {
-        "id":3,
-        "name":"Devices"
-    },
-    {
-        "id":4,
-        "name":"Nutrition_Drinks"
-    },
-    {
-        "id":5,
-        "name":"Baby_&_Mo_Care"
-    },
-    {
-        "id":6,
-        "name":"Ayurvedic_Care"
-    }
-]
+{
+    "Products":[
+        {
+            "id":1,
+            "name":"Order_Medicines",
+            "product_name":[
+                {
+                    "id":1,
+                    "name":"Ecosprin",
+                    "category_id":"1",
+                    "img":"https://ibb.co/JstWYXd",
+                    "price":"4.86Rs"
+                },
+                {
+                    "id":2,
+                    "name":"Allegra",
+                    "category_id":"1",
+                    "img":"https://ibb.co/1T3b6qC",
+                    "price":"198Rs,"
+                },
+                {
+                    "id":3,
+                    "name":"Ascoril_LS_Syrup",
+                    "category_id":"1",
+                    "img":"https://ibb.co/gzJvZk3",
+                    "price":"108Rs,"
+                },
+                {
+                    "id":4,
+                    "name":"Ascoril_D_Plus_Syrup",
+                    "category_id":"1",
+                    "img":"https://ibb.co/S78wPBQ",
+                    "price":"118Rs,"
+                },
+                {
+                    "id":5,
+                    "name":"Augmentin_625_Duo_Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/ZYW6ZdX",
+                    "price":"201Rs,"
+                },
+                {
+                    "id":6,
+                    "name":"Avomine Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/qRrY7NK",
+                    "price":"50Rs,"
+                },
+                {
+                    "id":7,
+                    "name":"Azee 500 Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/L9zb4kM",
+                    "price":"118Rs,"
+                },
+                {
+                    "id":8,
+                    "name":"Benadryl Syrup",
+                    "category_id":"1",
+                    "img":"https://ibb.co/yByJWCJ",
+                    "price":"128Rs,"
+                },
+                {
+                    "id":9,
+                    "name":"Betadine 10% Solution",
+                    "category_id":"1",
+                    "img":"https://ibb.co/Pr1MTsS",
+                    "price":"108Rs,"
+                },
+                {
+                    "id":10,
+                    "name":"Betnosol Injection 1ml",
+                    "category_id":"1",
+                    "img":"https://ibb.co/vzdck2f",
+                    "price":"38Rs,"
+                },
+                {
+                    "id":11,
+                    "name":"Betnosol Oral Drop",
+                    "category_id":"1",
+                    "img":"https://ibb.co/mXZvPQb",
+                    "price":"21Rs,"
+                },
+                {
+                    "id":12,
+                    "name":"Betnovate N Cream",
+                    "category_id":"1",
+                    "img":"https://ibb.co/y8m3Qmy",
+                    "price":"38Rs,"
+                },
+                {
+                    "id":13,
+                    "name":"Budecort 200 Inhaler",
+                    "category_id":"1",
+                    "img":"https://ibb.co/khsqhNd",
+                    "price":"396Rs,"
+                },
+                {
+                    "id":14,
+                    "name":"Candid B Cream",
+                    "category_id":"1",
+                    "img":"https://ibb.co/ysLZmRp",
+                    "price":"133Rs,"
+                },
+                {
+                    "id":15,
+                    "name":"Cheston Cold Tablets",
+                    "category_id":"1",
+                    "img":"https://ibb.co/bK6pjz2",
+                    "price":"42Rs,"
+                },
+                {
+                    "id":16,
+                    "name":"Cipladine Ointment",
+                    "category_id":"1",
+                    "img":"https://ibb.co/cJ0HCpr",
+                    "price":"26Rs,"
+                },
+                {
+                    "id":17,
+                    "name":"Clavam 625 Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/g6169dY",
+                    "price":"208Rs,"
+                },
+                {
+                    "id":18,
+                    "name":"Combiflame Tablets",
+                    "category_id":"1",
+                    "img":"https://ibb.co/n6LwFcp",
+                    "price":"41Rs,"
+                },
+                {
+                    "id":19,
+                    "name":"Crya D Capsule",
+                    "category_id":"1",
+                    "img":"https://ibb.co/pbp45Xy",
+                    "price":"48Rs,"
+                },
+                {
+                    "id":20,
+                    "name":"Daflon 500mg Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/YRFJvjz",
+                    "price":"138Rs,"
+                },
+                {
+                    "id":21,
+                    "name":"Deviry 10mg Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/P1Q1NkD",
+                    "price":"60Rs,"
+                },
+                {
+                    "id":22,
+                    "name":"Dexona Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/wCGq18K",
+                    "price":"3Rs,"
+                },
+                {
+                    "id":23,
+                    "name":"Dolo 625 Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/XSz3HwD",
+                    "price":"30Rs,"
+                },
+                {
+                    "id":24,
+                    "name":"Doxinate Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/p2yDZrC",
+                    "price":"208Rs,"
+                },
+                {
+                    "id":25,
+                    "name":"Dynapar Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/wwJZN65",
+                    "price":"68Rs,"
+                },
+                {
+                    "id":26,
+                    "name":"Ecosprin 20 Gold Capsule",
+                    "category_id":"1",
+                    "img":"https://ibb.co/TwW9J8p",
+                    "price":"148Rs,"
+                },
+                {
+                    "id":27,
+                    "name":"Enzar Forte Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/3pWLycT",
+                    "price":"148Rs,"
+                },
+                {
+                    "id":28,
+                    "name":"Enzoflam Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/NprZ4fk",
+                    "price":"138Rs,"
+                },
+                {
+                    "id":29,
+                    "name":"Etizola 0.25 Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/9G3XXvt",
+                    "price":"58Rs,"
+                },
+                {
+                    "id":30,
+                    "name":"Evion LC Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/5vkRxfM",
+                    "price":"48Rs,"
+                },
+                {
+                    "id":31,
+                    "name":"Febrex Plus Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/W0p3wCB",
+                    "price":"58Rs,"
+                },
+                {
+                    "id":32,
+                    "name":"Flagyl 400 Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/xhZ3r20",
+                    "price":"28Rs,"
+                },
+                {
+                    "id":33,
+                    "name":"Flexon MR Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/TvcYwPp",
+                    "price":"24Rs,"
+                },
+                {
+                    "id":34,
+                    "name":"Flexon Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/Kw4tRst",
+                    "price":"28Rs,"
+                },
+                {
+                    "id":35,
+                    "name":"Folvite 5mg Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/FVJJ2vF",
+                    "price":"68Rs,"
+                },
+                {
+                    "id":36,
+                    "name":"Foracort Inhaler 200",
+                    "category_id":"1",
+                    "img":"https://ibb.co/8PHskcF",
+                    "price":"360Rs,"
+                },
+                {
+                    "id":37,
+                    "name":"Gabapin NT 100 Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/f8xH2pH",
+                    "price":"428Rs,"
+                },
+                {
+                    "id":38,
+                    "name":"Gabapin NT Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/RgM4jwX",
+                    "price":"108Rs,"
+                },
+                {
+                    "id":39,
+                    "name":"Glycomet 500 SR Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/FKLN69v",
+                    "price":"48Rs,"
+                },
+                {
+                    "id":40,
+                    "name":"Grilinctus BM Syrup",
+                    "category_id":"1",
+                    "img":"https://ibb.co/KW9ZZc0",
+                    "price":"108Rs,"
+                },
+                {
+                    "id":41,
+                    "name":"Grilinctus Syrup",
+                    "category_id":"1",
+                    "img":"https://ibb.co/vx5gKvg",
+                    "price":"128Rs,"
+                },
+                {
+                    "id":42,
+                    "name":"Gudcef 200 Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/FVwVqm0",
+                    "price":"148Rs,"
+                },
+                {
+                    "id":43,
+                    "name":"HCQS 200 Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/c3nTnBk",
+                    "price":"99Rs,"
+                },
+                {
+                    "id":44,
+                    "name":"Headset Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/KFGv1p1",
+                    "price":"118Rs,"
+                },
+                {
+                    "id":45,
+                    "name":"Hepamerz Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/Drpg1Jg",
+                    "price":"218Rs,"
+                },
+                {
+                    "id":46,
+                    "name":"Hetrazan 100 Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/WgkDQJS",
+                    "price":"48Rs,"
+                },
+                {
+                    "id":47,
+                    "name":"Hifenac P Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/fSXh8wL",
+                    "price":"83Rs,"
+                },
+                {
+                    "id":48,
+                    "name":"HP Kit ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/3CTB8BW",
+                    "price":"123Rs,"
+                },
+                {
+                    "id":49,
+                    "name":"Ibset Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/0qG8bLQ",
+                    "price":"408Rs,"
+                },
+                {
+                    "id":50,
+                    "name":"Imodium Capsule ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/KXWVh0Z",
+                    "price":"15Rs,"
+                },
+                {
+                    "id":51,
+                    "name":"Indocap SR Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/4JJRKfn",
+                    "price":"118Rs,"
+                },
+                {
+                    "id":52,
+                    "name":"Intagesic MR Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/pn14hpW",
+                    "price":"94Rs,"
+                },
+                {
+                    "id":53,
+                    "name":"Isolazine Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/b7rCY8H",
+                    "price":"87Rs,"
+                },
+                {
+                    "id":54,
+                    "name":"Isotroin 20 Capsule ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/ZY8CdJF",
+                    "price":"299Rs,"
+                },
+                {
+                    "id":55,
+                    "name":"Jalra 50mg Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/7NtMGwc",
+                    "price":"300Rs,"
+                },
+                {
+                    "id":56,
+                    "name":"Jenvac Vaccine ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/pXMLG9H",
+                    "price":"677Rs,"
+                },
+                {
+                    "id":58,
+                    "name":"Jointace DN Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/ZXtkpV3",
+                    "price":"352Rs,"
+                },
+                {
+                    "id":59,
+                    "name":"Jupiros 10 Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/5cqs0TB",
+                    "price":"171Rs,"
+                },
+                {
+                    "id":60,
+                    "name":"Jupiros F Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/vVC78V9",
+                    "price":"84Rs,"
+                },
+                {
+                    "id":61,
+                    "name":"Just Tear Eye Drop ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/7r127FC",
+                    "price":"96Rs,"
+                },
+                {
+                    "id":62,
+                    "name":"K Bind Powder ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/RBgVkCY",
+                    "price":"159Rs,"
+                },
+                {
+                    "id":63,
+                    "name":"Ketoadd Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/S6KRZvT",
+                    "price":"415Rs,"
+                },
+                {
+                    "id":64,
+                    "name":"Ketomac Shampoo ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/XxXttfV",
+                    "price":"234Rs,"
+                },
+                {
+                    "id":65,
+                    "name":"Ketorol DT Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/L9F3WkL",
+                    "price":"133Rs,"
+                },
+                {
+                    "id":66,
+                    "name":"Keto Soap ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/y5c2Wgj",
+                    "price":"115Rs,"
+                },
+                {
+                    "id":67,
+                    "name":"Keto Sterile Tablet",
+                    "category_id":"1",
+                    "img":"https://ibb.co/6PvsYhj",
+                    "price":"3790Rs,"
+                },
+                {
+                    "id":68,
+                    "name":"Lasix Injection ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/KqNBB9B",
+                    "price":"11Rs,"
+                },
+                {
+                    "id":69,
+                    "name":"Lasix Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/zJC35cL",
+                    "price":"12Rs,"
+                },
+                {
+                    "id":70,
+                    "name":"Letroz Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/SXP0vyC",
+                    "price":"206Rs,"
+                },
+                {
+                    "id":71,
+                    "name":"Levocet Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/qnb1JNf",
+                    "price":"47Rs,"
+                },
+                {
+                    "id":72,
+                    "name":"Lipagyln Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/M9cmQYQ",
+                    "price":"365Rs,"
+                },
+                {
+                    "id":73,
+                    "name":"Lopamide Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/ccn6gB0",
+                    "price":"21Rs,"
+                },
+                {
+                    "id":74,
+                    "name":"Manforce 50mg Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/3z96T9L",
+                    "price":"270Rs,"
+                },
+                {
+                    "id":75,
+                    "name":"Maxtra Syrup ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/wC4kWc2",
+                    "price":"87Rs,"
+                },
+                {
+                    "id":76,
+                    "name":"Megalis 20 Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/T8KvmY9",
+                    "price":"46Rs,"
+                },
+                {
+                    "id":78,
+                    "name":"Mobizox Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/zHHwh92",
+                    "price":"197Rs,"
+                },
+                {
+                    "id":79,
+                    "name":"Monticope Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/7vzfL5g",
+                    "price":"98Rs,"
+                },
+                {
+                    "id":80,
+                    "name":"Mycopaz Forte Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/xqNrgpM",
+                    "price":"280Rs,"
+                },
+                {
+                    "id":81,
+                    "name":"Nefrosave Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/JnWHKvX",
+                    "price":"199Rs,"
+                },
+                {
+                    "id":82,
+                    "name":"Nicip Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/3TZxjK3",
+                    "price":"39Rs,"
+                },
+                {
+                    "id":83,
+                    "name":"Nise Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/ZK0PBPn",
+                    "price":"98Rs,"
+                },
+                {
+                    "id":84,
+                    "name":"Nodosis Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/yhKSWJ1",
+                    "price":"48Rs,"
+                },
+                {
+                    "id":85,
+                    "name":"Normaxin Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/5nSccK9",
+                    "price":"59Rs,"
+                },
+                {
+                    "id":86,
+                    "name":"Novelon Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/f1kcgtX",
+                    "price":"239Rs,"
+                },
+                {
+                    "id":87,
+                    "name":"O2 Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/TKW28Gz",
+                    "price":"149Rs,"
+                },
+                {
+                    "id":88,
+                    "name":"Okacet Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/Fz3TcgK",
+                    "price":"18Rs,"
+                },
+                {
+                    "id":89,
+                    "name":"Omez Capsule ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/89M9hXm",
+                    "price":"55Rs,"
+                },
+                {
+                    "id":90,
+                    "name":"Ondem Syrup ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/yX4JSPG",
+                    "price":"37Rs,"
+                },
+                {
+                    "id":91,
+                    "name":"Optineuron Injection ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/Sxgnxr0",
+                    "price":"10Rs,"
+                },
+                {
+                    "id":92,
+                    "name":"Ornof Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/0qcBpkf",
+                    "price":"130Rs,"
+                },
+                {
+                    "id":93,
+                    "name":"Pacitane Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/ChQJqrr",
+                    "price":"40Rs,"
+                },
+                {
+                    "id":94,
+                    "name":"Pan 40 Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/XsGwsVN",
+                    "price":"149Rs,"
+                },
+                {
+                    "id":95,
+                    "name":"Peinorm Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/q71M10m",
+                    "price":"13Rs,"
+                },
+                {
+                    "id":96,
+                    "name":"Pulmoclear Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/nbW7z6r",
+                    "price":"189Rs,"
+                },
+                {
+                    "id":97,
+                    "name":"Q-Car Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/xzgMsvj",
+                    "price":"300Rs,"
+                },
+                {
+                    "id":98,
+                    "name":"Quadrajel Gel ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/Q9hg1xj",
+                    "price":"57Rs,"
+                },
+                {
+                    "id":99,
+                    "name":"Quadcream ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/hCs5Zp9",
+                    "price":"45Rs,"
+                },
+                {
+                    "id":100,
+                    "name":"Qutan 50 Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/PC7W8Xk",
+                    "price":"52Rs,"
+                },
+                {
+                    "id":101,
+                    "name":"Refresh Tears Eye Drop ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/XYxC5rk",
+                    "price":"87Rs,"
+                },
+                {
+                    "id":102,
+                    "name":"Reheptin Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/3fDHjgW",
+                    "price":"111Rs,"
+                },
+                {
+                    "id":103,
+                    "name":"ROKO Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/XsxvjCs",
+                    "price":"20Rs,"
+                },
+                {
+                    "id":104,
+                    "name":"Signoflam Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/Tqzy8wL",
+                    "price":"113Rs,"
+                },
+                {
+                    "id":105,
+                    "name":"Sinarest Syrup ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/2ybv4xr",
+                    "price":"121Rs,"
+                },
+                {
+                    "id":106,
+                    "name":"Sinarest Tablet ",
+                    "category_id":"1",
+                    "img":"https://ibb.co/YL4RyJW",
+                    "price":"61Rs,"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name":"Healthcare_Products",
+            "product_name":[
+                {
+                    "id":"1",
+                    "category_id":"2",
+                    "product":"Fitness"
+                },
+                {
+                    "id":"2",
+                    "category_id":"2",
+                    "product":"Ayurvedic Care"
+                },
+                {
+                    "id":"3",
+                    "category_id":"2",
+                    "product":"Health-Care Devices"
+                },
+                {
+                    "id":"4",
+                    "category_id":"2",
+                    "product":"Nutrition Drinks"
+                },
+                {
+                    "id":"5",
+                    "category_id":"2",
+                    "product":"Covid Essential"
+                },
+                {
+                    "id":"6",
+                    "category_id":"2",
+                    "product":"Diabetic Care"
+                },
+                {
+                    "id":"7",
+                    "category_id":"2",
+                    "product":"Skincare"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name":"Nutrition Drinks"
+        },
+        {
+            "id":4,
+            "name":"Baby & Mom Care"
+        },
+        {
+            "id":5,
+            "name":"Ayurvedic Care"
+        }
+        
+    ]
+}

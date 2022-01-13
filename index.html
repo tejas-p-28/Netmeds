@@ -7,88 +7,28 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Pharmaco</title>
     <link rel="icon" href="images/icon1.jpeg">
     <link rel="stylesheet" href="first.css">
-    <script>
-        function changeMode() {
-            var mybody = document.body;
-            mybody.classList.toggle("mydark")
-        }
-
-
-        function mice() {
-            document.getElementById('card').style.transform = "scale(1.1)"
-        }
-        function mice1() {
-            document.getElementById('card').style.transform = "none"
-        }
-        function mice2() {
-            document.getElementById('card1').style.transform = "scale(1.1)"
-        }
-        function mice3() {
-            document.getElementById('card1').style.transform = "none"
-        }
-        function mice4() {
-            document.getElementById('card2').style.transform = "scale(1.1)"
-        }
-        function mice5() {
-            document.getElementById('card2').style.transform = "none"
-        }
-        function mice6() {
-            document.getElementById('card3').style.transform = "scale(1.1)"
-        }
-        function mice7() {
-            document.getElementById('card3').style.transform = "none"
-        }
-        function mice8() {
-            document.getElementById('card4').style.transform = "scale(1.1)"
-        }
-        function mice9() {
-            document.getElementById('card4').style.transform = "none"
-        }
-        function mice10() {
-            document.getElementById('card5').style.transform = "scale(1.1)"
-        }
-        function mice11() {
-            document.getElementById('card5').style.transform = "none"
-        }
-        function test() {
-            document.getElementById('myModal').style.visibility = "visible"
-        }
-        function closeDiv() {
-            document.getElementById('myModal').style.visibility = "hidden"
-        };
-        
-
-        $(document).ready(function () {
-            $("#myModal").modal('show');
-        });
-
-
-    </script>
+    <script src="first.js"></script>
 </head>
 
 <body>
     <!--Coupon Starts-->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-        Open modal
-    </button>
-
-
-    <!-- The Modal -->
-    <div class="modal fade" id="myModal" onload="test()">
-        <div class="modal-dialog" >
-            <div class="modal-content" >
+    <div class="modal" id="myModal" >
+        <div class="modal-dialog">
+            <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title" style="margin-left: 30%;"><b>We got all your needs covered</b></h3>
-                    <button type="button" class="btn btn-outline-primary" data-dismiss="modal" onclick="closeDiv()">&times;</button>
+                    <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal"
+                        onclick="closeDiv()">&times;</button>
                 </div>
                 <div class="modal-body">
                     <div id="coupon">
                         <div class="row">
-                            <div class="col-md-4" >
+                            <div class="col-md-4">
                                 <div class="card">
                                     <div class="card2">
                                         <img src="images/coupon code/coupon2.png" alt="">
@@ -115,7 +55,7 @@
                                             <p class="couponbody" style="text-align: center;"> Use code:
                                                 <span>FIRST30</span>
                                             </p>
-                                            <button class="btn btn-danger" >Consult
+                                            <button class="btn btn-danger">Consult
                                                 Now</button>
                                         </div>
                                     </div>
@@ -130,7 +70,7 @@
                                             <p class="cardTitle"><b>Book lab test from home</b></p>
                                             <p class="couponbody">Get <span>flat 50% off</span> on health
                                                 checkups</p>
-                                            <p  class="couponbody">Use Code: <span>FIRST50</span></p>
+                                            <p class="couponbody">Use Code: <span>FIRST50</span></p>
                                             <button class="btn btn-danger">Book Now</button>
                                         </div>
                                     </div>
@@ -142,6 +82,8 @@
             </div>
         </div>
     </div>
+    <!-- The Modal -->
+
     <!--Coupon Ends-->
 
     <!--Header Starts-->
@@ -149,33 +91,15 @@
         <div class="container-fluid">
             <div class="header">
                 <a class="navbar-brand" href="#">Pharmaco</a>
-                <button class="dropbtn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-                    aria-controls="offcanvasExample" style="margin-top: 1%;">
-                    <p>Pincode <i class="fa fa-caret-down"></i></p>
-                </button>
+                <select id="product" style="text-align: center;" onChange="productList()">
+                    <option>Products Available</option>
+                </select>
                 <form class="d-flex col-md-5" style="height:50px; margin-top: 1%;">
                     <input class="form-control me-2" type="search"
-                        placeholder="Search medicines/Healthcare products @18% Off" aria-label="Search">
+                        placeholder="Search medicines/Healthcare products @18% Off" aria-label="Search" id="list">
                     <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
                 </form>
             </div>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-                aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
-                    <h1 class="offcanvas-title" id="offcanvasExampleLabel">Choose Your Location</h1>
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div>
-                        <input type="text" placeholder="Enter Your Pincode" style="height:50px">
-                        <button type="button" class="btn btn-primary" id="pincodecheckbutton" data-bs-toggle="dropdown"
-                            style="height:50px">Check</button>
-                    </div>
-                </div>
-            </div>
-            <button class="btn btn-primary" onclick="changeMode()"><span><i
-                        class="fa fa-lightbulb-on"></i></span></button>
         </div>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -403,5 +327,9 @@
 
 </footer>
 
+<script>
+    window.onload = test();
+    window.onload = getProduct();
+</script>
 
 </html>

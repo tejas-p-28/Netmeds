@@ -25,17 +25,7 @@ a{
     font-weight: bolder !important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.dropbtn {
-    float: left;
-    width:10%;
-    height: 50px;
-    border: 1px solid grey;
-    text-align: center;
-    margin-top: 2%;
-}
-.dropbtn > p{
-    margin-top: 8%;
-}
+
 .d-flex > button{
     height:50px !important;
     width: 50px !important;
@@ -48,19 +38,21 @@ a{
     display: inline-block;
     width: 34%;
 }
-form.example input[type=text] {
-    padding: 10px;
+select{
+    float: left;
     font-size: 17px;
     border: 1px solid grey;
-    width: 90%;
+    width: 15%;
     background: #f1f1f1;
     height: 50px;
+    margin-top: 1%;
 }
 .fa-caret-down{
     height: 50px;
 } 
 form.example button {
     width: 10%;
+    float: left;
     padding: 10px;
     background: rgb(146, 145, 145);
     color: white;
@@ -69,7 +61,7 @@ form.example button {
     border-left: none;
     cursor: pointer;
     height: 50px;
-    margin-left: -1%;
+    
 }
 .fa-cart-plus{
     font-size: 35px;
@@ -184,6 +176,9 @@ hr{
         margin-left: 30%;
         width: 150px;
     }
+    /* .modal-backdrop fade show{
+        visibility: hidden !important;
+    } */
 /*modal css ends*/
 /* #coupon{
     transform: translate(-50%, -50%);

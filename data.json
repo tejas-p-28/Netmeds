@@ -728,5 +728,42 @@
                 "img":"https://ibb.co/YL4RyJW",
                 "price":"61Rs,"
             }
-        ]
+        ],
+    "healthcare":[
+        {
+            "id":"1",
+            "category_id":"2",
+            "product":"Fitness"
+        },
+        {
+            "id":"2",
+            "category_id":"2",
+            "product":"Ayurvedic Care"
+        },
+        {
+            "id":"3",
+            "category_id":"2",
+            "product":"Health-Care Devices"
+        },
+        {
+            "id":"4",
+            "category_id":"2",
+            "product":"Nutrition Drinks"
+        },
+        {
+            "id":"5",
+            "category_id":"2",
+            "product":"Covid Essential"
+        },
+        {
+            "id":"6",
+            "category_id":"2",
+            "product":"Diabetic Care"
+        },
+        {
+            "id":"7",
+            "category_id":"2",
+            "product":"Skincare"
+        }
+    ]
 }
