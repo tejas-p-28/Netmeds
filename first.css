@@ -26,32 +26,33 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.d-flex > button{
-    height:50px !important;
-    width: 50px !important;
-    margin-top: 0%;
-}
+
 .d-flex{
     float: left;
 }
 .weather{
     float: left;
+    width: 14%;
+    margin-left: 13%;
 }
 #icon{
     float: left;
     margin-top: 0%;
-    border: 2px solid black;
     height: 50px;
     width: 80px;
-    margin-left: 5%;
 }
 #icon > img {
-    height: 70px;
-    width: 80px;
-    
+    height: 81px;
+    width: 94px;
+    margin-top: -20%;
 }
 #address{
     float: left;
+    font-size: 25px;
+    color: white;
+    margin-top: 2%;
+    font-weight: bold;
+    margin-left: 2%;
 }
 .example{
     display: inline-block;
@@ -100,10 +101,10 @@ form.example button:hover {
 .nav-link{
     font-size: 20px;
 }
-.btn{
-    height: 35px;
-    width: 70px;
-    display: inline-block;
+.btn-primary{
+    float: left !important;
+    height:50px !important;
+    width: 50px !important;
     margin-top: 1%;
 }
 
