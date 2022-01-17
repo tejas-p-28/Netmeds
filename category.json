@@ -2,7 +2,7 @@
     "Products":[
         {
             "id":1,
-            "name":"Order_Medicines",
+            "name":"Order Medicines",
             "product_name":[
                 {
                     "id":1,
@@ -736,7 +736,7 @@
         },
         {
             "id":2,
-            "name":"Healthcare_Products",
+            "name":"Healthcare Products",
             "product_name":[
                 {
                     "id":"1",

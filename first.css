@@ -34,6 +34,25 @@ a{
 .d-flex{
     float: left;
 }
+.weather{
+    float: left;
+}
+#icon{
+    float: left;
+    margin-top: 0%;
+    border: 2px solid black;
+    height: 50px;
+    width: 80px;
+    margin-left: 5%;
+}
+#icon > img {
+    height: 70px;
+    width: 80px;
+    
+}
+#address{
+    float: left;
+}
 .example{
     display: inline-block;
     width: 34%;

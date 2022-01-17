@@ -12,7 +12,7 @@
     <title>Pharmaco</title>
     <link rel="icon" href="images/icon1.jpeg">
     <link rel="stylesheet" href="first.css">
-    <script src="first.js"></script>
+    
 </head>
 
 <body>
@@ -99,6 +99,12 @@
                         placeholder="Search medicines/Healthcare products @18% Off" aria-label="Search" id="list">
                     <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
                 </form>
+                <div class="weather">
+                    <p onload="geolocation()">
+                        <p id="icon"></p>
+                        <p id="address"></p>
+                    </p>
+                </div>
             </div>
         </div>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -320,16 +326,19 @@
         </div>
     </div>
     <!--Main Content Ends-->
+    <script src="first.js"></script>
 </body>
 <footer>
     &copy; All Rights Reserved
     <h4>Follow us on</h4>
-
 </footer>
 
-<script>
+<script >
+    
     window.onload = test();
     window.onload = getProduct();
+    window.onload = geolocation()
+    
 </script>
 
 </html>
