@@ -5,8 +5,9 @@ body{
     margin-right:auto;
 }
 .mydark{
-    background-color: #000 !important;
+    background-color: rgb(43, 42, 42) !important;
 }
+
 a{
     text-decoration: none;
     color: #fff !important;
@@ -33,7 +34,7 @@ a{
 .weather{
     float: left;
     width: 14%;
-    margin-left: 13%;
+    margin-left: 3%;
 }
 #icon{
     float: left;
@@ -101,11 +102,12 @@ form.example button:hover {
 .nav-link{
     font-size: 20px;
 }
-.btn-primary{
+.btn-outline-success{
     float: left !important;
     height:50px !important;
     width: 50px !important;
     margin-top: 1%;
+    margin-left: ;
 }
 
 
@@ -196,18 +198,8 @@ hr{
         margin-left: 30%;
         width: 150px;
     }
-    /* .modal-backdrop fade show{
-        visibility: hidden !important;
-    } */
 /*modal css ends*/
-/* #coupon{
-    transform: translate(-50%, -50%);
-}
 
-
-.btn-outline-dark{
-    margin-left: 90%;
-} */
 /* Slideshow Css Starts */
 
 
@@ -280,14 +272,9 @@ hr{
 .feature > img{
     width: 100%;
     height: 100%;
-    animation: dance 10s infinite;
-}
-
-@keyframes dance{
-    0% {rotate: ;}
 }
 .deals{
-    height:500px;
+    height:460px;
     width: 100%;
     display: inline-block; 
     background-color: #f8e3e3;
@@ -334,10 +321,33 @@ hr{
 .cardborder{
     border: 1px dotted grey;
 }
-
+#demo{
+    color: #da4e50;
+    font-size: 30px;
+}
 /* Main Content Css Ends */
 
-
+.socials{
+    margin-left: 1%;
+    margin-bottom: 3%;
+}
+.socials1{
+    height: 30px;
+    width: 30px;
+    margin-left: 1%;
+}
+.partner{
+    margin-bottom: 3%;
+}
+.services{
+    margin-left: 1%;
+}
+.services > a {
+    text-decoration: none;
+    color: #000 !important;
+    font-size: 20px;
+    margin-left: 1.5%;
+}
 
 
 

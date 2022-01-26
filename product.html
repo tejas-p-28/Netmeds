@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pharmaco</title>
+    <link rel="icon" href="images/icon1.jpeg">
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+    <div class="form-horizontal">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Pharmaco</a>
+            <button class="dropbtn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                Pincode <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <h1 class="offcanvas-title" id="offcanvasExampleLabel">Choose Your Location</h1>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div>
+                        <input type="text" placeholder="Enter Your Pincode" style="height:50px">
+                        <button type="button" class="btn btn-primary" id="pincodecheckbutton" data-bs-toggle="dropdown"
+                            style="height:50px">Check</button>
+                    </div>
+                </div>
+            </div>
+            <form class="example" action="" style="margin:auto;">
+                <input type="text" placeholder="Search medicines/Healthcare products @18% Off" name="search2">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            <i class="fa fa-cart-plus"></i>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">Login</button>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">Signup</button>
+        </div>
+    </div>
+    <div class="breadcrumbContainer">
+        <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="healthcare.html">Healthcare Products</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Covid Essentials</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="container1">
+        <div class="filter">
+            <h3>Filter</h3>
+            <p style="font-weight: bold; font-size: 20px;">Category</p>
+            <p style="font-size: 20px;">Covid Essentials<input type="radio"></input></p>
+            <hr>
+            <p style="font-weight: bold; font-size: 20px;">Sub Category</p>
+            <p style="font-size: 18px;">Covid Test Kits<input type="radio"></input></p>
+            <p style="font-size: 18px;">Disinfectants<input type="radio"></input></p>
+            <p style="font-size: 18px;">Home Hygiene Essentials<input type="radio"></input></p>
+            <p style="font-size: 18px;">Masks<input type="radio"></input></p>
+            <p style="font-size: 18px;">Hand Sanitizer<input type="radio"></input></p>
+            <hr>
+            <p style="font-weight: bold; font-size: 20px;">Brand</p>
+            <p style="font-size: 18px;">Aarshavarda<input type="select"></input></p>
+            <p style="font-size: 18px;">Accu-check<input type="select"></input></p>
+            <p style="font-size: 18px;">AccuSure<input type="select"></input></p>
+            <p style="font-size: 18px;">Aerofusion<input type="select"></input></p>
+            <p style="font-size: 18px;">Airwick <input type="select"></input></p>
+            <hr>
+            <p style="font-weight: bold; font-size: 20px;">Price</p>
+            <p style="font-size: 18px;">Below 99<input type="select"></input></p>
+            <p style="font-size: 18px;">100-199<input type="select"></input></p>
+            <p style="font-size: 18px;">200-299<input type="select"></input></p>
+            <p style="font-size: 18px;">300-399<input type="select"></input></p>
+            <p style="font-size: 18px;">400-499 <input type="select"></input></p>
+        </div>
+        <div class="filterContent">
+            <h3>Covid Essentials</h3>
+        </div>
+    </div>
+</body>
+
+</html>

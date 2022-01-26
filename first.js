@@ -2,6 +2,7 @@
 function changeMode() {
     var mybody = document.body;
     mybody.classList.toggle("mydark")
+
 }
 /*Dark Mode Javascript Ends*/
 /* Weather Javascript Starts */
@@ -103,17 +104,18 @@ function getProduct() {
         })
 }
 
-// const productList = "http://localhost:1255/Products";
+
 
 
 const productList = () => {
-    const product_name = document.getElementById('product').value;
+    const name = document.getElementById('product').value;
     while (list.length > 0) {
         list.remove(0)
     }
-    fetch(`${productList}${product_name}`)
+    fetch(`${productList}?city=${name}`)
         .then((res) => res.json())
         .then((data) => {
+            console.log(data[i])
             for (i = 0; i < data.length; i++) {
                 let element = document.createElement('option')
                 let text = document.createTextNode(data[i].product)
@@ -122,3 +124,21 @@ const productList = () => {
             }
         })
 }
+
+/*countdown Javascript starts*/
+var countDownDate = new Date("Feb 5, 2022 15:37:25").getTime();
+var x = setInterval(function () {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+/*countdown Javascript ends */

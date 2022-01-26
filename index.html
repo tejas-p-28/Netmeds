@@ -12,12 +12,12 @@
     <title>Pharmaco</title>
     <link rel="icon" href="images/icon1.jpeg">
     <link rel="stylesheet" href="first.css">
-    
+
 </head>
 
 <body>
     <!--Coupon Starts-->
-    <div class="modal" id="myModal" >
+    <div class="modal" id="myModal">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -98,11 +98,12 @@
                     <input class="form-control me-2" type="search"
                         placeholder="Search medicines/Healthcare products @18% Off" aria-label="Search" id="list">
                 </form>
-                <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
+                <button class="btn btn-outline-success" id="myDark" onclick="changeMode()"><i class="fa fa-moon-o"
+                        aria-hidden="true"></i></button>
                 <div class="weather">
                     <p onload="geolocation()">
-                        <p id="icon"></p>
-                        <p id="address"></p>
+                    <p id="icon"></p>
+                    <p id="address"></p>
                     </p>
                 </div>
             </div>
@@ -117,7 +118,7 @@
                         <a class="nav-link" href="medicine.html">Order Medicines</a>
                     </li>
                     <li class="nav-item pe-5">
-                        <a class="nav-link" href="#">Healthcare Products</a>
+                        <a class="nav-link" href="healthcare.html">Healthcare Products</a>
                     </li>
                     <li class="nav-item pe-5">
                         <a class="nav-link" href="#">Offers</a>
@@ -237,6 +238,7 @@
         <div class="dealarea">
             <img src="images/deal/deal.svg" alt="">
             <h4>Deal of the Day</h4>
+            <h4 id="demo"></h4>
         </div>
         <div class="row">
             <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4">
@@ -325,20 +327,49 @@
             </div>
         </div>
     </div>
+    <hr>
     <!--Main Content Ends-->
     <script src="first.js"></script>
 </body>
+
 <footer>
-    &copy; All Rights Reserved
-    <h4>Follow us on</h4>
+    <center>
+        <h4>&copy;2022 Tejas.All Rights Reserved </h4>
+    </center>
+    <div class="socials">
+        <h4>Follow us on</h4>
+        <div class="socials">
+            <a href="https://www.facebook.com/tejas.b.patil.12" target="_blank"><img src="images/socials/facebook.jpeg" class="socials1" alt="Instagram"></a>
+            <a href="https://www.instagram.com/innocent_boy_tp/" target="_blank"><img src="images/socials/insta.jpeg" class="socials1" alt="Facebook"></a>
+            <a href="https://github.com/tp-the-developer" target="_blank"><img src="images/socials/githb.jpeg" class="socials1" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/tejas-patil-623430218/" target="_blank"><img src="images/socials/linkedin.jpeg" class="socials1" alt="LinkedIn"></a>
+            <a href="https://mobile.twitter.com/TejasPa98739034" target="_blank"><img src="images/socials/twitter1.jpeg" class="socials1" alt="Twitter"></a>
+        </div>
+    </div>
+    <div class="partner">
+        <h4 style=" margin-left: 1%;">Our Payments Partner</h4>
+        <img src="images/footer/amazon.svg" alt="Amazon Pay" style="height: 40px; width: 55px; margin-left: 1%;">
+        <img src="images/footer/gpay.svg" alt="Google Pay" style="height: 40px; width: 60px; margin-left: 1%;">
+        <img src="images/footer/mastercard.svg" alt="MasterCard" style="height: 40px; width: 55px; margin-left: 1%;">
+        <img src="images/footer/mobikwik.svg" alt="Mobikwik" style="height: 40px; width: 55px; margin-left: 1%;">
+        <img src="images/footer/paytm.svg" alt="Paytm" style="height: 40px; width: 75px; margin-left: 1%;">
+        <img src="images/footer/phonepay.svg" alt="PhonePay" style="height: 40px; width: 40px; margin-left: 1%;">
+        <img src="images/footer/rupay.svg" alt="Rupay" style="height: 40px; width: 80px; margin-left: 1%;">
+        <img src="images/footer/visa.svg" alt="Visa" style="height: 40px; width: 70px; margin-left: 1%;">
+    </div>
+    <div class="services">
+        <h4>Our Services</h4>
+        <a href="medicine.html">Order Medicines</a><br>
+        <a href="">Healthcare Products</a>
+    </div>
 </footer>
 
-<script >
-    
+<script>
+
     window.onload = test();
     window.onload = getProduct();
     window.onload = geolocation()
-    
+
 </script>
 
 </html>
