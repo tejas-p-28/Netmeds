@@ -733,37 +733,191 @@
         {
             "id":"1",
             "category_id":"2",
-            "product":"Fitness"
+            "product":"Fitness",
+            "sort":[
+                {
+                    "_id":1,
+                    "type":"Popularity",
+                    "sort":1
+                },
+                {
+                    "_id":2,
+                    "type":"Price High-To-Low",
+                    "sort":1
+                },
+                {
+                    "_id":3,
+                    "type":"Price Low-To-High",
+                    "sort":1
+                },
+                {
+                    "_id":4,
+                    "type":"Discount",
+                    "sort":1
+                }
+            ]
         },
         {
             "id":"2",
             "category_id":"2",
-            "product":"Ayurvedic Care"
+            "product":"Ayurvedic Care",
+            "sort":[
+                {
+                    "_id":1,
+                    "type":"Popularity",
+                    "sort":1
+                },
+                {
+                    "_id":2,
+                    "type":"Price High-To-Low",
+                    "sort":1
+                },
+                {
+                    "_id":3,
+                    "type":"Price Low-To-High",
+                    "sort":1
+                },
+                {
+                    "_id":4,
+                    "type":"Discount",
+                    "sort":1
+                }
+            ]
         },
         {
             "id":"3",
             "category_id":"2",
-            "product":"Health-Care Devices"
+            "product":"Health-Care Devices",
+            "sort":[
+                {
+                    "_id":1,
+                    "type":"Popularity",
+                    "sort":1
+                },
+                {
+                    "_id":2,
+                    "type":"Price High-To-Low",
+                    "sort":1
+                },
+                {
+                    "_id":3,
+                    "type":"Price Low-To-High",
+                    "sort":1
+                },
+                {
+                    "_id":4,
+                    "type":"Discount",
+                    "sort":1
+                }
+            ]
         },
         {
             "id":"4",
             "category_id":"2",
-            "product":"Nutrition Drinks"
+            "product":"Nutrition Drinks",
+            "sort":[
+                {
+                    "_id":1,
+                    "type":"Popularity",
+                    "sort":1
+                },
+                {
+                    "_id":2,
+                    "type":"Price High-To-Low",
+                    "sort":1
+                },
+                {
+                    "_id":3,
+                    "type":"Price Low-To-High",
+                    "sort":1
+                },
+                {
+                    "_id":4,
+                    "type":"Discount",
+                    "sort":1
+                }
+            ]
         },
         {
             "id":"5",
             "category_id":"2",
-            "product":"Covid Essential"
+            "product":"Covid Essential",
+            "sort":[
+                {
+                    "_id":1,
+                    "type":"Popularity",
+                    "sort":1
+                },
+                {
+                    "_id":2,
+                    "type":"Price High-To-Low",
+                    "sort":1
+                },
+                {
+                    "_id":3,
+                    "type":"Price Low-To-High",
+                    "sort":1
+                },
+                {
+                    "_id":4,
+                    "type":"Discount",
+                    "sort":1
+                }
+            ]
         },
         {
             "id":"6",
             "category_id":"2",
-            "product":"Diabetic Care"
+            "product":"Diabetic Care",
+            "sort":[
+                {
+                    "_id":1,
+                    "type":"Popularity",
+                    "sort":1
+                },
+                {
+                    "_id":2,
+                    "type":"Price High-To-Low",
+                    "sort":1
+                },
+                {
+                    "_id":3,
+                    "type":"Price Low-To-High",
+                    "sort":1
+                },
+                {
+                    "_id":4,
+                    "type":"Discount",
+                    "sort":1
+                }
+            ]
         },
         {
             "id":"7",
             "category_id":"2",
-            "product":"Skincare"
+            "product":"Skincare",
+            "sort":[
+                {
+                    "_id":1,
+                    "type":"Popularity",
+                    "sort":1
+                },
+                {
+                    "_id":2,
+                    "type":"Price High-To-Low",
+                    "sort":1
+                },
+                {
+                    "_id":3,
+                    "type":"Price Low-To-High",
+                    "sort":1
+                },
+                {
+                    "_id":4,
+                    "type":"Discount",
+                    "sort":1
+                }
+            ]
         }
     ]
 }

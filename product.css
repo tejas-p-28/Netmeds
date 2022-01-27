@@ -100,7 +100,6 @@ form.example button:hover {
     margin-left: 1%;
 }
 .filter{
-    border: 2px solid black;
     width: 20%;
     height: 500px;
     float: left;
