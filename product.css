@@ -123,7 +123,6 @@ p > input{
 .filterContent > h3{
     float: left;
 }
-
 .filterContent > p, select{
     margin-right: 25%;
     float: right;
@@ -135,4 +134,16 @@ p > input{
     width: 170px;
     margin-right: -30%;
     margin-top: 1%;
+}
+.row{
+    margin-top: 8%;
+}
+.card-body > h4{
+    text-overflow: clip;
+}
+.offerimg{
+    background-image: url(images/deal/offerimg.svg);
+    width: 40%;
+    font-weight: bold;
+    color: #fff;
 }
