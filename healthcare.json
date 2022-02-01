@@ -1,0 +1,43 @@
+[
+    {
+        "id": 107,
+        "products_id": 2,
+        "name": "",
+        "productType": [
+            {
+                "productType_id": "18",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "product_id": 2,
+        "name": "Ayurvedic Care"
+    },
+    {
+        "id": 109,
+        "product_id": 2,
+        "name": "Health-Care Devices"
+    },
+    {
+        "id": 110,
+        "product_id": 2,
+        "name": "Nutrition Drinks"
+    },
+    {
+        "id": 111,
+        "product_id": 2,
+        "product": "Covid Essential"
+    },
+    {
+        "id": 112,
+        "product_id": 2,
+        "name": "Diabetic Care"
+    },
+    {
+        "id": 113,
+        "product_id": 2,
+        "name": "Skincare"
+    }
+]
