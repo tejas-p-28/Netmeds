@@ -1,0 +1,1458 @@
+[
+    {
+        "id": 1,
+        "name": "Ecosprin",
+        "products_id": 1,
+        "img": "https://ibb.co/JstWYXd",
+        "average_rating": 4.2,
+        "price": "4.86Rs",
+        "productType": [
+            {
+                "productType_id": "5",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Allegra",
+        "products_id": 1,
+        "img": "https://ibb.co/1T3b6qC",
+        "average_rating": 4.1,
+        "price": "198Rs",
+        "productType": [
+            {
+                "productType_id": "1",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ascoril_LS_Syrup",
+        "products_id": 1,
+        "img": "https://ibb.co/gzJvZk3",
+        "average_rating": 4.0,
+        "price": "108Rs",
+        "productType": [
+            {
+                "productType_id": "1",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ascoril_D_Plus_Syrup",
+        "products_id": 1,
+        "img": "https://ibb.co/S78wPBQ",
+        "average_rating": 4.3,
+        "price": "118Rs",
+        "productType": [
+            {
+                "productType_id": "1",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Augmentin_625_Duo_Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/ZYW6ZdX",
+        "average_rating": 4.4,
+        "price": "201Rs",
+        "productType": [
+            {
+                "productType_id": "1",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Avomine Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/qRrY7NK",
+        "average_rating": 4.2,
+        "price": "50Rs",
+        "productType": [
+            {
+                "productType_id": "1",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Azee 500 Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/L9zb4kM",
+        "average_rating": 4.3,
+        "price": "118Rs",
+        "productType": [
+            {
+                "productType_id": "1",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Benadryl Syrup",
+        "products_id": 1,
+        "img": "https://ibb.co/yByJWCJ",
+        "average_rating": 4.1,
+        "price": "128Rs",
+        "productType": [
+            {
+                "productType_id": "2",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Betadine 10% Solution",
+        "products_id": 1,
+        "img": "https://ibb.co/Pr1MTsS",
+        "average_rating": 3.2,
+        "price": "108Rs",
+        "productType": [
+            {
+                "productType_id": "2",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Betnosol Injection 1ml",
+        "products_id": 1,
+        "img": "https://ibb.co/vzdck2f",
+        "average_rating": 3.5,
+        "price": "38Rs",
+        "productType": [
+            {
+                "productType_id": "2",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Betnosol Oral Drop",
+        "products_id": 1,
+        "img": "https://ibb.co/mXZvPQb",
+        "average_rating": 4.6,
+        "price": "21Rs",
+        "productType": [
+            {
+                "productType_id": "2",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Betnovate N Cream",
+        "products_id": 1,
+        "img": "https://ibb.co/y8m3Qmy",
+        "average_rating": 4.5,
+        "price": "38Rs",
+        "productType": [
+            {
+                "productType_id": "2",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Budecort 200 Inhaler",
+        "products_id": 1,
+        "img": "https://ibb.co/khsqhNd",
+        "average_rating": 3.2,
+        "price": "396Rs",
+        "productType": [
+            {
+                "productType_id": "2",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Candid B Cream",
+        "products_id": 1,
+        "img": "https://ibb.co/ysLZmRp",
+        "average_rating": 3.7,
+        "price": "133Rs",
+        "productType": [
+            {
+                "productType_id": "3",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Cheston Cold Tablets",
+        "products_id": 1,
+        "img": "https://ibb.co/bK6pjz2",
+        "average_rating": 3.8,
+        "price": "42Rs",
+        "productType": [
+            {
+                "productType_id": "3",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Cipladine Ointment",
+        "products_id": 1,
+        "img": "https://ibb.co/cJ0HCpr",
+        "average_rating": 4.4,
+        "price": "26Rs",
+        "productType": [
+            {
+                "productType_id": "3",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Clavam 625 Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/g6169dY",
+        "average_rating": 4.8,
+        "price": "208Rs",
+        "productType": [
+            {
+                "productType_id": "3",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Combiflame Tablets",
+        "products_id": 1,
+        "img": "https://ibb.co/n6LwFcp",
+        "average_rating": 2.8,
+        "price": "41Rs",
+        "productType": [
+            {
+                "productType_id": "3",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Crya D Capsule",
+        "products_id": 1,
+        "img": "https://ibb.co/pbp45Xy",
+        "average_rating": 2.5,
+        "price": "48Rs",
+        "productType": [
+            {
+                "productType_id": "3",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Daflon 500mg Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/YRFJvjz",
+        "average_rating": 2.2,
+        "price": "138Rs",
+        "productType": [
+            {
+                "productType_id": "4",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Deviry 10mg Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/P1Q1NkD",
+        "average_rating": 3.5,
+        "price": "60Rs",
+        "productType": [
+            {
+                "productType_id": "4",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Dexona Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/wCGq18K",
+        "average_rating": 2.5,
+        "price": "3Rs",
+        "productType": [
+            {
+                "productType_id": "4",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Dolo 625 Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/XSz3HwD",
+        "average_rating": 2.6,
+        "price": "30Rs",
+        "productType": [
+            {
+                "productType_id": "4",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Doxinate Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/p2yDZrC",
+        "average_rating": 2.5,
+        "price": "208Rs",
+        "productType": [
+            {
+                "productType_id": "4",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Dynapar Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/wwJZN65",
+        "average_rating": 3.6,
+        "price": "68Rs",
+        "productType": [
+            {
+                "productType_id": "4",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Ecosprin 20 Gold Capsule",
+        "products_id": 1,
+        "img": "https://ibb.co/TwW9J8p",
+        "average_rating": 3.8,
+        "price": "148Rs",
+        "productType": [
+            {
+                "productType_id": "5",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Enzar Forte Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/3pWLycT",
+        "average_rating": 4.2,
+        "price": "148Rs",
+        "productType": [
+            {
+                "productType_id": "5",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Enzoflam Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/NprZ4fk",
+        "average_rating": 4.5,
+        "price": "138Rs",
+        "productType": [
+            {
+                "productType_id": "5",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Etizola 0.25 Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/9G3XXvt",
+        "average_rating": 4.6,
+        "price": "58Rs",
+        "productType": [
+            {
+                "productType_id": "5",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Evion LC Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/5vkRxfM",
+        "average_rating": 4.8,
+        "price": "48Rs",
+        "productType": [
+            {
+                "productType_id": "5",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Febrex Plus Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/W0p3wCB",
+        "average_rating": 3.8,
+        "price": "58Rs",
+        "productType": [
+            {
+                "productType_id": "6",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Flagyl 400 Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/xhZ3r20",
+        "average_rating": 3.9,
+        "price": "28Rs",
+        "productType": [
+            {
+                "productType_id": "6",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Flexon MR Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/TvcYwPp",
+        "average_rating": 4.2,
+        "price": "24Rs",
+        "productType": [
+            {
+                "productType_id": "6",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Flexon Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/Kw4tRst",
+        "average_rating": 3.6,
+        "price": "28Rs",
+        "productType": [
+            {
+                "productType_id": "6",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Folvite 5mg Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/FVJJ2vF",
+        "average_rating": 2.2,
+        "price": "68Rs",
+        "productType": [
+            {
+                "productType_id": "6",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Foracort Inhaler 200",
+        "products_id": 1,
+        "img": "https://ibb.co/8PHskcF",
+        "average_rating": 3.5,
+        "price": "360Rs",
+        "productType": [
+            {
+                "productType_id": "6",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Gabapin NT 100 Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/f8xH2pH",
+        "average_rating": 4.2,
+        "price": "428Rs",
+        "productType": [
+            {
+                "productType_id": "7",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Gabapin NT Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/RgM4jwX",
+        "average_rating": 3.4,
+        "price": "108Rs",
+        "productType": [
+            {
+                "productType_id": "7",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Glycomet 500 SR Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/FKLN69v",
+        "average_rating": 4.2,
+        "price": "48Rs",
+        "productType": [
+            {
+                "productType_id": "7",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Grilinctus BM Syrup",
+        "products_id": 1,
+        "img": "https://ibb.co/KW9ZZc0",
+        "average_rating": 3.6,
+        "price": "108Rs",
+        "productType": [
+            {
+                "productType_id": "7",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Grilinctus Syrup",
+        "products_id": 1,
+        "img": "https://ibb.co/vx5gKvg",
+        "average_rating": 3.3,
+        "price": "128Rs",
+        "productType": [
+            {
+                "productType_id": "7",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Gudcef 200 Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/FVwVqm0",
+        "average_rating": 4.5,
+        "price": "148Rs",
+        "productType": [
+            {
+                "productType_id": "7",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "name": "HCQS 200 Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/c3nTnBk",
+        "average_rating": 2.2,
+        "price": "99Rs",
+        "productType": [
+            {
+                "productType_id": "8",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Headset Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/KFGv1p1",
+        "average_rating": 2.4,
+        "price": "118Rs",
+        "productType": [
+            {
+                "productType_id": "8",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Hepamerz Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/Drpg1Jg",
+        "average_rating": 2.8,
+        "price": "218Rs",
+        "productType": [
+            {
+                "productType_id": "8",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Hetrazan 100 Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/WgkDQJS",
+        "average_rating": 2.7,
+        "price": "48Rs",
+        "productType": [
+            {
+                "productType_id": "8",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Hifenac P Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/fSXh8wL",
+        "average_rating": 2.7,
+        "price": "83Rs",
+        "productType": [
+            {
+                "productType_id": "8",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "HP Kit ",
+        "products_id": 1,
+        "img": "https://ibb.co/3CTB8BW",
+        "average_rating": 3.6,
+        "price": "123Rs",
+        "productType": [
+            {
+                "productType_id": "8",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Ibset Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/0qG8bLQ",
+        "average_rating": 3.8,
+        "price": "408Rs",
+        "productType": [
+            {
+                "productType_id": "9",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Imodium Capsule ",
+        "products_id": 1,
+        "img": "https://ibb.co/KXWVh0Z",
+        "average_rating": 3.9,
+        "price": "15Rs",
+        "productType": [
+            {
+                "productType_id": "9",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Indocap SR Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/4JJRKfn",
+        "average_rating": 4.4,
+        "price": "118Rs",
+        "productType": [
+            {
+                "productType_id": "9",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Intagesic MR Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/pn14hpW",
+        "average_rating": 5.0,
+        "price": "94Rs",
+        "productType": [
+            {
+                "productType_id": "9",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Isolazine Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/b7rCY8H",
+        "average_rating": 4.0,
+        "price": "87Rs",
+        "productType": [
+            {
+                "productType_id": "9",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Isotroin 20 Capsule ",
+        "products_id": 1,
+        "img": "https://ibb.co/ZY8CdJF",
+        "average_rating": 3.0,
+        "price": "299Rs",
+        "productType": [
+            {
+                "productType_id": "9",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Jalra 50mg Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/7NtMGwc",
+        "average_rating": 3.0,
+        "price": "300Rs",
+        "productType": [
+            {
+                "productType_id": "10",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Jenvac Vaccine ",
+        "products_id": 1,
+        "img": "https://ibb.co/pXMLG9H",
+        "average_rating": 3.0,
+        "price": "677Rs",
+        "productType": [
+            {
+                "productType_id": "10",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Jointace DN Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/ZXtkpV3",
+        "average_rating": 3.0,
+        "price": "352Rs",
+        "productType": [
+            {
+                "productType_id": "10",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Jupiros 10 Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/5cqs0TB",
+        "average_rating": 4.6,
+        "price": "171Rs",
+        "productType": [
+            {
+                "productType_id": "10",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Jupiros F Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/vVC78V9",
+        "average_rating": 2.0,
+        "price": "84Rs",
+        "productType": [
+            {
+                "productType_id": "10",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Just Tear Eye Drop ",
+        "products_id": 1,
+        "img": "https://ibb.co/7r127FC",
+        "average_rating": 2.0,
+        "price": "96Rs",
+        "productType": [
+            {
+                "productType_id": "10",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "name": "K Bind Powder ",
+        "products_id": 1,
+        "img": "https://ibb.co/RBgVkCY",
+        "average_rating": 2.2,
+        "price": "159Rs",
+        "productType": [
+            {
+                "productType_id": "11",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Ketoadd Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/S6KRZvT",
+        "average_rating": 2.4,
+        "price": "415Rs",
+        "productType": [
+            {
+                "productType_id": "11",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Ketomac Shampoo ",
+        "products_id": 1,
+        "img": "https://ibb.co/XxXttfV",
+        "average_rating": 2.5,
+        "price": "234Rs",
+        "productType": [
+            {
+                "productType_id": "11",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Ketorol DT Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/L9F3WkL",
+        "average_rating": 2.6,
+        "price": "133Rs",
+        "productType": [
+            {
+                "productType_id": "11",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Keto Soap ",
+        "products_id": 1,
+        "img": "https://ibb.co/y5c2Wgj",
+        "average_rating": 2.8,
+        "price": "115Rs",
+        "productType": [
+            {
+                "productType_id": "11",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Keto Sterile Tablet",
+        "products_id": 1,
+        "img": "https://ibb.co/6PvsYhj",
+        "average_rating": 3.7,
+        "price": "3790Rs",
+        "productType": [
+            {
+                "productType_id": "11",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Lasix Injection ",
+        "products_id": 1,
+        "img": "https://ibb.co/KqNBB9B",
+        "average_rating": 3.6,
+        "price": "11Rs",
+        "productType": [
+            {
+                "productType_id": "12",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Lasix Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/zJC35cL",
+        "average_rating": 2.5,
+        "price": "12Rs",
+        "productType": [
+            {
+                "productType_id": "12",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Letroz Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/SXP0vyC",
+        "average_rating": 2.5,
+        "price": "206Rs",
+        "productType": [
+            {
+                "productType_id": "12",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Levocet Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/qnb1JNf",
+        "average_rating": 2.7,
+        "price": "47Rs",
+        "productType": [
+            {
+                "productType_id": "12",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Lipagyln Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/M9cmQYQ",
+        "average_rating": 3.7,
+        "price": "365Rs",
+        "productType": [
+            {
+                "productType_id": "12",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Lopamide Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/ccn6gB0",
+        "average_rating": 3.8,
+        "price": "21Rs",
+        "productType": [
+            {
+                "productType_id": "12",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "name": "Manforce 50mg Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/3z96T9L",
+        "average_rating": 3.6,
+        "price": "270Rs",
+        "productType": [
+            {
+                "productType_id": "13",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Maxtra Syrup ",
+        "products_id": 1,
+        "img": "https://ibb.co/wC4kWc2",
+        "average_rating": 4.4,
+        "price": "87Rs",
+        "productType": [
+            {
+                "productType_id": "13",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Megalis 20 Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/T8KvmY9",
+        "average_rating": 2.6,
+        "price": "46Rs",
+        "productType": [
+            {
+                "productType_id": "13",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Mobizox Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/zHHwh92",
+        "average_rating": 4.9,
+        "price": "197Rs",
+        "productType": [
+            {
+                "productType_id": "13",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Monticope Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/7vzfL5g",
+        "average_rating": 4.7,
+        "price": "98Rs",
+        "productType": [
+            {
+                "productType_id": "13",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "name": "Mycopaz Forte Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/xqNrgpM",
+        "average_rating": 3.8,
+        "price": "280Rs",
+        "productType": [
+            {
+                "productType_id": "13",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Nefrosave Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/JnWHKvX",
+        "average_rating": 3.3,
+        "price": "199Rs",
+        "productType": [
+            {
+                "productType_id": "14",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Nicip Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/3TZxjK3",
+        "average_rating": 3.7,
+        "price": "39Rs",
+        "productType": [
+            {
+                "productType_id": "14",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "name": "Nise Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/ZK0PBPn",
+        "average_rating": 3.8,
+        "price": "98Rs",
+        "productType": [
+            {
+                "productType_id": "14",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "name": "Nodosis Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/yhKSWJ1",
+        "average_rating": 2.7,
+        "price": "48Rs",
+        "productType": [
+            {
+                "productType_id": "14",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Normaxin Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/5nSccK9",
+        "average_rating": 3.4,
+        "price": "59Rs",
+        "productType": [
+            {
+                "productType_id": "14",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "name": "Novelon Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/f1kcgtX",
+        "average_rating": 3.7,
+        "price": "239Rs",
+        "productType": [
+            {
+                "productType_id": "14",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "name": "O2 Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/TKW28Gz",
+        "average_rating": 3.5,
+        "price": "149Rs",
+        "productType": [
+            {
+                "productType_id": "15",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "name": "Okacet Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/Fz3TcgK",
+        "average_rating": 3.4,
+        "price": "18Rs",
+        "productType": [
+            {
+                "productType_id": "15",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Omez Capsule ",
+        "products_id": 1,
+        "img": "https://ibb.co/89M9hXm",
+        "average_rating": 3.5,
+        "price": "55Rs",
+        "productType": [
+            {
+                "productType_id": "15",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Ondem Syrup ",
+        "products_id": 1,
+        "img": "https://ibb.co/yX4JSPG",
+        "average_rating": 5.0,
+        "price": "37Rs",
+        "productType": [
+            {
+                "productType_id": "15",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Optineuron Injection ",
+        "products_id": 1,
+        "img": "https://ibb.co/Sxgnxr0",
+        "average_rating": 4.9,
+        "price": "10Rs",
+        "productType": [
+            {
+                "productType_id": "15",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Ornof Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/0qcBpkf",
+        "average_rating": 2.3,
+        "price": "130Rs",
+        "productType": [
+            {
+                "productType_id": "15",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Pacitane Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/ChQJqrr",
+        "average_rating": 2.2,
+        "price": "40Rs",
+        "productType": [
+            {
+                "productType_id": "16",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Pan 40 Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/XsGwsVN",
+        "average_rating": 2.7,
+        "price": "149Rs",
+        "productType": [
+            {
+                "productType_id": "16",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Peinorm Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/q71M10m",
+        "average_rating": 2.5,
+        "price": "13Rs",
+        "productType": [
+            {
+                "productType_id": "16",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Pulmoclear Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/nbW7z6r",
+        "average_rating": 2.8,
+        "price": "189Rs",
+        "productType": [
+            {
+                "productType_id": "16",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "name": "Q-Car Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/xzgMsvj",
+        "average_rating": 3.8,
+        "price": "300Rs",
+        "productType": [
+            {
+                "productType_id": "17",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Quadrajel Gel ",
+        "products_id": 1,
+        "img": "https://ibb.co/Q9hg1xj",
+        "average_rating": 3.3,
+        "price": "57Rs",
+        "productType": [
+            {
+                "productType_id": "17",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "name": "Quadcream ",
+        "products_id": 1,
+        "img": "https://ibb.co/hCs5Zp9",
+        "average_rating": 3.4,
+        "price": "45Rs",
+        "productType": [
+            {
+                "productType_id": "17",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Qutan 50 Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/PC7W8Xk",
+        "average_rating": 3.5,
+        "price": "52Rs",
+        "productType": [
+            {
+                "productType_id": "17",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "name": "Refresh Tears Eye Drop ",
+        "products_id": 1,
+        "img": "https://ibb.co/XYxC5rk",
+        "average_rating": 2.9,
+        "price": "87Rs",
+        "productType": [
+            {
+                "productType_id": "17",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "name": "Reheptin Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/3fDHjgW",
+        "average_rating": 2.7,
+        "price": "111Rs",
+        "productType": [
+            {
+                "productType_id": "17",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "name": "ROKO Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/XsxvjCs",
+        "average_rating": 4.6,
+        "price": "20Rs",
+        "productType": [
+            {
+                "productType_id": "17",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "name": "Signoflam Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/Tqzy8wL",
+        "average_rating": 3.0,
+        "price": "113Rs",
+        "productType": [
+            {
+                "productType_id": "18",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "name": "Sinarest Syrup ",
+        "products_id": 1,
+        "img": "https://ibb.co/2ybv4xr",
+        "average_rating": 2.0,
+        "price": "121Rs",
+        "productType": [
+            {
+                "productType_id": "18",
+                "productType_name": "Medicine"
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "name": "Sinarest Tablet ",
+        "products_id": 1,
+        "img": "https://ibb.co/YL4RyJW",
+        "average_rating": 2.0,
+        "price": "61Rs",
+        "productType": [
+            {
+                "productType_id": "18",
+                "productType_name": "Medicine"
+            }
+        ]
+    }
+]
