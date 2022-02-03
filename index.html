@@ -94,18 +94,17 @@
                 <select id="product" style="text-align: center;" onChange="productList()">
                     <option>Products Available</option>
                 </select>
-                <form class="d-flex col-md-5" style="height:50px; margin-top: 1%;">
-                    <input class="form-control me-2" type="search"
-                        placeholder="Search medicines/Healthcare products @18% Off" aria-label="Search" id="list">
-                </form>
-                <button class="btn btn-outline-success" id="myDark" onclick="changeMode()"><i class="fa fa-moon-o"
-                        aria-hidden="true"></i></button>
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search medicines/Healthcare products @18% Off" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
                 <div class="weather">
                     <p onload="geolocation()">
                     <p id="icon"></p>
                     <p id="address"></p>
                     </p>
                 </div>
+                <button class="btn btn-outline-danger" id="myDark" onclick="changeMode()">Mode</button>
             </div>
         </div>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -225,7 +224,7 @@
             <img src="images/Nivea.jpg" alt="">
         </div>
         <div class="feature">
-            <img src="images/healthcare products/Vasliene.jpg" alt="">
+            <img src="images/Vasliene.jpg" alt="">
         </div>
         <div class="feature">
             <img src="images/Volini.png" alt="">

@@ -5,7 +5,7 @@
     },
     {
         "products_id": 2,
-        "products_name": "Healthcare Products"      
+        "products_name": "Healthcare Devices"      
     },
     {
         "products_id": 3,
@@ -18,5 +18,29 @@
     {
         "products_id": 5,
         "products_name": "Ayurvedic Care"       
+    },
+    {
+        "products_id": 6,
+        "products_name": "Skin Care"       
+    },
+    {
+        "products_id": 7,
+        "products_name": "Covid Essentials"       
+    },
+    {
+        "products_id": 8,
+        "products_name": "Sexual Wellness"       
+    },
+    {
+        "products_id": 9,
+        "products_name": "Home Care"       
+    },
+    {
+        "products_id": 10,
+        "products_name": "Diabetic Care"       
+    },
+    {
+        "products_id": 11,
+        "products_name": "Personal Care"       
     }
 ]

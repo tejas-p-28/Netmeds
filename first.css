@@ -56,7 +56,8 @@ a{
     margin-left: 2%;
 }
 .example{
-    display: inline-block;
+    float: left;
+    margin-top: 1%;
     width: 34%;
 }
 select{
@@ -71,19 +72,41 @@ select{
 .fa-caret-down{
     height: 50px;
 } 
-form.example button {
-    width: 10%;
-    float: left;
+form.example input[type=text] {
     padding: 10px;
-    background: rgb(146, 145, 145);
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-color: #2196F3;
     color: white;
     font-size: 17px;
     border: 1px solid grey;
-    border-left: none;
+    border-left: none; 
     cursor: pointer;
-    height: 50px;
-    
-}
+    width: 10%;
+    height: 48px;
+  }
+  
+form.example button:hover {
+    background: #0b7dda;
+  }
+  
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 .fa-cart-plus{
     font-size: 35px;
     display: inline-block;

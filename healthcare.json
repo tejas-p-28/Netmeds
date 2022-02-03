@@ -2,11 +2,11 @@
     {
         "id": 107,
         "products_id": 2,
-        "name": "",
+        "name": "Zandu Pancharisht",
         "productType": [
             {
-                "productType_id": "18",
-                "productType_name": "Medicine"
+                "productType_id": 1,
+                "productType_name": "Ayurvedic CAre"
             }
         ]
     },
