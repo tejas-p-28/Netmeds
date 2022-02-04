@@ -1,43 +1,357 @@
 [
     {
-        "id": 107,
+        "id": 1,
         "products_id": 2,
-        "name": "Zandu Pancharisht",
-        "productType": [
+        "category": "BP Monitor",
+        "sub_category": [
             {
-                "productType_id": 1,
-                "productType_name": "Ayurvedic CAre"
+                "subcategory_id": 1,
+                "subcategory_name": "Accusure As BP Digital Monitor",
+                "image": "https://ibb.co/z7yxD49",
+                "original_cost": 1540,
+                "discount_cost": 1078,
+                "discount": "30% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Accusure Ts Blood Pressure Monitor",
+                "image": "https://ibb.co/VNHLf4b",
+                "original_cost": 2995,
+                "discount_cost": 2396,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Accusure Yk Automatic Blood Pressure Monitor",
+                "image": "https://ibb.co/cTFqppJ",
+                "original_cost": 2499,
+                "discount_cost": 1999,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Bpl B3 120/80 BP Monitor",
+                "image": "https://ibb.co/GTNNky2",
+                "original_cost": 1770,
+                "discount_cost": 1062,
+                "discount": "40% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Easycare Big Display Digital Blood Pressure Monitor",
+                "image": "https://ibb.co/Yfj3VGd",
+                "original_cost": 1999,
+                "discount_cost": 1499,
+                "discount": "25% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Easycare (German Tech) Digital Blood Pressure Monitor",
+                "image": "https://ibb.co/DRZgcSn",
+                "original_cost": 1549,
+                "discount_cost": 774,
+                "discount": "50% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Gibson Blood Pressure Monitor",
+                "image": "https://ibb.co/WBgSQ4M",
+                "original_cost": 1400,
+                "discount_cost": 560,
+                "discount": "60% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Omron Hem-8712 Bp Monitor",
+                "image": "https://ibb.co/XYHV8w6",
+                "original_cost": 2640,
+                "discount_cost": 1504,
+                "discount": "43% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Omron Hem-7124 Bp Monitor",
+                "image": "https://ibb.co/n8FVRg1",
+                "original_cost": 2310,
+                "discount_cost": 1986,
+                "discount": "14% OFF"
             }
         ]
     },
     {
-        "id": 108,
+        "id": 2,
         "product_id": 2,
-        "name": "Ayurvedic Care"
+        "name": "Covid Test Kits",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Covifind Covid-19 Rapid Antigen Self Test By Meril",
+                "image": "https://ibb.co/sVyWc7T",
+                "original_cost": 250,
+                "discount_cost": 237,
+                "discount": "5% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Panbio Covid Antigen Self Test",
+                "image": "https://ibb.co/mRXJ05F",
+                "original_cost": 1250,
+                "discount_cost": 1125,
+                "discount": "10% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Coviself Covid Self Test Kit",
+                "image": "https://ibb.co/sRYfwbm",
+                "original_cost": 250,
+                "discount_cost": 175,
+                "discount": "30% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Panbio Covid Antigen Self Test 1 Test Kits ICMR Approved",
+                "image": "https://ibb.co/DffRhHD",
+                "original_cost": 325,
+                "discount_cost": 292,
+                "discount": "10% OFF"
+            }
+        ]
     },
     {
-        "id": 109,
+        "id": 3,
         "product_id": 2,
-        "name": "Health-Care Devices"
+        "name": "Glucometer",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Accu-Check Active Glucometer Test Strips Box of 50",
+                "image": "https://ibb.co/y0KdgZt",
+                "original_cost": 975,
+                "discount_cost": 799,
+                "discount": "18% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Accu-Check Instant Glucometer Test Strips Box of 50",
+                "image": "https://ibb.co/PhnrTgT",
+                "original_cost": 975,
+                "discount_cost": 887,
+                "discount": "9% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Contour Plus Glucometer Test Strips Box of 50",
+                "image": "https://ibb.co/VN0dcbN",
+                "original_cost": 949,
+                "discount_cost": 806,
+                "discount": "15% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Dr. Morepen Bg 03 Glucometer Test Strips Box of 25",
+                "image": "https://ibb.co/99RD2Vt",
+                "original_cost": 499,
+                "discount_cost": 324,
+                "discount": "35% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Dr. Morepen Gluco One Bg 03 Glucometer Test Strips Box of 50",
+                "image": "https://ibb.co/phLbQ4t",
+                "original_cost": 849,
+                "discount_cost": 517,
+                "discount": "39% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "One Touch Select Glucometer Test Strips Bottle of 50",
+                "image": "https://ibb.co/2scvn9J",
+                "original_cost": 1145,
+                "discount_cost": 1087,
+                "discount": "5% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "One Touch Select Plus Glucometer Test Strips Box of 25",
+                "image": "https://ibb.co/4Zd8r5Z",
+                "original_cost": 625,
+                "discount_cost": 593,
+                "discount": "5% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "One Touch Ultra Glucometer Test Strips Bottle of 50",
+                "image": "https://ibb.co/SKhv7Dn",
+                "original_cost": 1395,
+                "discount_cost": 1325,
+                "discount": "5% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "One Touch Verio Glucometer Test Strips Box of 50",
+                "image": "https://ibb.co/XprzFgg",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            }
+        ]
     },
     {
-        "id": 110,
+        "id": 4,
         "product_id": 2,
-        "name": "Nutrition Drinks"
+        "name": "Oximeter",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            }
+        ]
     },
     {
-        "id": 111,
+        "id": 5,
         "product_id": 2,
-        "product": "Covid Essential"
-    },
-    {
-        "id": 112,
-        "product_id": 2,
-        "name": "Diabetic Care"
-    },
-    {
-        "id": 113,
-        "product_id": 2,
-        "name": "Skincare"
+        "product": "Thermometer",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            },
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount": ""
+            }
+        ]
     }
 ]
