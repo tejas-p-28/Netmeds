@@ -190,9 +190,9 @@
                 "subcategory_id": 9,
                 "subcategory_name": "One Touch Verio Glucometer Test Strips Box of 50",
                 "image": "https://ibb.co/XprzFgg",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "original_cost": 1095,
+                "discount_cost": 1029,
+                "discount": "6% OFF"
             }
         ]
     },
@@ -203,75 +203,75 @@
         "sub_category": [
             {
                 "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_name": "Accusure Fingertip Pulse Oximeter - Yk011",
+                "image": "https://ibb.co/7kMnPnn",
+                "original_cost": 1340,
+                "discount_cost": 509,
+                "discount": "62% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 2,
+                "subcategory_name": "Bpl Smart Oxy Fingertip Pulse Black Oximeter (Black)",
+                "image": "https://ibb.co/WHBwTyy",
+                "original_cost": 3600,
+                "discount_cost": 1080,
+                "discount": "70% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 3,
+                "subcategory_name": "Contec Plus Oximeter Cms50d",
+                "image": "https://ibb.co/r3cKbTY",
+                "original_cost": 3400,
+                "discount_cost": 918,
+                "discount": "73% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 4,
+                "subcategory_name": "Dr. Morepen Pulse Oximeter 1 Piece",
+                "image": "https://ibb.co/Yb0zDC7",
+                "original_cost": 1500,
+                "discount_cost": 945,
+                "discount": "37% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 5,
+                "subcategory_name": "Dr. Odin Finger Tip Pulse Oximeter",
+                "image": "https://ibb.co/4TSQNPn",
+                "original_cost": 4500,
+                "discount_cost": 1395,
+                "discount": "69% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 6,
+                "subcategory_name": "Intex Oxicare Pulse Oximeter",
+                "image": "https://ibb.co/VCdKN1y",
+                "original_cost": 3499,
+                "discount_cost": 1399,
+                "discount": "60% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 7,
+                "subcategory_name": "Oxysat - Finger Tip Pulse Oximeter With 2 Batteries",
+                "image": "https://ibb.co/4WFs4Qf",
+                "original_cost": 2799,
+                "discount_cost": 1679,
+                "discount": "40% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 8,
+                "subcategory_name": "Prozo Plus Fingertip Pulse Oximeter",
+                "image": "https://ibb.co/G9DfykX",
+                "original_cost": 1999,
+                "discount_cost": 819,
+                "discount": "59% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 9,
+                "subcategory_name": "Trueview Pulse Oximeter",
+                "image": "https://ibb.co/Kqb4KXK",
+                "original_cost": 2000,
+                "discount_cost": 1900,
+                "discount": "5% OFF"
             }
         ]
     },
