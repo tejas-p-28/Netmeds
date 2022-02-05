@@ -282,75 +282,290 @@
         "sub_category": [
             {
                 "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_name": "Accusure Digital Thermometers Mt 1027 Hard Tip (White)",
+                "image": "https://ibb.co/RNVvhdM",
+                "discount_cost": 170
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 2,
+                "subcategory_name": "Control D Thermometer",
+                "image": "https://ibb.co/t3nPRcf",
+                "original_cost": 249,
+                "discount_cost": 161,
+                "discount": "35% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 3,
+                "subcategory_name": "Coronation Digital Thermometer Classic Plus",
+                "image": "https://ibb.co/YL6kHzk",
+                "original_cost": 399,
+                "discount_cost": 279,
+                "discount": "30% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 4,
+                "subcategory_name": "Dr Ordin Digital Thermometer",
+                "image": "https://ibb.co/VxSWhWY",
+                "original_cost": 190,
+                "discount_cost": 152,
+                "discount": "20% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 5,
+                "subcategory_name": "Dr. Ordin Digital Thermomete- Dmt4333",
+                "image": "https://ibb.co/KFcnphY",
+                "discount_cost": 245
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 6,
+                "subcategory_name": "Easycare 100% Safe (No Mercury) Digital Thermometer",
+                "image": "https://ibb.co/tDfnpXG",
+                "original_cost": 180,
+                "discount_cost": 72,
+                "discount": "60% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 7,
+                "subcategory_name": "Jumper Non Contact Ir Thermometer Jpd-Fr202",
+                "image": "https://ibb.co/hMC7zgy",
+                "original_cost": 8000,
+                "discount_cost": 5600,
+                "discount": "30% OFF"
             },
             {
-                "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_id": 8,
+                "subcategory_name": "Omron Digital Mc 246 Thermometer 1",
+                "image": "https://ibb.co/6gSCm85",
+                "original_cost": 290,
+                "discount_cost": 232,
+                "discount": "20% OFF"
             },
             {
+                "subcategory_id": 9,
+                "subcategory_name": "Topnotch Digital Thermometer",
+                "image": "https://ibb.co/16vq812",
+                "original_cost": 260,
+                "discount_cost": 208,
+                "discount": "20% OFF"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "products_id": 3,
+        "category": "Baby Food",
+        "sub_category":[
+            {
                 "subcategory_id": 1,
-                "subcategory_name": "",
-                "image": "",
-                "original_cost": ,
-                "discount_cost": ,
-                "discount": ""
+                "subcategory_name": "Aptamil Stage 1 Infant Formula Baby Food Tin of 400g",
+                "image": "https://ibb.co/PWpFrx9",
+                "discount_cost": 740
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Dexolac Baby Food Stage 1 Infant Formula (Upto 6 Months) Box of 400g",
+                "image": "https://ibb.co/TgnQ3dq",
+                "discount_cost": 345
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Fabrex Baby Food Stage 2 Followup Formula Refill of 400g",
+                "image": "https://ibb.co/6Rhcj8r",
+                "discount_cost": 595
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Lactodex - Hmf Nutritional Supplement Sachet of 1g",
+                "image": "https://ibb.co/T15NHKK",
+                "discount_cost": 27
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Nestle Lactogen 1 Infant Formula Powder - Upto 6 Months",
+                "image": "https://ibb.co/pRv5bcR",
+                "discount_cost": 360
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Nestle Nan Pro 1 Starter Infant Formula Powder - 400G",
+                "image": "https://ibb.co/pj0fwLr",
+                "discount_cost": 670
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Nestle Nan Pro 3 Follow Up Formula Powder 400G",
+                "image": "https://ibb.co/p2bJ2qY",
+                "discount_cost": 650
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Similac Baby Food Stage 3 Followup Infant Formula (from 12-24 months) Box of 400G",
+                "image": "https://ibb.co/qYh9PgJ",
+                "discount_cost": 380
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Similac Isomil Soy Baby Food Lactose Free(Upto 24 Months) Tin of 400g",
+                "image": "https://ibb.co/1LqWYRb",
+                "discount_cost": 550
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "products_id": 3,
+        "category": "Diabetic Care",
+        "sub_category":[
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Liveasy Foods Chia Seeds",
+                "image": "https://ibb.co/zngdGn3",
+                "original_cost": 249,
+                "discount_cost": 124,
+                "discount":"50% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Liveasy Wellness Zero Calorie Sugar Substitute (Sugar Free) Tablets",
+                "image": "https://ibb.co/gTxfMM6",
+                "original_cost": 175,
+                "discount_cost": 157,
+                "discount":"10% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Sugar Free Gold Sweetner Tablets Strip of 500",
+                "image": "https://ibb.co/Ld0PvZk",
+                "original_cost": 285,
+                "discount_cost": 236,
+                "discount":"17% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Sugar Free Green Made From Stevia 100% Natural 200gm Jar",
+                "image": "https://ibb.co/64kg7PV",
+                "original_cost": 170,
+                "discount_cost": 141,
+                "discount":"17% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Sugar Free Natura Sweetner Tablets Bottle of 500",
+                "image": "https://ibb.co/Fq0VP58",
+                "original_cost": 300,
+                "discount_cost": 261,
+                "discount":"13% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Sugarlite 50% Less Calories Sugar Pouch 500gm",
+                "image": "https://ibb.co/DLq0k6w",
+                "original_cost": 99,
+                "discount_cost": 82,
+                "discount":"17% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Zindagi Instant Green Coffee Powder Sachets",
+                "image": "https://ibb.co/xSKZ0F7",
+                "original_cost": 295,
+                "discount_cost": 250,
+                "discount":"15% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Zindagi Stevia Liquid Drops - Natural Sweetner Stevia Sugarfree",
+                "image": "https://ibb.co/YLFtG6p",
+                "original_cost": 190,
+                "discount_cost": 161,
+                "discount":"15% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Zindagi Stevia Sachets Sugarfree - Natural Vegan Friendly Sweetner 50 Sachets",
+                "image": "https://ibb.co/DzG1mdD",
+                "original_cost": 165,
+                "discount_cost": 140,
+                "discount":"15% OFF"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "products_id": 3,
+        "category": "Health Food",
+        "sub_category":[
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Dabur Honey Squeezy - 400g (Buy 1 Get 1 Free)",
+                "image": "https://ibb.co/vkx5LJZ",
+                "original_cost": 330,
+                "discount_cost": 283,
+                "discount":"14% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Liveasy Foods Healthy Roasted Seed Mix - Blend Of 6 Fibre Rich Healthy Roasted Seeds",
+                "image": "https://ibb.co/jGY5mbx",
+                "original_cost": 399,
+                "discount_cost": 219,
+                "discount":"45% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Liveasy Foods Roasted Peri Peri Makhana - Rich in Protein & Fibre",
+                "image": "https://ibb.co/9bRzq5v",
+                "original_cost": 299,
+                "discount_cost": 149,
+                "discount":"50% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Pediasure Cookies Cream Child Nutrition Drink Refill of 400g",
+                "image": "https://ibb.co/R0hKXFT",
+                "original_cost": 520,
+                "discount_cost": 483,
+                "discount":"7% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Ritebite Max Protein Ultimate Choco Berry Protein Bars 600g",
+                "image": "https://ibb.co/y5Jw41q",
+                "original_cost": 950,
+                "discount_cost": 807,
+                "discount":"15% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Saffola Honey 100% Pure 500gm",
+                "image": "https://ibb.co/TmncWby",
+                "original_cost": 240,
+                "discount_cost": 192,
+                "discount":"20% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Threptin Chocolate Nutrition Diskettes Tin of 275g",
+                "image": "https://i.ibb.co/kMjRqqC/threptinchocolatenutritiondiskettes.jpg",
+                "original_cost": 459,
+                "discount_cost": 390,
+                "discount":"15% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Threptin Lite Vanilla Butterscotch Nutrition Diskettes Tin of 275g",
+                "image": "https://i.ibb.co/pyJtMPg/threptinlitevanilabutterscotch.jpg",
+                "original_cost": 459,
+                "discount_cost": 358,
+                "discount":"22% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Zandu Pure Honey Health Food Bottle Of 500g",
+                "image": "https://i.ibb.co/8zz47HZ/zandupurehoneyhealthfoodbottle.jpg",
+                "original_cost": 220,
+                "discount_cost": 187,
+                "discount":"15% OFF"
             }
         ]
     }
