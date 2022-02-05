@@ -568,5 +568,390 @@
                 "discount":"15% OFF"
             }
         ]
+    },
+    {
+        "id": 9,
+        "products_id": 3,
+        "category": "Nutrition Drinks",
+        "sub_category":[
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "B-Protin Chocolate Nutrition Supplement Bottle of 500g",
+                "image": "https://i.ibb.co/S3XKJss/bprotinchocolatesupplement.jpg",
+                "original_cost": 525,
+                "discount_cost": 341,
+                "discount":"35% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Cadbury Bournvita Nutrition Drink Jar of 500g",
+                "image": "https://i.ibb.co/F8Q4kH2/cadburybournvitadrink.jpg",
+                "original_cost": 223,
+                "discount_cost": 200,
+                "discount":"10% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Cadbury Bournvita Lil Champs Nutrition Drink Jar of 500g",
+                "image": "https://i.ibb.co/4VXkts4/cadburybournvitalilchamps.jpg",
+                "original_cost": 295,
+                "discount_cost": 250,
+                "discount":"15% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Ensure Chocolate Nutrition Drink Refill Of 400g",
+                "image": "https://i.ibb.co/QfrTLks/ensurechocolatedrink.jpg",
+                "original_cost": 580,
+                "discount_cost": 533,
+                "discount":"8% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Ensure Vanilla Nutrition Drink Refill Of 400g",
+                "image": "https://i.ibb.co/w6s5Vzb/ensurevanilanutritiondrink.jpg",
+                "original_cost": 590,
+                "discount_cost": 542,
+                "discount":"8% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Everherb Amla Juice-Rich In Vitamin C-Natural Immunity Booster",
+                "image": "https://i.ibb.co/cwCX9sD/everherbamlajuicerichinvitaminc.jpg",
+                "original_cost": 399,
+                "discount_cost": 199,
+                "discount":"50% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Groviva Chocolate Child Nutrition Supplement Jar of 400g",
+                "image": "https://i.ibb.co/PmYNLVR/grovivachocolatechildnutritionsupplement.jpg",
+                "original_cost": 645,
+                "discount_cost": 516,
+                "discount":"20% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Horlicks Women's Plus Caramel Jar, 400g",
+                "image": "https://i.ibb.co/KKHFmn0/horlickswomenplus.jpg",
+                "original_cost": 299,
+                "discount_cost": 278,
+                "discount":"7% OFF"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "products_id": 3,
+        "category": "Ayurvedic Medicine",
+        "sub_category":[
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Calcimax 500 Health Supplement Tablets (500 Mg Of Calcium)Box Of 30",
+                "image": "https://i.ibb.co/wp0WdxK/calcimax500healthsupplementtablets.jpg",
+                "original_cost": 359,
+                "discount_cost": 269,
+                "discount":"25% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Evion Lc Strip Of 10 Tablets",
+                "image": "https://i.ibb.co/Ht83XZ9/evionlcstripof10tablets.jpg",
+                "discount_cost": 51
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Himalaya Liv.52 Ds Tablets - 60'S",
+                "image": "https://i.ibb.co/N1DfW63/himalayaliv52tablets.jpg",
+                "original_cost": 170,
+                "discount_cost": 130,
+                "discount":"23% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Himalaya Septilin Tablets - 60'S",
+                "image": "https://i.ibb.co/YRQk9P4/himalayaseptilintablets.jpg",
+                "original_cost": 165,
+                "discount_cost": 127,
+                "discount":"23% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Liveasy Wellness Calcium, Magnesium, Vitamin D3 & Zinc - Bones & Dental Health",
+                "image": "https://i.ibb.co/T8bCF89/liveasywellnesscalciummagesium.jpg",
+                "original_cost": 599,
+                "discount_cost": 329,
+                "discount":"45% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Omnigel Gel 75gm",
+                "image": "https://i.ibb.co/7g5r7bD/omnigelgel75gm.jpg",
+                "original_cost": 210,
+                "discount_cost": 147,
+                "discount":"30% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Volini Pain Relief Gel - 30gm",
+                "image": "https://i.ibb.co/V970mwB/volinipainreliefgeltubeof75g.jpg",
+                "original_cost": 130,
+                "discount_cost": 91,
+                "discount":"30% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Volin Pain Relief Gel Tube Of 75G",
+                "image": "https://i.ibb.co/Gt3KHrJ/volinipainreliefspray.jpg",
+                "original_cost": 245,
+                "discount_cost": 203,
+                "discount":"17% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Zandu Ultra Power Balm 8Ml",
+                "image": "https://i.ibb.co/5k8kkvN/zanduultrapowerbalm.jpg",
+                "original_cost": 45,
+                "discount_cost": 40,
+                "discount":"10% OFF"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "products_id": 3,
+        "category": "Homeopathic Medicine",
+        "sub_category":[
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Allen A11 Eczema Drops 30 Ml",
+                "image": "https://i.ibb.co/PZPGVL8/allena11eczemadrops.jpg",
+                "original_cost": 140,
+                "discount_cost": 98,
+                "discount":"30% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Allen A37 Renal Calculi Drops 30ml",
+                "image": "https://i.ibb.co/8N82P2D/allena37renalcalculidrops.jpg",
+                "original_cost": 145,
+                "discount_cost": 101,
+                "discount":"30% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Allen A39 Anti Obesity Drops 30ml",
+                "image": "https://i.ibb.co/Hp8PHys/allena39antiobesitydrops.jpg",
+                "original_cost": 145,
+                "discount_cost": 101,
+                "discount":"30% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Allen A46 ",
+                "image": "https://i.ibb.co/7SL3RnZ/allena46antidandruffdrops.jpg",
+                "original_cost": 145,
+                "discount_cost": 101,
+                "discount":"30% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Allen A86 Protenuria Drops 30ml",
+                "image": "https://i.ibb.co/Jpy0N5n/allena86proteinuriadrops.jpg",
+                "original_cost": 160,
+                "discount_cost": 112,
+                "discount":"30% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Allen Arsenicum Album 30ml",
+                "image": "https://i.ibb.co/nwXzbc3/allenarsenicumalbum.jpg",
+                "original_cost": 70,
+                "discount_cost": 57,
+                "discount":"18% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Baksons Acne Aid Tablet 75",
+                "image": "https://i.ibb.co/MD69TjB/baksonsacneaidtablet.jpg",
+                "original_cost": 170,
+                "discount_cost": 119,
+                "discount":"30% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Wheezal Wl 46 Drops 30ml",
+                "image": "https://i.ibb.co/RQ1rTSp/wheezalwl11drops.jpg",
+                "original_cost": 140,
+                "discount_cost": 98,
+                "discount":"30% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Baksons B23 Skin Drops 30ml",
+                "image": "https://i.ibb.co/L9yNpPT/baksonsb23skindrops.jpg",
+                "original_cost": 160,
+                "discount_cost": 112,
+                "discount":"30% OFF"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "products_id": 3,
+        "category": "Sexual Wellness",
+        "sub_category":[
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Charak Neo Tablets",
+                "image": "https://i.ibb.co/V2qPdsf/charakneotablets.jpg",
+                "original_cost": 128,
+                "discount_cost": 96,
+                "discount":"25% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Everherb Shilajit 500mg - Natural Vigour Improvement",
+                "image": "https://i.ibb.co/WvjL49M/everherbshilajit.jpg",
+                "original_cost": 999,
+                "discount_cost": 499,
+                "discount":"50% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Himalaya Confido Tablets 60'S",
+                "image": "https://i.ibb.co/9tGcgtd/himalayaconfidotablets.jpg",
+                "original_cost": 150,
+                "discount_cost": 126,
+                "discount":"13% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Himalaya Gokshura Tablets 60'S",
+                "image": "https://i.ibb.co/pjwV4sj/himalayagokshuratablets.jpg",
+                "original_cost": 200,
+                "discount_cost": 160,
+                "discount":"20% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Himalaya Himcolin Gel - 30g",
+                "image": "https://i.ibb.co/Kz4dFLq/himalayahimcolingel.jpg",
+                "original_cost": 175,
+                "discount_cost": 147,
+                "discount":"16% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Himalaya Himplasia Tablets - 30'S",
+                "image": "https://i.ibb.co/GHS8LXy/himalayahimplasiatablets.jpg",
+                "original_cost": 160,
+                "discount_cost": 131,
+                "discount":"18% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "",
+                "image": "https://i.ibb.co/mGttD0y/himalayatentexfortetablets.jpg",
+                "original_cost": 80,
+                "discount_cost": 72,
+                "discount":"10% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Himalaya Wellness Pure Herbs Kapikachhu Sexual Wellness Tablets Bottle of 60",
+                "image": "https://i.ibb.co/xLpJK8k/himalayawellnesspureherbskapikachhu.jpg",
+                "original_cost": 180,
+                "discount_cost": 162,
+                "discount":"10% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Kapiva Himalayan Shilajit Resin - 20g",
+                "image": "https://i.ibb.co/NrNbW52/kapivahimalayanshilajitresin.jpg",
+                "original_cost": 1499,
+                "discount_cost": 1124,
+                "discount":"25% OFF"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "products_id": 4,
+        "category": "Covid Test Kits",
+        "sub_category":[
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Covifind",
+                "image": "https://i.ibb.co/vHVPGm2/covifind-covid-19-rapid-antigen.jpg",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount":""
+            },
+            {
+                "subcategory_id": ,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount":""
+            },
+            {
+                "subcategory_id": ,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount":""
+            },
+            {
+                "subcategory_id": ,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount":""
+            },
+            {
+                "subcategory_id": ,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount":""
+            },
+            {
+                "subcategory_id": ,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount":""
+            },
+            {
+                "subcategory_id": ,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount":""
+            },
+            {
+                "subcategory_id": ,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount":""
+            },
+            {
+                "subcategory_id": ,
+                "subcategory_name": "",
+                "image": "",
+                "original_cost": ,
+                "discount_cost": ,
+                "discount":""
+            }
+        ]
     }
 ]
