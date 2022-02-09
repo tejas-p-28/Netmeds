@@ -32,9 +32,9 @@ a{
     float: left;
 }
 .weather{
-    float: left;
+    float: right;
     width: 14%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 #icon{
     float: left;
@@ -66,7 +66,7 @@ select{
     border: 1px solid grey;
     width: 15%;
     background: #f1f1f1;
-    height: 50px;
+    height: 48px;
     margin-top: 1%;
 }
 .fa-caret-down{
@@ -125,12 +125,14 @@ form.example button:hover {
 .nav-link{
     font-size: 20px;
 }
-.btn-outline-success{
-    float: left !important;
-    height:50px !important;
-    width: 50px !important;
+.btn-danger1{
+    float: right !important;
+    height:45px !important;
+    width: 65px !important;
     margin-top: 1%;
-    margin-left: ;
+    margin-left: 0%;
+    background-color: #da3c4c;
+    color: white;
 }
 
 
@@ -172,9 +174,9 @@ hr{
 /*modal css starts*/
     .modal{
         height: auto !important;
-        width: 80% !important;
+        width: 50% !important;
         background-color: rgb(248, 225, 225);
-        margin-left: 10%;
+        margin-left: 25%;
         margin-top: 5%;
         border: 0px solid white;
         flex-direction: center;
