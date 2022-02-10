@@ -30,9 +30,5 @@
     {
         "products_id": 10,
         "products_name": "Diabetic Care"       
-    },
-    {
-        "products_id": 11,
-        "products_name": "Personal Care"       
     }
 ]

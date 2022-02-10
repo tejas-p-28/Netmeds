@@ -354,7 +354,7 @@
         "id": 6,
         "products_id": 3,
         "category": "Baby Food",
-        "sub_category":[
+        "sub_category": [
             {
                 "subcategory_id": 1,
                 "subcategory_name": "Aptamil Stage 1 Infant Formula Baby Food Tin of 400g",
@@ -415,14 +415,14 @@
         "id": 7,
         "products_id": 3,
         "category": "Diabetic Care",
-        "sub_category":[
+        "sub_category": [
             {
                 "subcategory_id": 1,
                 "subcategory_name": "Liveasy Foods Chia Seeds",
                 "image": "https://i.ibb.co/yfC2Wfz/liveasyfoodschiaseeds.jpg",
                 "original_cost": 249,
                 "discount_cost": 124,
-                "discount":"50% OFF"
+                "discount": "50% OFF"
             },
             {
                 "subcategory_id": 2,
@@ -430,7 +430,7 @@
                 "image": "https://i.ibb.co/Ykx177b/liveasywellnesszerocaloriesugarsubstitute.jpg",
                 "original_cost": 175,
                 "discount_cost": 157,
-                "discount":"10% OFF"
+                "discount": "10% OFF"
             },
             {
                 "subcategory_id": 3,
@@ -438,7 +438,7 @@
                 "image": "https://i.ibb.co/tpHh3Jm/sugarfreegoldsweetnertablets.jpg",
                 "original_cost": 285,
                 "discount_cost": 236,
-                "discount":"17% OFF"
+                "discount": "17% OFF"
             },
             {
                 "subcategory_id": 4,
@@ -446,7 +446,7 @@
                 "image": "https://i.ibb.co/4jHPnT9/sugarfreegreenmadefromstevia.jpg",
                 "original_cost": 170,
                 "discount_cost": 141,
-                "discount":"17% OFF"
+                "discount": "17% OFF"
             },
             {
                 "subcategory_id": 5,
@@ -454,7 +454,7 @@
                 "image": "https://i.ibb.co/S7drLtV/sugarfreenaturasweetnertablets.jpg",
                 "original_cost": 300,
                 "discount_cost": 261,
-                "discount":"13% OFF"
+                "discount": "13% OFF"
             },
             {
                 "subcategory_id": 6,
@@ -462,7 +462,7 @@
                 "image": "https://i.ibb.co/Km1T7QV/sugarlitesweetnetpowder.jpg",
                 "original_cost": 99,
                 "discount_cost": 82,
-                "discount":"17% OFF"
+                "discount": "17% OFF"
             },
             {
                 "subcategory_id": 7,
@@ -470,7 +470,7 @@
                 "image": "https://i.ibb.co/bgjtZbK/zindagiinstantgreencoffeepowder.jpg",
                 "original_cost": 295,
                 "discount_cost": 250,
-                "discount":"15% OFF"
+                "discount": "15% OFF"
             },
             {
                 "subcategory_id": 8,
@@ -478,7 +478,7 @@
                 "image": "https://i.ibb.co/P6v58Rw/zindagistevialiquiddrops.jpg",
                 "original_cost": 190,
                 "discount_cost": 161,
-                "discount":"15% OFF"
+                "discount": "15% OFF"
             },
             {
                 "subcategory_id": 9,
@@ -486,7 +486,7 @@
                 "image": "https://i.ibb.co/4KsFCkZ/zindagisteviasachetssugarfree.jpg",
                 "original_cost": 165,
                 "discount_cost": 140,
-                "discount":"15% OFF"
+                "discount": "15% OFF"
             }
         ]
     },
@@ -494,14 +494,14 @@
         "id": 8,
         "products_id": 3,
         "category": "Health Food",
-        "sub_category":[
+        "sub_category": [
             {
                 "subcategory_id": 1,
                 "subcategory_name": "Dabur Honey Squeezy - 400g (Buy 1 Get 1 Free)",
                 "image": "https://i.ibb.co/x6SvzMJ/daburhoneysqueezy.jpg",
                 "original_cost": 330,
                 "discount_cost": 283,
-                "discount":"14% OFF"
+                "discount": "14% OFF"
             },
             {
                 "subcategory_id": 2,
@@ -509,7 +509,7 @@
                 "image": "https://i.ibb.co/y5CRtdM/liveasyfoodshealthyseedmix.jpg",
                 "original_cost": 399,
                 "discount_cost": 219,
-                "discount":"45% OFF"
+                "discount": "45% OFF"
             },
             {
                 "subcategory_id": 3,
@@ -517,7 +517,7 @@
                 "image": "https://i.ibb.co/Lx4bC7P/liveasyfoodsroastedperiperimakhana.jpg",
                 "original_cost": 299,
                 "discount_cost": 149,
-                "discount":"50% OFF"
+                "discount": "50% OFF"
             },
             {
                 "subcategory_id": 4,
@@ -525,7 +525,7 @@
                 "image": "https://i.ibb.co/jMVYCNk/pediasure7-chocolaterefill.jpg",
                 "original_cost": 520,
                 "discount_cost": 483,
-                "discount":"7% OFF"
+                "discount": "7% OFF"
             },
             {
                 "subcategory_id": 5,
@@ -533,7 +533,7 @@
                 "image": "https://i.ibb.co/FJtSHMz/ritebitemaxproteinultimatechoco.jpg",
                 "original_cost": 950,
                 "discount_cost": 807,
-                "discount":"15% OFF"
+                "discount": "15% OFF"
             },
             {
                 "subcategory_id": 6,
@@ -541,7 +541,7 @@
                 "image": "https://i.ibb.co/D564r8d/saffolahoneyppure.jpg",
                 "original_cost": 240,
                 "discount_cost": 192,
-                "discount":"20% OFF"
+                "discount": "20% OFF"
             },
             {
                 "subcategory_id": 7,
@@ -549,7 +549,7 @@
                 "image": "https://i.ibb.co/kMjRqqC/threptinchocolatenutritiondiskettes.jpg",
                 "original_cost": 459,
                 "discount_cost": 390,
-                "discount":"15% OFF"
+                "discount": "15% OFF"
             },
             {
                 "subcategory_id": 8,
@@ -557,7 +557,7 @@
                 "image": "https://i.ibb.co/pyJtMPg/threptinlitevanilabutterscotch.jpg",
                 "original_cost": 459,
                 "discount_cost": 358,
-                "discount":"22% OFF"
+                "discount": "22% OFF"
             },
             {
                 "subcategory_id": 9,
@@ -565,7 +565,7 @@
                 "image": "https://i.ibb.co/8zz47HZ/zandupurehoneyhealthfoodbottle.jpg",
                 "original_cost": 220,
                 "discount_cost": 187,
-                "discount":"15% OFF"
+                "discount": "15% OFF"
             }
         ]
     },
@@ -573,14 +573,14 @@
         "id": 9,
         "products_id": 3,
         "category": "Nutrition Drinks",
-        "sub_category":[
+        "sub_category": [
             {
                 "subcategory_id": 1,
                 "subcategory_name": "B-Protin Chocolate Nutrition Supplement Bottle of 500g",
                 "image": "https://i.ibb.co/S3XKJss/bprotinchocolatesupplement.jpg",
                 "original_cost": 525,
                 "discount_cost": 341,
-                "discount":"35% OFF"
+                "discount": "35% OFF"
             },
             {
                 "subcategory_id": 2,
@@ -588,7 +588,7 @@
                 "image": "https://i.ibb.co/F8Q4kH2/cadburybournvitadrink.jpg",
                 "original_cost": 223,
                 "discount_cost": 200,
-                "discount":"10% OFF"
+                "discount": "10% OFF"
             },
             {
                 "subcategory_id": 3,
@@ -596,7 +596,7 @@
                 "image": "https://i.ibb.co/4VXkts4/cadburybournvitalilchamps.jpg",
                 "original_cost": 295,
                 "discount_cost": 250,
-                "discount":"15% OFF"
+                "discount": "15% OFF"
             },
             {
                 "subcategory_id": 4,
@@ -604,7 +604,7 @@
                 "image": "https://i.ibb.co/QfrTLks/ensurechocolatedrink.jpg",
                 "original_cost": 580,
                 "discount_cost": 533,
-                "discount":"8% OFF"
+                "discount": "8% OFF"
             },
             {
                 "subcategory_id": 5,
@@ -612,7 +612,7 @@
                 "image": "https://i.ibb.co/w6s5Vzb/ensurevanilanutritiondrink.jpg",
                 "original_cost": 590,
                 "discount_cost": 542,
-                "discount":"8% OFF"
+                "discount": "8% OFF"
             },
             {
                 "subcategory_id": 6,
@@ -620,7 +620,7 @@
                 "image": "https://i.ibb.co/cwCX9sD/everherbamlajuicerichinvitaminc.jpg",
                 "original_cost": 399,
                 "discount_cost": 199,
-                "discount":"50% OFF"
+                "discount": "50% OFF"
             },
             {
                 "subcategory_id": 7,
@@ -628,7 +628,7 @@
                 "image": "https://i.ibb.co/PmYNLVR/grovivachocolatechildnutritionsupplement.jpg",
                 "original_cost": 645,
                 "discount_cost": 516,
-                "discount":"20% OFF"
+                "discount": "20% OFF"
             },
             {
                 "subcategory_id": 8,
@@ -636,7 +636,7 @@
                 "image": "https://i.ibb.co/KKHFmn0/horlickswomenplus.jpg",
                 "original_cost": 299,
                 "discount_cost": 278,
-                "discount":"7% OFF"
+                "discount": "7% OFF"
             }
         ]
     },
@@ -644,14 +644,14 @@
         "id": 10,
         "products_id": 5,
         "category": "Ayurvedic Medicine",
-        "sub_category":[
+        "sub_category": [
             {
                 "subcategory_id": 1,
                 "subcategory_name": "Calcimax 500 Health Supplement Tablets (500 Mg Of Calcium)Box Of 30",
                 "image": "https://i.ibb.co/wp0WdxK/calcimax500healthsupplementtablets.jpg",
                 "original_cost": 359,
                 "discount_cost": 269,
-                "discount":"25% OFF"
+                "discount": "25% OFF"
             },
             {
                 "subcategory_id": 2,
@@ -665,7 +665,7 @@
                 "image": "https://i.ibb.co/N1DfW63/himalayaliv52tablets.jpg",
                 "original_cost": 170,
                 "discount_cost": 130,
-                "discount":"23% OFF"
+                "discount": "23% OFF"
             },
             {
                 "subcategory_id": 4,
@@ -673,7 +673,7 @@
                 "image": "https://i.ibb.co/YRQk9P4/himalayaseptilintablets.jpg",
                 "original_cost": 165,
                 "discount_cost": 127,
-                "discount":"23% OFF"
+                "discount": "23% OFF"
             },
             {
                 "subcategory_id": 5,
@@ -681,7 +681,7 @@
                 "image": "https://i.ibb.co/T8bCF89/liveasywellnesscalciummagesium.jpg",
                 "original_cost": 599,
                 "discount_cost": 329,
-                "discount":"45% OFF"
+                "discount": "45% OFF"
             },
             {
                 "subcategory_id": 6,
@@ -689,7 +689,7 @@
                 "image": "https://i.ibb.co/7g5r7bD/omnigelgel75gm.jpg",
                 "original_cost": 210,
                 "discount_cost": 147,
-                "discount":"30% OFF"
+                "discount": "30% OFF"
             },
             {
                 "subcategory_id": 7,
@@ -697,7 +697,7 @@
                 "image": "https://i.ibb.co/V970mwB/volinipainreliefgeltubeof75g.jpg",
                 "original_cost": 130,
                 "discount_cost": 91,
-                "discount":"30% OFF"
+                "discount": "30% OFF"
             },
             {
                 "subcategory_id": 8,
@@ -705,7 +705,7 @@
                 "image": "https://i.ibb.co/Gt3KHrJ/volinipainreliefspray.jpg",
                 "original_cost": 245,
                 "discount_cost": 203,
-                "discount":"17% OFF"
+                "discount": "17% OFF"
             },
             {
                 "subcategory_id": 9,
@@ -713,7 +713,7 @@
                 "image": "https://i.ibb.co/5k8kkvN/zanduultrapowerbalm.jpg",
                 "original_cost": 45,
                 "discount_cost": 40,
-                "discount":"10% OFF"
+                "discount": "10% OFF"
             }
         ]
     },
@@ -721,14 +721,14 @@
         "id": 10,
         "products_id": 5,
         "category": "Homeopathic Medicine",
-        "sub_category":[
+        "sub_category": [
             {
                 "subcategory_id": 1,
                 "subcategory_name": "Allen A11 Eczema Drops 30 Ml",
                 "image": "https://i.ibb.co/PZPGVL8/allena11eczemadrops.jpg",
                 "original_cost": 140,
                 "discount_cost": 98,
-                "discount":"30% OFF"
+                "discount": "30% OFF"
             },
             {
                 "subcategory_id": 2,
@@ -736,7 +736,7 @@
                 "image": "https://i.ibb.co/8N82P2D/allena37renalcalculidrops.jpg",
                 "original_cost": 145,
                 "discount_cost": 101,
-                "discount":"30% OFF"
+                "discount": "30% OFF"
             },
             {
                 "subcategory_id": 3,
@@ -744,7 +744,7 @@
                 "image": "https://i.ibb.co/Hp8PHys/allena39antiobesitydrops.jpg",
                 "original_cost": 145,
                 "discount_cost": 101,
-                "discount":"30% OFF"
+                "discount": "30% OFF"
             },
             {
                 "subcategory_id": 4,
@@ -752,7 +752,7 @@
                 "image": "https://i.ibb.co/7SL3RnZ/allena46antidandruffdrops.jpg",
                 "original_cost": 145,
                 "discount_cost": 101,
-                "discount":"30% OFF"
+                "discount": "30% OFF"
             },
             {
                 "subcategory_id": 5,
@@ -760,7 +760,7 @@
                 "image": "https://i.ibb.co/Jpy0N5n/allena86proteinuriadrops.jpg",
                 "original_cost": 160,
                 "discount_cost": 112,
-                "discount":"30% OFF"
+                "discount": "30% OFF"
             },
             {
                 "subcategory_id": 6,
@@ -768,7 +768,7 @@
                 "image": "https://i.ibb.co/nwXzbc3/allenarsenicumalbum.jpg",
                 "original_cost": 70,
                 "discount_cost": 57,
-                "discount":"18% OFF"
+                "discount": "18% OFF"
             },
             {
                 "subcategory_id": 7,
@@ -776,7 +776,7 @@
                 "image": "https://i.ibb.co/MD69TjB/baksonsacneaidtablet.jpg",
                 "original_cost": 170,
                 "discount_cost": 119,
-                "discount":"30% OFF"
+                "discount": "30% OFF"
             },
             {
                 "subcategory_id": 8,
@@ -784,7 +784,7 @@
                 "image": "https://i.ibb.co/RQ1rTSp/wheezalwl11drops.jpg",
                 "original_cost": 140,
                 "discount_cost": 98,
-                "discount":"30% OFF"
+                "discount": "30% OFF"
             },
             {
                 "subcategory_id": 9,
@@ -792,7 +792,7 @@
                 "image": "https://i.ibb.co/L9yNpPT/baksonsb23skindrops.jpg",
                 "original_cost": 160,
                 "discount_cost": 112,
-                "discount":"30% OFF"
+                "discount": "30% OFF"
             }
         ]
     },
@@ -800,14 +800,14 @@
         "id": 10,
         "products_id": 5,
         "category": "Sexual Wellness",
-        "sub_category":[
+        "sub_category": [
             {
                 "subcategory_id": 1,
                 "subcategory_name": "Charak Neo Tablets",
                 "image": "https://i.ibb.co/V2qPdsf/charakneotablets.jpg",
                 "original_cost": 128,
                 "discount_cost": 96,
-                "discount":"25% OFF"
+                "discount": "25% OFF"
             },
             {
                 "subcategory_id": 2,
@@ -815,7 +815,7 @@
                 "image": "https://i.ibb.co/WvjL49M/everherbshilajit.jpg",
                 "original_cost": 999,
                 "discount_cost": 499,
-                "discount":"50% OFF"
+                "discount": "50% OFF"
             },
             {
                 "subcategory_id": 3,
@@ -823,7 +823,7 @@
                 "image": "https://i.ibb.co/9tGcgtd/himalayaconfidotablets.jpg",
                 "original_cost": 150,
                 "discount_cost": 126,
-                "discount":"13% OFF"
+                "discount": "13% OFF"
             },
             {
                 "subcategory_id": 4,
@@ -831,7 +831,7 @@
                 "image": "https://i.ibb.co/pjwV4sj/himalayagokshuratablets.jpg",
                 "original_cost": 200,
                 "discount_cost": 160,
-                "discount":"20% OFF"
+                "discount": "20% OFF"
             },
             {
                 "subcategory_id": 5,
@@ -839,7 +839,7 @@
                 "image": "https://i.ibb.co/Kz4dFLq/himalayahimcolingel.jpg",
                 "original_cost": 175,
                 "discount_cost": 147,
-                "discount":"16% OFF"
+                "discount": "16% OFF"
             },
             {
                 "subcategory_id": 6,
@@ -847,7 +847,7 @@
                 "image": "https://i.ibb.co/GHS8LXy/himalayahimplasiatablets.jpg",
                 "original_cost": 160,
                 "discount_cost": 131,
-                "discount":"18% OFF"
+                "discount": "18% OFF"
             },
             {
                 "subcategory_id": 7,
@@ -855,7 +855,7 @@
                 "image": "https://i.ibb.co/mGttD0y/himalayatentexfortetablets.jpg",
                 "original_cost": 80,
                 "discount_cost": 72,
-                "discount":"10% OFF"
+                "discount": "10% OFF"
             },
             {
                 "subcategory_id": 8,
@@ -863,7 +863,7 @@
                 "image": "https://i.ibb.co/xLpJK8k/himalayawellnesspureherbskapikachhu.jpg",
                 "original_cost": 180,
                 "discount_cost": 162,
-                "discount":"10% OFF"
+                "discount": "10% OFF"
             },
             {
                 "subcategory_id": 9,
@@ -871,7 +871,7 @@
                 "image": "https://i.ibb.co/NrNbW52/kapivahimalayanshilajitresin.jpg",
                 "original_cost": 1499,
                 "discount_cost": 1124,
-                "discount":"25% OFF"
+                "discount": "25% OFF"
             }
         ]
     },
@@ -879,7 +879,7 @@
         "id": 11,
         "products_id": 7,
         "category": "Covid Test Kits",
-        "sub_category":[
+        "sub_category": [
             {
                 "subcategory_id": 1,
                 "subcategory_name": "Covifind Covid-19 Rapid Antigen Self Test By Meril",
@@ -916,11 +916,627 @@
     },
     {
         "id": 12,
-        "products_id": 4,
+        "products_id": 7,
         "category": "Disinfectants",
         "sub_category": [
             {
-
+                "subcategory_id": 1,
+                "subcategory_name": "B D Alcohol Swabs Box Of 100'S",
+                "image": "https://i.ibb.co/r0L6yZj/BDalcoholswabsbox-of-100-s.jpg",
+                "original_cost": 300,
+                "discount_cost": 234,
+                "discount": "22% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Cofsils Experdine Gargle 100Ml",
+                "image": "https://i.ibb.co/xSgnWQc/cofsilsexperdinegargle100ml.jpg",
+                "original_cost": 347,
+                "discount_cost": 281,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Dettol Antiseptic Liquid Bottle Of 550Ml",
+                "image": "https://i.ibb.co/GnjnsHX/dettolantisepticliquid550ml.jpg",
+                "discount_cost": 194
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Dettol Liquid Disinfectant Sanitizer Spray Bottle - Spring Blossom ",
+                "image": "https://i.ibb.co/ChX5Zg5/dettoldisinfectantsanitizerbottle.jpg",
+                "original_cost": 159,
+                "discount_cost": 128,
+                "discount": "19% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Dettol Disinfection Kit (Clinical Strength Sanitizer, Disinfectant Wipes & Disinfection Spray",
+                "image": "https://i.ibb.co/SNdQhvV/dettoldisinfectionkit.jpg",
+                "original_cost": 628,
+                "discount_cost": 521,
+                "discount": "17% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Dettol Liquid Disinfectant For Floor Cleaner, Surface Disinfection Personal Hygiene Lime Fresh 500Ml",
+                "image": "https://i.ibb.co/nbdyH6j/dettolliquiddisinfectant.jpg",
+                "original_cost": 193,
+                "discount_cost": 165,
+                "discount": "14% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Lizol Citrus Disinfectant Floor Cleaner Liquid Bottle of 975Ml",
+                "image": "https://i.ibb.co/T1GFt5F/lizolcitrusdisinfectantfloorcleanerliquid.jpg",
+                "original_cost": 196,
+                "discount_cost": 188,
+                "discount": "4% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Lupisafe Disinfectant Spray - 170g",
+                "image": "https://i.ibb.co/GxhTTPw/lupisafedisinfectantspray.jpg",
+                "original_cost": 159,
+                "discount_cost": 135,
+                "discount": "15% OFF"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "products_id": 7,
+        "category": "Masks",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "3 Ply Mask Packet Of 50",
+                "image": "https://i.ibb.co/xCh0kKY/3plymaskpacketof50.jpg",
+                "original_cost": 1251,
+                "discount_cost": 187,
+                "discount": "85% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Bodyguard N95 + Pm2.5 Ffp2 Anti Pollution Face Mask With 5 Layer Protection - Pack Of 1",
+                "image": "https://i.ibb.co/W3Y7Jvm/bodyguardn95.jpg",
+                "original_cost": 135,
+                "discount_cost": 101,
+                "discount": "25% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Dettol D95 Mask Anti Virus Reusable & Washable (Black Colour)",
+                "image": "https://i.ibb.co/87tb7Z4/dettold95maskantivirus.jpg",
+                "original_cost": 299,
+                "discount_cost": 239,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Dettol N95 Mask Antivirus Reusable & Washable (Black Large) ",
+                "image": "https://i.ibb.co/Hd79gYN/dettoln95maskantivirus.jpg",
+                "original_cost": 799,
+                "discount_cost": 719,
+                "discount": "10% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Fusion Flo Ff 3065 Mask - Anti Pollution | Anti Dust | Anti Bacterial | Anti Viral",
+                "image": "https://i.ibb.co/MBDYXMS/fusionfloff3065mask.jpg",
+                "discount_cost": 99
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Tri-Activ N95 Masks With 6 Layer Protection Anti-Virus Coating 99.5% Filtration Efficiency",
+                "image": "https://i.ibb.co/z8SFKBp/triactivn95maskswith6layer.jpg",
+                "original_cost": 149,
+                "discount_cost": 89,
+                "discount": "40% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Wildcraft Supermask W95 Reusable Outdoor Respirator Mask Anti-Dust Anti-Bacterial Anti-Pollution L",
+                "image": "https://i.ibb.co/HhBwxNw/wildcraftsupermask2w95.jpg",
+                "original_cost": 200,
+                "discount_cost": 180,
+                "discount": "10% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "3 Ply Mask Packet Of 100",
+                "image": "https://i.ibb.co/gRtz3r5/3plymaskpacketof100.jpg",
+                "original_cost": 1000,
+                "discount_cost": 400,
+                "discount": "60% OFF"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "products_id": 7,
+        "category": " Hand Sanitizer",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Ciphands Hand Sanitizer Bottle Of 100 Ml",
+                "image": "https://i.ibb.co/dK2jGhf/ciphandshandsanitizer.jpg",
+                "original_cost": 50,
+                "discount_cost": 40,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Ciphands Hand Sanitizer 500 Ml",
+                "image": "https://i.ibb.co/52TRj1r/ciphandsprofessional.jpg",
+                "original_cost": 249,
+                "discount_cost": 199,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Dettol Hand Sanitizer Liquid Gel Pump | 70% Alcohol, Kills 99.9% Germs- 200ml",
+                "image": "https://i.ibb.co/5Rfc21v/dettolhandsanitizer.jpg",
+                "original_cost": 100,
+                "discount_cost": 95,
+                "discount": "5% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Liveasy Essentials Instant Hand Sanitizer-Kills 99.9% Germs - Gel Based - 200ml",
+                "image": "https://i.ibb.co/8gXFNgL/liveasyessentialsinstant.jpg",
+                "original_cost": 100,
+                "discount_cost": 80,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Lupisafe Alcohol Based Hand Sanitizer - 100ml",
+                "image": "https://i.ibb.co/7kZQwZj/lupisafesanitizer.jpg",
+                "original_cost": 69,
+                "discount_cost": 44,
+                "discount": "36% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Luxor Nano Pen Sanitizer Spray With Refill Bottle 10 Ml + 20 Ml - Classic",
+                "image": "https://i.ibb.co/sK9QyLD/luxornanopensanitizerspray.jpg",
+                "original_cost": 70,
+                "discount_cost": 38,
+                "discount": "45% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Samrvir Forest Herbs Hand Sanitizer 500 Ml",
+                "image": "https://i.ibb.co/714L8qB/samrvirforestherbs.jpg",
+                "original_cost": 250,
+                "discount_cost": 200,
+                "discount": "20% OFF"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "products_id": 8,
+        "category": "Condoms",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Durex Condom Air- 10s Pack Of 3",
+                "image": "https://i.ibb.co/d6kSmyC/durexairpacketof10condoms.jpg",
+                "original_cost": 684,
+                "discount_cost": 513,
+                "discount": "25% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Durex Extra Thin Packet Of 10 Condoms",
+                "image": "https://i.ibb.co/f2tVSKS/durexextrathinpacketof10condoms.jpg",
+                "original_cost": 228,
+                "discount_cost": 164,
+                "discount": "28% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Durex Extra Time Packet Of 10 Condoms",
+                "image": "https://i.ibb.co/zGMgcBP/durexextratimepacketof10condoms.jpg",
+                "original_cost": 228,
+                "discount_cost": 157,
+                "discount": "31% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Durex Invisible Super Ultra Thin Condoms For Men - 10s",
+                "image": "https://i.ibb.co/crtfZy7/durexinvisibleultrathincondoms.jpg",
+                "original_cost": 400,
+                "discount_cost": 320,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Manforce Wild Chocolate Box Of 10 Condoms",
+                "image": "https://i.ibb.co/Twf5JgP/manforcewildchocolateboxof10condoms.jpg",
+                "original_cost": 80,
+                "discount_cost": 56,
+                "discount": "30% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Skore Duo Max Premium Condoms - 10'S",
+                "image": "https://i.ibb.co/CznpDXm/skoreduomaxpremiumcondoms.jpg",
+                "original_cost": 300,
+                "discount_cost": 240,
+                "discount": "20% OFF"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "products_id": 8,
+        "category": "Oral Contraceptives",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "I-Pill Daily Oral Contraceptive Pills For 21 Days",
+                "image": "https://i.ibb.co/DwNG9xf/ipilldailyoralcontraceptivepills.jpg",
+                "original_cost": 60,
+                "discount_cost": 45,
+                "discount": "25% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "I Pill Tab",
+                "image": "https://i.ibb.co/CK80g4c/ipilltab.jpg",
+                "original_cost": 110,
+                "discount_cost": 99,
+                "discount": "10% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Unwanted 72 Strip Of 1 Tablet",
+                "image": "https://i.ibb.co/v3c70Ck/unwanted72-tripof1tablet.jpg",
+                "original_cost": 110,
+                "discount_cost": 88,
+                "discount": "20% OFF"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "products_id": 8,
+        "category": "Pregnancy Support",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "I Can Pregnancy Test Kit",
+                "image": "https://i.ibb.co/gSdnnY7/icanpregnancytestkit.jpg",
+                "original_cost": 55,
+                "discount_cost": 35,
+                "discount": "36% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Make Sure Pregnancy Test Kits - Mini",
+                "image": "https://i.ibb.co/kq5zXwb/makesurepregnancytestkits.jpg",
+                "original_cost": 50,
+                "discount_cost": 40,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Mamaxpert Pregtest Pregnancy Test Kit",
+                "image": "https://i.ibb.co/Th5KmJK/mamaxpertpregtestpregnancytestkit.jpg",
+                "original_cost": 70,
+                "discount_cost": 66,
+                "discount": "5% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Prega News Pregnancy Test Kit",
+                "image": "https://i.ibb.co/C2NyVNH/preganewspregnancytestkit.jpg",
+                "original_cost": 55,
+                "discount_cost": 33,
+                "discount": "40% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Pregline Card Pregnancy Test Kit",
+                "image": "https://i.ibb.co/pQby79H/preglinecardpregnancytestkit.jpg",
+                "original_cost": 65,
+                "discount_cost": 61,
+                "discount": "5% OFF"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "products_id": 9,
+        "category": "Kitchen Essential",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Emami Emasol Dish Wash Gel- Lemon - 900 Ml",
+                "image": "https://i.ibb.co/44tmC9r/emamiemasoldishwashgel.jpg",
+                "original_cost": 170,
+                "discount_cost": 146,
+                "discount": "14% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Exo Bar 300gm",
+                "image": "https://i.ibb.co/3yM7kzZ/exobar300gm.jpg",
+                "original_cost": 25,
+                "discount_cost": 21,
+                "discount": "15% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Exo Safai Big - Scrubber (Set Of 4)",
+                "image": "https://i.ibb.co/7VH2d7v/exosafaibigscrubber.jpg",
+                "original_cost": 60,
+                "discount_cost": 51,
+                "discount": "14% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Exo Steel Scrubber (Set Of 3)",
+                "image": "https://i.ibb.co/6mVPtvZ/exosteelscrubber.jpg",
+                "original_cost": 45,
+                "discount_cost": 37,
+                "discount": "16% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Exo Super Gel Ginger Dishwash Gel 250 G",
+                "image": "https://i.ibb.co/fxtRW04/exosupergelginger.jpg",
+                "original_cost": 50,
+                "discount_cost": 43,
+                "discount": "13% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Exo Touch & Shine Round Dishwash Bar (700 G)",
+                "image": "https://i.ibb.co/G56vLDM/exotouch-shinerounddishwashbar.jpg",
+                "original_cost": 69,
+                "discount_cost": 58,
+                "discount": "15% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Godrej Protekt Germ Protection Dish Wash Liquid Gel, Removes Grease, Lime Fragnance - 750ml",
+                "image": "https://i.ibb.co/L63thG3/godrejprotektgermprotectiondishwash.jpg",
+                "original_cost": 155,
+                "discount_cost": 124,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Pril Dishwash Bar Lime Vinegar 400g",
+                "image": "https://i.ibb.co/B6w6qgQ/prillime-vinegardishwashbar.jpg",
+                "original_cost": 34,
+                "discount_cost": 28,
+                "discount": "15% OFF"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "products_id": 9,
+        "category": "Mosquito And Pest Control",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Bodyguard Natural Mosquito Repellent Cream With Aloe Vera And Neem Extracts - 50gm",
+                "image": "https://i.ibb.co/vhG8QVG/bodyguardnaturalmosquitorepellent.jpg",
+                "original_cost": 75,
+                "discount_cost": 60,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Buddsbuddy Mosquito Repellent Patches - 12pc",
+                "image": "https://i.ibb.co/xSSHtg5/buddsbuddymosquitorepellentpatches.jpg",
+                "original_cost": 179,
+                "discount_cost": 133,
+                "discount": "23% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Chicco Baby Anti Mosquito Spray 100ml",
+                "image": "https://i.ibb.co/SsbHs1S/chiccobabyantimosquitospray.jpg",
+                "original_cost": 449,
+                "discount_cost": 390,
+                "discount": "13% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Dabur Odomos Naturals Cream 100gm",
+                "image": "https://i.ibb.co/hRJ3n13/daburodomosnaturalscream.jpg",
+                "original_cost": 99,
+                "discount_cost": 82,
+                "discount": "17% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Dr Morepen Quit & Out Mosquito Repellent Cream - 50gm",
+                "image": "https://i.ibb.co/TwHT6gw/drmorepenquit-outmosquitorepellent.jpg",
+                "original_cost": 50,
+                "discount_cost": 40,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Godrej Goodknight Fabric Roll - On - Citrus - 8ml",
+                "image": "https://i.ibb.co/vsxKfF6/godrejgoodknightfabricrollon.jpg",
+                "original_cost": 75,
+                "discount_cost": 60,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "https://i.ibb.co/SVd952g/godrejgoodknightnaturalneemagarbatti.jpg",
+                "image": "https://i.ibb.co/SVd952g/godrejgoodknightnaturalneemagarbatti.jpg",
+                "original_cost": 180,
+                "discount_cost": 153,
+                "discount": "15% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Mamaearth After Bite Lavander And Witchhazel Anti Mosquito Roll-On Tube Of 40 Ml",
+                "image": "https://i.ibb.co/njx3gR9/mamaearthafterbitelavander.jpg",
+                "original_cost": 249,
+                "discount_cost": 211,
+                "discount": "15% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Mamaearth Anti Mosquito Roll-On Bottle Of 8 Ml",
+                "image": "https://i.ibb.co/Csdz4xQ/mamaearthantimosquitorollone.jpg",
+                "original_cost": 99,
+                "discount_cost": 93,
+                "discount": "6% OFF"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "products_id": 9,
+        "category": "Disinfectants",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "B D Alcohol Swabs Box Of 100'S",
+                "image": "https://i.ibb.co/r0L6yZj/BDalcoholswabsbox-of-100-s.jpg",
+                "original_cost": 300,
+                "discount_cost": 234,
+                "discount": "22% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Cofsils Experdine Gargle 100Ml",
+                "image": "https://i.ibb.co/xSgnWQc/cofsilsexperdinegargle100ml.jpg",
+                "original_cost": 347,
+                "discount_cost": 281,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Dettol Antiseptic Liquid Bottle Of 550Ml",
+                "image": "https://i.ibb.co/GnjnsHX/dettolantisepticliquid550ml.jpg",
+                "discount_cost": 194
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Dettol Liquid Disinfectant Sanitizer Spray Bottle - Spring Blossom ",
+                "image": "https://i.ibb.co/ChX5Zg5/dettoldisinfectantsanitizerbottle.jpg",
+                "original_cost": 159,
+                "discount_cost": 128,
+                "discount": "19% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Dettol Disinfection Kit (Clinical Strength Sanitizer, Disinfectant Wipes & Disinfection Spray",
+                "image": "https://i.ibb.co/SNdQhvV/dettoldisinfectionkit.jpg",
+                "original_cost": 628,
+                "discount_cost": 521,
+                "discount": "17% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Dettol Liquid Disinfectant For Floor Cleaner, Surface Disinfection Personal Hygiene Lime Fresh 500Ml",
+                "image": "https://i.ibb.co/nbdyH6j/dettolliquiddisinfectant.jpg",
+                "original_cost": 193,
+                "discount_cost": 165,
+                "discount": "14% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Lizol Citrus Disinfectant Floor Cleaner Liquid Bottle of 975Ml",
+                "image": "https://i.ibb.co/T1GFt5F/lizolcitrusdisinfectantfloorcleanerliquid.jpg",
+                "original_cost": 196,
+                "discount_cost": 188,
+                "discount": "4% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Lupisafe Disinfectant Spray - 170g",
+                "image": "https://i.ibb.co/GxhTTPw/lupisafedisinfectantspray.jpg",
+                "original_cost": 159,
+                "discount_cost": 135,
+                "discount": "15% OFF"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "products_id": 10,
+        "category": "Appliances",
+        "sub_category":[
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Beardo Beard Shaping & Styling Tool Comb",
+                "image": "https://i.ibb.co/jbhgKD1/beardobeardshaping-stylingcomb.jpg",
+                "original_cost": 299,
+                "discount_cost": 424,
+                "discount": "15% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Captain Zack Vet Care - Tazsoothe Itch Relief Biphasic Oil For Dogs, 50 Ml",
+                "image": "https://i.ibb.co/Hz5VqpK/captainzackvetcareitchrelief.jpg",
+                "discount_cost":299
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Ikonic Black Blaze",
+                "image": "https://i.ibb.co/3RysvDg/ikonicblackblaze.jpg",
+                "original_cost": 2150,
+                "discount_cost": 1720,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Ikonic Professional Curl Me Up Hair Curler",
+                "image": "https://i.ibb.co/jzF0WDK/ikonichaircurler.jpg",
+                "original_cost": 2200,
+                "discount_cost": 1848,
+                "discount": "16% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Set Wet Hair Gel For Men, Vertical Hold, Strong Hold, Tube, 100 Ml",
+                "image": "https://i.ibb.co/GdcM19q/setwethairgelformen.jpg",
+                "original_cost": 100,
+                "discount_cost": 75,
+                "discount": "25% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Ustraa Beard Growth Supplement - 60 Ml",
+                "image": "https://i.ibb.co/g49XJLG/ustraabeardgrowthsupplement.jpg",
+                "original_cost": 750,
+                "discount_cost": 562,
+                "discount": "25% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Vega Insta Wave Foldable Hair Dryer (Vhdh-22) White",
+                "image": "https://i.ibb.co/yhhmzZ0/vegainstawavefoldablehairdryer.jpg",
+                "discount_cost": 1499
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Vega Men T1 Beard Trimmer For Men (Vhth-18)",
+                "image": "https://i.ibb.co/Q9rwWyQ/vegament1beardtrimmer.jpg",
+                "original_cost": 999,
+                "discount_cost": 809,
+                "discount": "19% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Vega T-Style Beard Trimmer (Black)",
+                "image": "https://i.ibb.co/wWjBLVy/vegatstylebeardtrimer.jpg",
+                "discount_cost": 1099
             }
         ]
     }
