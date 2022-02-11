@@ -1,8 +1,9 @@
 [
     {
         "id": 1,
-        "name": "Ecosprin",
         "products_id": 1,
+        "category":"A",
+        "name": "Ecosprin",
         "img": "https://ibb.co/JstWYXd",
         "average_rating": 4.2,
         "price": "4.86Rs",

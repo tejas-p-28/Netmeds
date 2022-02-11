@@ -1471,7 +1471,7 @@
         "id": 18,
         "products_id": 10,
         "category": "Appliances",
-        "sub_category":[
+        "sub_category": [
             {
                 "subcategory_id": 1,
                 "subcategory_name": "Beardo Beard Shaping & Styling Tool Comb",
@@ -1484,7 +1484,7 @@
                 "subcategory_id": 2,
                 "subcategory_name": "Captain Zack Vet Care - Tazsoothe Itch Relief Biphasic Oil For Dogs, 50 Ml",
                 "image": "https://i.ibb.co/Hz5VqpK/captainzackvetcareitchrelief.jpg",
-                "discount_cost":299
+                "discount_cost": 299
             },
             {
                 "subcategory_id": 3,
@@ -1537,6 +1537,308 @@
                 "subcategory_name": "Vega T-Style Beard Trimmer (Black)",
                 "image": "https://i.ibb.co/wWjBLVy/vegatstylebeardtrimer.jpg",
                 "discount_cost": 1099
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "products_id": 10,
+        "category": "Womens Care",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Ezee Bio-Degradable Garbage Bags (30 X 37 Inches) Packet Of 10 Extra Large",
+                "image": "https://i.ibb.co/j32fQNB/ezeebiodegradablegarbagebags.jpg",
+                "original_cost": 144,
+                "discount_cost": 86,
+                "discount": "40% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "I Pill Tab",
+                "image": "https://i.ibb.co/VLtHHWx/ipilltablet.jpg",
+                "original_cost": 110,
+                "discount_cost": 99,
+                "discount": "10% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Keepsafe Intimate Wash For Women Bottle Of 100 Ml",
+                "image": "https://i.ibb.co/xhFhnQ7/keepsafeintimatewashforwomen.jpg",
+                "original_cost": 199,
+                "discount_cost": 187,
+                "discount": "6% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Keya Seth Medicure, Ankush V Ointment Disinfection & Moisturizer For Intimate Area - 50ml",
+                "image": "https://i.ibb.co/5ML7wkM/keyasethmedicureankushvointment.jpg",
+                "discount_cost": 250
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Liveasy Wellness Joint Support - Maintains Joints Mobility - Bone & Joint Health - Bottle Of 60",
+                "image": "https://i.ibb.co/vZcJWjk/liveasywellnessjointsupport.jpg",
+                "original_cost": 799,
+                "discount_cost": 399,
+                "discount": "50% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Mamaxpert Intimate Wash - 100 Ml",
+                "image": "https://i.ibb.co/7zWGMbz/mamaxpertstretchmarkcream.jpg",
+                "original_cost": 180,
+                "discount_cost": 135,
+                "discount": "25% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Sanfe Sensual Intimate Massage Gel - 50 Ml",
+                "image": "https://i.ibb.co/DM1xjFW/sanfenaturalintimatewash.jpg",
+                "original_cost": 299,
+                "discount_cost": 218,
+                "discount": "27% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Sirona Adult Diaper Disposal Bag For Discreet, Tamper Proof Disposal Of Diapers - Pack Of 30",
+                "image": "https://i.ibb.co/DChyzQ3/sironaadultdiaperdisposalbag.jpg",
+                "original_cost": 399,
+                "discount_cost": 319,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "V Health Intimate Wash - 100 Ml",
+                "image": "https://i.ibb.co/ZhrbzJF/vhealthintimatewash.jpg",
+                "discount_cost": 180
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "products_id": 10,
+        "category": "Mens Care",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Carbamide Forte Vitamin E 600mg For Face,Hair,100% Natural Vitamin E-60 Capsules",
+                "image": "https://i.ibb.co/YpcBBff/carbamidefortevitamine.jpg",
+                "original_cost": 599,
+                "discount_cost": 443,
+                "discount": "26% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Ferradol Food Supplement - 450g",
+                "image": "https://i.ibb.co/TL19HVV/ferradolfoodsupplement.jpg",
+                "original_cost": 313,
+                "discount_cost": 266,
+                "discount": "15% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Healthvit Calvitan-Kid Kids Calcium With Vitamin D For Strong Bone Health | Immunity | Healthy Growth 60 Tablets",
+                "image": "https://i.ibb.co/g3fSJBn/healthvitcalvitankid.jpg",
+                "original_cost": 170,
+                "discount_cost": 132,
+                "discount": "22% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Healthvit Vitamin B1 Thia-Min 100mg Multivitamin Tablets Bottle Of 60",
+                "image": "https://i.ibb.co/tLj1xyk/healthvitvitaminb1.jpg",
+                "original_cost": 220,
+                "discount_cost": 110,
+                "discount": "50% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Liveasy Wellness Calcium, Magnesium, Vitamin D3 & Zinc - Bones & Dental Health - Bottle 60 Tabs",
+                "image": "https://i.ibb.co/d4Jm3RX/liveasycalciummagnesiumzinc.jpg",
+                "original_cost": 599,
+                "discount_cost": 349,
+                "discount": "45% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Liveasy Ortho Care Lumbar Sacro Support Belt - Medium",
+                "image": "https://i.ibb.co/6ZWG2qG/liveasyorthocarelumbarsacrosupport.jpg",
+                "original_cost": 699,
+                "discount_cost": 514,
+                "discount": "15% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Manforce Wild Chocolate Box Of 10 Condoms",
+                "image": "https://i.ibb.co/fCHLyYV/manforcewildchocolateboxof10condoms.jpg",
+                "original_cost": 80,
+                "discount_cost": 56,
+                "discount": "30% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Osteocare Suspension-Calcium, Magnesium, Zinc & Vitamin D3 Suspension",
+                "image": "https://i.ibb.co/GMKwn3w/osteocaresuspensioncalciummagnesium.jpg",
+                "original_cost": 157,
+                "discount_cost": 127,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Patanjali Nutrela Daily Active 22.5g-Multivitamins For Heart,Eye,Bone & Brain Health-1 Bottle-30cap",
+                "image": "https://i.ibb.co/Kh1hw6j/patanjalinutreladailyactive.jpg",
+                "original_cost": 400,
+                "discount_cost": 288,
+                "discount": "28% OFF"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "products_id": 10,
+        "category": "Hair Care",
+        "sub_category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Dabur Amla Hair Oil Bottle Of 275 Ml",
+                "image": "https://i.ibb.co/GCFkynn/daburamlahairoil.jpg",
+                "original_cost": 138,
+                "discount_cost": 117,
+                "discount": "15% OFF"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Emami 7 Oils In One Hair Oil Bottle Of 200 Ml",
+                "image": "https://i.ibb.co/2sMTZYf/emamihairoil.jpg",
+                "original_cost": 130,
+                "discount_cost": 117,
+                "discount": "10% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Himalaya Anti Dandruff Shampoo - 400ml",
+                "image": "https://i.ibb.co/qs9bc4L/himalayaantidandruff.jpg",
+                "original_cost": 260,
+                "discount_cost": 197,
+                "discount": "24% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Himalaya Anti Hair Fall Hair Oil - 200ml",
+                "image": "https://i.ibb.co/74rc0dm/himalayaantihairfallhairoil.jpg",
+                "original_cost": 230,
+                "discount_cost": 179,
+                "discount": "22% OFF"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Indulekha Bringha Hair Oil Bottle Of 100 Ml",
+                "image": "https://i.ibb.co/1v4D75y/indulekhabringhahairoilbottle.jpg",
+                "original_cost": 432,
+                "discount_cost": 414,
+                "discount": "5% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Navratna Ayurvedic Cool Hair Oil Bottle Of 200 Ml",
+                "image": "https://i.ibb.co/Nn0bVw8/navratnaayurvediccoolhairoil.jpg",
+                "original_cost": 145,
+                "discount_cost": 116,
+                "discount": "20% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Parachute 100 % Pure Coconut Oil, 1 L (Pet Jar)",
+                "image": "https://i.ibb.co/Xjj2vrZ/parachutecoconutoil1litre.jpg",
+                "discount_cost": 361
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name": "Sesa Oil 100ml",
+                "image": "https://i.ibb.co/vXDSQmk/sesahairoil.jpg",
+                "discount_cost": 135
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name": "Tresemme Keratin Smooth Shampoo - 185 Ml",
+                "image": "https://i.ibb.co/v4YGLgF/tresemmekeratinsmoothshampooo.jpg",
+                "original_cost": 164,
+                "discount_cost": 157,
+                "discount": "4% OFF"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "products_id": 10,
+        "category": "Oral Care",
+        "sub_category":[
+            {
+                "subcategory_id": 1,
+                "subcategory_name":  "Anchor All Round Protection Toothpaste 150gm X 3",
+                "image": "https://i.ibb.co/7pWS8q3/anchortoothpaste.jpg",
+                "discount_cost": 106
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name":  "Colgate Strong Teeth Dental Cream Tooth Paste 44 Gm",
+                "image": "https://i.ibb.co/0hZdZvp/colgatestrondteethtoothpaste.jpg",
+                "original_cost": 20,
+                "discount_cost": 19,
+                "discount": "4% OFF"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name":  "Colgate Zigzag Antibacterial Toothbrush - Medium (Pack Of 3)",
+                "image": "https://i.ibb.co/r40fvGm/colgatezigzagtoothbrush.jpg",
+                "original_cost": 70,
+                "discount_cost": 40,
+                "discount": "42% OFF"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name":  "Dabur Red Paste 200gm",
+                "image": "https://i.ibb.co/f1FjBXW/daburredpaste.jpg",
+                "discount_cost": 102
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name":  "Listerine Coolmint Mouthwash Bottle Of 250 Ml",
+                "image": "https://i.ibb.co/XpgnmFh/listerinemouthwashcoolmint.jpg",
+                "original_cost": 150,
+                "discount_cost": 142,
+                "discount": "5% OFF"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name":  "Sensodent K Paste 100gm",
+                "image": "https://i.ibb.co/4fnkhQd/sensodentkfgel.jpg",
+                "original_cost": 122,
+                "discount_cost": 86,
+                "discount": "29% OFF"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name":  "Sensodyne Sensitive Repair & Protect Toothpaste Tube Of 70 G",
+                "image": "https://i.ibb.co/0sYcQ4t/sensodynesensitiverepairtoothpaste.jpg",
+                "original_cost": 185,
+                "discount_cost": 172,
+                "discount": "7% OFF"
+            },
+            {
+                "subcategory_id": 8,
+                "subcategory_name":  "Sensodyne Sensitivity & Gum Toothbrush With Soft Bristles (Buy 2, Get 1 Free)",
+                "image": "https://i.ibb.co/yhRCGCY/sensodynetoothbrush.jpg",
+                "discount_cost": 200
+            },
+            {
+                "subcategory_id": 9,
+                "subcategory_name":  "Sensoform Paste 100gm",
+                "image": "https://i.ibb.co/1mWmkhR/sensoformpaste100gm.jpg",
+                "original_cost":120,
+                "discount_cost": 86,
+                "discount": "28% OFF"
             }
         ]
     }
