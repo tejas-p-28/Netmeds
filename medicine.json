@@ -2,1873 +2,1277 @@
     {
         "id": 1,
         "products_id": 1,
-        "category":"A",
-        "name": "Ecosprin",
-        "img": "https://ibb.co/JstWYXd",
-        "average_rating": 4.2,
-        "price": "4.86Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 14 Tablets",
-        "Manufacturer":"USV Ltd",
-        "Salt_Composition":"Aspirin(75mg)",
-        "productType": [
+        "category": "A",
+        "sub_Category": [
             {
-                "productType_id": "5",
-                "productType_name": "Medicine"
+                "subcategory_id": 2,
+                "subcategory_name": "Allegra",
+                "img": "https://i.ibb.co/kXpM18L/allegra120mgtablet.png",
+                "average_rating": 4.1,
+                "price": "198Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Sanofi India Ltd",
+                "Salt_Composition": "Fexofenadine (120mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Ascoril_LS_Syrup",
+                "img": "https://i.ibb.co/f4H8dj2/ascoril-LS-syrup.jpg",
+                "average_rating": 4.0,
+                "price": "108Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 100ml Syrup",
+                "Manufacturer": "Glenmark Pharmaceuticals Ltd",
+                "Salt_Composition": "Ambroxol (30mg/5ml) + Levosalbutamol (1mg/5ml) + Guaifenesin (50mg/5ml)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Ascoril_D_Plus_Syrup",
+                "img": "https://i.ibb.co/LhWd81Q/ascorildplussyrupsugarfree.png",
+                "average_rating": 4.3,
+                "price": "118Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 100ml Syrup",
+                "Manufacturer": "Glenmark Pharmaceuticals Ltd",
+                "Salt_Composition": "Phenylephrine (5mg) + Chlorpheniramine Maleate (2mg) + Dextromethorphan Hydrobromide (10mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Augmentin_625_Duo_Tablet",
+                "img": "https://i.ibb.co/Yyp7r2Q/augmentin.jpg",
+                "average_rating": 4.4,
+                "price": "201Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Glaxo Smithkine Pharmaceuticals Ltd",
+                "Salt_Composition": "Amoxycillin (500mg) + Clavulanic Acid (125mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Avomine Tablet",
+                "img": "https://i.ibb.co/sFV9bKn/avominetablet.jpg",
+                "average_rating": 4.2,
+                "price": "50Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Abbott Ltd",
+                "Salt_Composition": "Promethazine (25mg)"
+            },
+            {
+                "subcategory_id": 7,
+                "subcategory_name": "Azee 500 Tablet",
+                "img": "https://i.ibb.co/5sWtqMd/azee500tablet.png",
+                "average_rating": 4.3,
+                "price": "118Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 5 Tablets",
+                "Manufacturer": "Cipla Ltd.",
+                "Salt_Composition": "Azithromycin (500mg)"
             }
         ]
     },
     {
         "id": 2,
-        "name": "Allegra",
         "products_id": 1,
-        "img": "https://ibb.co/1T3b6qC",
-        "average_rating": 4.1,
-        "price": "198Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Sanofi India Ltd",
-        "Salt_Composition":"Fexofenadine (120mg)",
-        "productType": [
+        "category": "B",
+        "sub_Category": [
             {
-                "productType_id": "1",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Benadryl Syrup",
+                "img": "https://i.ibb.co/QjNGrVG/benadrlsyrup.jpg",
+                "average_rating": 4.1,
+                "price": "128Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 150ml Syrup",
+                "Manufacturer": "Johnson & Johnson Ltd",
+                "Salt_Composition": "Diphenhydramine (14.08mg/5ml) + Ammonium Chloride (138mg/5ml) + Sodium Citrate (57.03mg/5ml)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Betadine 10% Solution",
+                "img": "https://i.ibb.co/grtdvbn/betadine10-solution.png",
+                "average_rating": 3.2,
+                "price": "108Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 100ml  Solution",
+                "Manufacturer": "Win-Medicare Pvt Ltd",
+                "Salt_Composition": "Povidone Iodine (10% w/v)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Betnosol Injection 1ml",
+                "img": "https://i.ibb.co/mzyR4Qd/betnesolinjection1ml.png",
+                "average_rating": 3.5,
+                "price": "38Rs",
+                "prescription": "Prescription Required",
+                "strip": "Packet of 8 injections",
+                "Manufacturer": "Glaxo SmithKline Pharmaceuticals Ltd",
+                "Salt_Composition": "Betamethasone (4mg/ml)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Betnosol Oral Drop",
+                "img": "https://i.ibb.co/qWq02b7/betnesoloraldrops.png",
+                "average_rating": 4.6,
+                "price": "21Rs",
+                "prescription": "Prescription Required",
+                "strip": "Packet of 15ml Drop",
+                "Manufacturer": "Glaxo SmithKline Pharmaceuticals Ltd",
+                "Salt_Composition": "Betamethasone (0.5mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Betnovate N Cream",
+                "img": "https://i.ibb.co/ZhRZMR8/betnovatencream.png",
+                "average_rating": 4.5,
+                "price": "38Rs",
+                "prescription": "Prescription Required",
+                "strip": "Tube of 30g Cream",
+                "Manufacturer": "Glaxo SmithKline Pharmaceuticals Ltd",
+                "Salt_Composition": "Betamethasone (0.1% w/w) + Clioquinol (Iodochlorhydroxyquin) (3% w/w)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Budecort 200 Inhaler",
+                "img": "https://i.ibb.co/p3B43Ym/budecort200inhaler.png",
+                "average_rating": 3.2,
+                "price": "396Rs",
+                "prescription": "Prescription Required",
+                "strip": "Packet of 200 MDI Inhaler",
+                "Manufacturer": "Cipla Ltd.",
+                "Salt_Composition": "Budesonide (200mcg)"
             }
         ]
     },
     {
         "id": 3,
-        "name": "Ascoril_LS_Syrup",
         "products_id": 1,
-        "img": "https://ibb.co/gzJvZk3",
-        "average_rating": 4.0,
-        "price": "108Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 100ml Syrup",
-        "Manufacturer":"Glenmark Pharmaceuticals Ltd",
-        "Salt_Composition":"Ambroxol (30mg/5ml) + Levosalbutamol (1mg/5ml) + Guaifenesin (50mg/5ml)",
-        "productType": [
+        "category": "C",
+        "sub_Category": [
             {
-                "productType_id": "1",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Candid B Cream",
+                "img": "https://i.ibb.co/XJmKf4D/candid-bcream.jpg",
+                "average_rating": 3.7,
+                "price": "133Rs",
+                "prescription": "Prescription Required",
+                "strip": "Tube of 20g Cream",
+                "Manufacturer": "Glenmark Pharmaceuticals Ltd",
+                "Salt_Composition": "Beclometasone (0.025% w/w) + Clotrimazole (1% w/w)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Cheston Cold Tablets",
+                "img": "https://i.ibb.co/BCf8Hqr/chestoncoldtablets.jpg",
+                "average_rating": 3.8,
+                "price": "42Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 tablet",
+                "Manufacturer": "Cipla Ltd.",
+                "Salt_Composition": "Ambroxol (30mg) + Levocetirizine (5mg) + Paracetamol (325mg) + Phenylephrine (5mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Cipladine Ointment",
+                "img": "https://i.ibb.co/R2fmBMD/cipladineointment.png",
+                "average_rating": 4.4,
+                "price": "26Rs",
+                "prescription": "Prescription Required",
+                "strip": "Tube of 10g Ointment",
+                "Manufacturer": "Cipla Ltd.",
+                "Salt_Composition": "Povidone Iodine (5% w/w)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Clavam 625 Tablet",
+                "img": "https://i.ibb.co/2525hSJ/clavam625tablet.jpg",
+                "average_rating": 4.8,
+                "price": "208Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 tablets",
+                "Manufacturer": "Alkem Laboratories Ltd",
+                "Salt_Composition": "Amoxycillin (500mg) + Clavulanic Acid (125mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Combiflame Tablets",
+                "products_id": 1,
+                "img": "https://i.ibb.co/CmHwf7L/combiflamtable.png",
+                "average_rating": 2.8,
+                "price": "41Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 20 tablet",
+                "Manufacturer": "Sanofi India Ltd",
+                "Salt_Composition": "Ibuprofen (400mg) + Paracetamol (325mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Crya D Capsule",
+                "img": "https://i.ibb.co/TY5PdhL/crya-dcapsule.jpg",
+                "average_rating": 2.5,
+                "price": "48Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Capsule",
+                "Manufacturer": "Systopic Laboratories Pvt Ltd",
+                "Salt_Composition": "Domperidone (30mg) + Rabeprazole (20mg)"
             }
         ]
     },
     {
         "id": 4,
-        "name": "Ascoril_D_Plus_Syrup",
         "products_id": 1,
-        "img": "https://ibb.co/S78wPBQ",
-        "average_rating": 4.3,
-        "price": "118Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 100ml Syrup",
-        "Manufacturer":"Glenmark Pharmaceuticals Ltd",
-        "Salt_Composition":"Phenylephrine (5mg) + Chlorpheniramine Maleate (2mg) + Dextromethorphan Hydrobromide (10mg)",
-        "productType": [
+        "category": "D",
+        "sub_Category": [
             {
-                "productType_id": "1",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Daflon 500mg Tablet",
+                "img": "https://i.ibb.co/cgSRzTG/daflon500mgtablet.jpg",
+                "average_rating": 2.2,
+                "price": "138Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablet",
+                "Manufacturer": "Serdia Pharmaceuticals India Pvt Ltd",
+                "Salt_Composition": "Diosmin (450mg) + Hesperidin (50mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Deviry 10mg Tablet",
+                "img": "https://i.ibb.co/VMmMt6w/deviry10mgtablet.jpg",
+                "average_rating": 3.5,
+                "price": "60Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablet",
+                "Manufacturer": "Torrent Pharmaceuticals Ltd",
+                "Salt_Composition": "Medroxyprogesterone acetate (10mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Dexona Tablet",
+                "img": "https://i.ibb.co/rM8hJqZ/dexonatablet.jpg",
+                "average_rating": 2.5,
+                "price": "3Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 20 Capsule",
+                "Manufacturer": "Zydus Cadila",
+                "Salt_Composition": "Dexamethasone (0.5mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Dolo 625 Tablet",
+                "img": "https://i.ibb.co/wMKwtv7/dolo625tablet.jpg",
+                "average_rating": 2.6,
+                "price": "30Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Micro Labs Ltd",
+                "Salt_Composition": "Paracetamol (650mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Doxinate Tablet",
+                "img": "https://i.ibb.co/gyV1wFs/doxinatetablet.png",
+                "average_rating": 2.5,
+                "price": "208Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 30 Tablets",
+                "Manufacturer": "Maneesh Pharmaceuticals Ltd",
+                "Salt_Composition": "Doxylamine (10mg) + Vitamin B6 (Pyridoxine) (10mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Dynapar Tablet",
+                "img": "https://i.ibb.co/qW0LM1T/dynapartablet.jpg",
+                "average_rating": 3.6,
+                "price": "68Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 tablets",
+                "Manufacturer": "Troikaa Pharmaceuticals Ltd",
+                "Salt_Composition": "Diclofenac (50mg) + Paracetamol (325mg)"
             }
         ]
     },
     {
         "id": 5,
-        "name": "Augmentin_625_Duo_Tablet",
         "products_id": 1,
-        "img": "https://ibb.co/ZYW6ZdX",
-        "average_rating": 4.4,
-        "price": "201Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Glaxo Smithkine Pharmaceuticals Ltd",
-        "Salt_Composition":"Amoxycillin (500mg) + Clavulanic Acid (125mg)",
-        "productType": [
+        "category": "E",
+        "sub_Category": [
             {
-                "productType_id": "1",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Ecosprin 75 Tablets",
+                "img": "https://i.ibb.co/G5pfZgJ/ecosprin75tablet.webp",
+                "average_rating": 4.2,
+                "price": "4.86Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 14 Tablets",
+                "Manufacturer": "USV Ltd",
+                "Salt_Composition": "Aspirin(75mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Ecosprin 20 Gold Capsule",
+                "img": "https://i.ibb.co/wdc58W3/ecospringold20capsule.jpg",
+                "average_rating": 3.8,
+                "price": "148Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "USV Ltd.",
+                "Salt_Composition": "Atorvastatin (20mg) + Aspirin (75mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Enzar Forte Tablet",
+                "img": "https://i.ibb.co/5rvfWL1/enzarfortetablet.jpg",
+                "average_rating": 4.2,
+                "price": "148Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Torrent Pharmaceuticals Ltd",
+                "Salt_Composition": "Pancreatin (170mg) + Sodium Tauroglycocholate (65mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Enzoflam Tablet",
+                "img": "https://i.ibb.co/K7DF1BQ/enzoflamtablet.jpg",
+                "average_rating": 4.5,
+                "price": "138Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Alkem Laboratories Ltd",
+                "Salt_Composition": "Diclofenac (50mg) + Paracetamol (325mg) + Serratiopeptidase (15mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Etizola 0.25 Tablet",
+                "img": "https://i.ibb.co/4Jgyyfd/etizola0-25tablet.jpg",
+                "average_rating": 4.6,
+                "price": "58Rs",
+                "Manufacturer": "Macleods Pharmaceuticals Pvt Ltd",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 tablet",
+                "Salt_Composition": "Etizolam (0.5mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Evion LC Tablet",
+                "img": "https://i.ibb.co/HYCHpkF/evionlctablet.png",
+                "average_rating": 4.8,
+                "price": "48Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Merck Ltd",
+                "Salt_Composition": "Levo-carnitine (150mg) + Vitamin E (200mg)"
             }
         ]
     },
     {
         "id": 6,
-        "name": "Avomine Tablet",
         "products_id": 1,
-        "img": "https://ibb.co/qRrY7NK",
-        "average_rating": 4.2,
-        "price": "50Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Abbott Ltd",
-        "Salt_Composition":"Promethazine (25mg)",
-        "productType": [
+        "category": "F",
+        "sub_Category": [
             {
-                "productType_id": "1",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Febrex Plus Tablet",
+                "img": "https://i.ibb.co/5kx9yZs/febrexplustablet.png",
+                "average_rating": 3.8,
+                "price": "58Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Indoco Remedies Ltd.",
+                "Salt_Composition": "Chlorpheniramine Maleate (2mg) + Paracetamol (500mg) + Phenylephrine (10mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Flagyl 400 Tablet",
+                "img": "https://i.ibb.co/9nPGdpL/flagyl400tablet.jpg",
+                "average_rating": 3.9,
+                "price": "28Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Abbott",
+                "Salt_Composition": "Metronidazole (400mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Flexon MR Tablet",
+                "img": "https://i.ibb.co/1vZ70Rh/flexonmrtablet.png",
+                "average_rating": 4.2,
+                "price": "24Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strips of 10 Tablets",
+                "Manufacturer": "Aristo Pharmaceuticals Pvt Ltd",
+                "Salt_Composition": "Ibuprofen (400mg) + Paracetamol (325mg) + Chlorzoxazone (250mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Flexon Tablet",
+                "img": "https://i.ibb.co/QdSWzHW/flexontablet.jpg",
+                "average_rating": 3.6,
+                "price": "28Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Aristo Pharmaceuticals Pvt Ltd",
+                "Salt_Composition": "Ibuprofen (400mg) + Paracetamol (325mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Folvite 5mg Tablet",
+                "img": "https://i.ibb.co/0tZZTNx/folvite5mgtablet.png",
+                "average_rating": 2.2,
+                "price": "68Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 5 Tablets ",
+                "Manufacturer": "Pfizer Ltd.",
+                "Salt_Composition": "Folic Acid (5mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Foracort Inhaler 200",
+                "img": "https://i.ibb.co/Zc0X9my/foracortinhaler200.png",
+                "average_rating": 3.5,
+                "price": "360Rs",
+                "prescription": "Prescription Required",
+                "strip": "Packet of 10 MDI inhaler",
+                "Manufacturer": "Cipla Ltd.",
+                "Salt_Composition": "Formoterol (6mcg) + Budesonide (200mcg)"
             }
         ]
     },
     {
         "id": 7,
-        "name": "Azee 500 Tablet",
         "products_id": 1,
-        "img": "https://ibb.co/L9zb4kM",
-        "average_rating": 4.3,
-        "price": "118Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 5 Tablets",
-        "Manufacturer":"Cipla Ltd.",
-        "Salt_Composition":"Azithromycin (500mg)",
-        "productType": [
+        "category": "G",
+        "sub_Category": [
             {
-                "productType_id": "1",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Gabapin NT 100 Tablet",
+                "img": "https://i.ibb.co/cbrQ1FQ/gabapin-NT100tablet.png",
+                "average_rating": 4.2,
+                "price": "428Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Intas Pharmaceuticals Ltd",
+                "Salt_Composition": "Gabapentin (400mg) + Nortriptyline (10mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Gabapin NT Tablet",
+                "img": "https://i.ibb.co/XWdkYRn/gabapin-NTtablet.png",
+                "average_rating": 3.4,
+                "price": "108Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Intas Pharmaceuticals Ltd",
+                "Salt_Composition": "Gabapentin (400mg) + Nortriptyline (10mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Glycomet 500 SR Tablet",
+                "img": "https://i.ibb.co/L8XbSMw/glycomet500srtablet.jpg",
+                "average_rating": 4.2,
+                "price": "48Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets SR",
+                "Manufacturer": "Franco-Indian Pharmaceuticals Pvt Ltd",
+                "Salt_Composition": "Metformin (500mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Grilinctus BM Syrup",
+                "img": "https://i.ibb.co/fHCRRV1/grilinctus-BMsyrup.jpg",
+                "average_rating": 3.6,
+                "price": "108Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 100ml Syrup",
+                "Manufacturer": "Franco-Indian Pharmaceuticals Pvt Ltd",
+                "Salt_Composition": "Terbutaline (2.5mg/5ml) + Bromhexine (8mg/5ml)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Grilinctus Syrup",
+                "img": "https://i.ibb.co/N6hQHnQ/grilinctussyrup.jpg",
+                "average_rating": 3.3,
+                "price": "128Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 100ml Syrup",
+                "Manufacturer": "Franco-Indian Pharmaceuticals Pvt Ltd"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Gudcef 200 Tablet ",
+                "img": "https://i.ibb.co/vYPYvVQ/gudcef200tablet.jpg",
+                "average_rating": 4.5,
+                "price": "148Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Mankind Pharma Ltd",
+                "Salt_Composition": "Cefpodoxime Proxetil (200mg)"
             }
         ]
     },
     {
         "id": 8,
-        "name": "Benadryl Syrup",
         "products_id": 1,
-        "img": "https://ibb.co/yByJWCJ",
-        "average_rating": 4.1,
-        "price": "128Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 150ml Syrup",
-        "Manufacturer":"Johnson & Johnson Ltd",
-        "Salt_Composition":"Diphenhydramine (14.08mg/5ml) + Ammonium Chloride (138mg/5ml) + Sodium Citrate (57.03mg/5ml)",
-        "productType": [
+        "category": "H",
+        "sub_Category": [
             {
-                "productType_id": "2",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "HCQS 200 Tablet ",
+                "img": "https://i.ibb.co/qjQ1QS7/hcqs200tablet.png",
+                "average_rating": 2.2,
+                "price": "99Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Ipca Laboratories Ltd",
+                "Salt_Composition": "Hydroxychloroquine (200mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Headset Tablet ",
+                "img": "https://i.ibb.co/t8hrdTd/headsettablet.png",
+                "average_rating": 2.4,
+                "price": "118Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 2 Talets",
+                "Manufacturer": "Lupin Ltd",
+                "Salt_Composition": "Sumatriptan (85mg) + Naproxen (500mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Hepamerz Tablet ",
+                "img": "https://i.ibb.co/41dgFqg/hepamerztablet.png",
+                "average_rating": 2.8,
+                "price": "218Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Win-Medicare Pvt Ltd",
+                "Salt_Composition": "L-Ornithine L-Aspartate (150mg) + Pancreatin (100mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Hetrazan 100 Tablet ",
+                "img": "https://i.ibb.co/Bqy4mM8/hetrazan100tablet.png",
+                "average_rating": 2.7,
+                "price": "48Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 30 Tablets",
+                "Manufacturer": "Pfizer Ltd.",
+                "Salt_Composition": "Diethylcarbamazine (100mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Hifenac P Tablet ",
+                "img": "https://i.ibb.co/sPg05Yz/hifenac-ptablet.jpg",
+                "average_rating": 2.7,
+                "price": "83Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Intas Pharmaceuticals Ltd",
+                "Salt_Composition": "Aceclofenac (100mg) + Paracetamol (325mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "HP Kit ",
+                "img": "https://i.ibb.co/fxX4K4t/HPkit.png",
+                "average_rating": 3.6,
+                "price": "123Rs",
+                "prescription": "Prescription Required",
+                "strip": "Packet of 1 Kit",
+                "Manufacturer": "Sun Pharmaceutical Industries Ltd",
+                "Salt_Composition": "Omeprazole (20mg) + Tinidazole (500mg) + Amoxycillin (750mg)"
             }
         ]
     },
     {
         "id": 9,
-        "name": "Betadine 10% Solution",
         "products_id": 1,
-        "img": "https://ibb.co/Pr1MTsS",
-        "average_rating": 3.2,
-        "price": "108Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 100ml  Solution",
-        "Manufacturer":"Win-Medicare Pvt Ltd",
-        "Salt_Composition":"Povidone Iodine (10% w/v)",
-        "productType": [
+        "category": "I",
+        "sub_Category": [
             {
-                "productType_id": "2",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Ibset Tablet ",
+                "img": "https://i.ibb.co/G75BSDF/ibsettablet.jpg",
+                "average_rating": 3.8,
+                "price": "408Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Zydus Cadila",
+                "Salt_Composition": "Ramosetron (5mcg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Imodium Capsule ",
+                "img": "https://i.ibb.co/JKHrtBL/imodiumcapsule.png",
+                "average_rating": 3.9,
+                "price": "15Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 4 Capsule",
+                "Manufacturer": "Janssen Pharmaceuticals",
+                "Salt_Composition": "Loperamide (2mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Indocap SR Tablet ",
+                "img": "https://i.ibb.co/KmmxbGp/indocap-SRtablet.png",
+                "average_rating": 4.4,
+                "price": "118Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 tablet SR",
+                "Manufacturer": "Jagsonpal Pharmaceuticals Ltd",
+                "Salt_Composition": "Indomethacin (75mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Intagesic MR Tablet",
+                "img": "https://i.ibb.co/8XmPYVz/intagesic-MRtablet.png",
+                "average_rating": 5.0,
+                "price": "94Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Intas Pharmaceuticals Ltd",
+                "Salt_Composition": "Chlorzoxazone (250mg) + Diclofenac (50mg) + Paracetamol (325mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Isolazine Tablet ",
+                "img": "https://i.ibb.co/N7LJfH1/isolazinetablet.png",
+                "average_rating": 4.0,
+                "price": "87Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Lupin Ltd",
+                "Salt_Composition": "Isosorbide Dinitrate (20mg) + Hydralazine (37.5mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Isotroin 20 Capsule ",
+                "img": "https://i.ibb.co/cCFdJvZ/isotroin20capsule.jpg",
+                "average_rating": 3.0,
+                "price": "299Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Soft Gelatin Capsule",
+                "Manufacturer": "Cipla Ltd",
+                "Salt_Composition": "Isotretinoin (20mg)"
             }
         ]
     },
     {
         "id": 10,
-        "name": "Betnosol Injection 1ml",
         "products_id": 1,
-        "img": "https://ibb.co/vzdck2f",
-        "average_rating": 3.5,
-        "price": "38Rs",
-        "prescription": "Prescription Required",
-        "strip":"Packet of 8 injections",
-        "Manufacturer":"Glaxo SmithKline Pharmaceuticals Ltd",
-        "Salt_Composition":"Betamethasone (4mg/ml)",
-        "productType": [
+        "category": "J",
+        "sub_Category": [
             {
-                "productType_id": "2",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Jalra 50mg Tablet",
+                "img": "https://i.ibb.co/k62bhRn/jalra50mgtablet.png",
+                "average_rating": 3.0,
+                "price": "300Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "USV Ltd",
+                "Salt_Composition": "Vildagliptin (50mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Jenvac Vaccine ",
+                "img": "https://i.ibb.co/vzTjgKN/jenvacvaccine.png",
+                "average_rating": 3.0,
+                "price": "677Rs",
+                "prescription": "Prescription Required",
+                "strip": "Prefilled Syringeof 0.5ml Injection",
+                "Manufacturer": "Bharat Biotech",
+                "Salt_Composition": "Inactivated Japanese Encephalitis virus protein (5mcg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Jointace DN Tablet ",
+                "img": "https://i.ibb.co/9gzCkNJ/jointace-DNtablet.png",
+                "average_rating": 3.0,
+                "price": "352Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Meyer Organics Pvt Ltd",
+                "Salt_Composition": "Glucosamine (750mg) + Diacerein (50mg) + Methyl Sulfonyl Methane (250mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Jupiros 10 Tablet ",
+                "img": "https://i.ibb.co/6rc35rQ/jupiros-ftablet.png",
+                "average_rating": 4.6,
+                "price": "171Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Alkem Laboratories Ltd",
+                "Salt_Composition": "Rosuvastatin (10mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Jupiros F Tablet ",
+                "img": "https://i.ibb.co/j473Nhg/jupiros10tablet.png",
+                "average_rating": 2.0,
+                "price": "84Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Alkem Laboratories Ltd",
+                "Salt_Composition": "Fenofibrate (160mg) + Rosuvastatin (10mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Just Tear Eye Drop ",
+                "img": "https://i.ibb.co/zP4GKwx/justtearseyedrop.png",
+                "average_rating": 2.0,
+                "price": "96Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 10ml Eye Drop",
+                "Manufacturer": "Sunways India Pvt Ltd",
+                "Salt_Composition": "Carboxymethylcellulose (0.5% w/v)"
             }
         ]
     },
     {
         "id": 11,
-        "name": "Betnosol Oral Drop",
         "products_id": 1,
-        "img": "https://ibb.co/mXZvPQb",
-        "average_rating": 4.6,
-        "price": "21Rs",
-        "prescription": "Prescription Required",
-        "strip":"Packet of 15ml Drop",
-        "Manufacturer":"Glaxo SmithKline Pharmaceuticals Ltd",
-        "Salt_Composition":"Betamethasone (0.5mg)",
-        "productType": [
+        "category": "K",
+        "sub_Category": [
             {
-                "productType_id": "2",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "K Bind Powder ",
+                "img": "https://ibb.co/RBgVkCY",
+                "average_rating": 2.2,
+                "price": "159Rs",
+                "prescription": "Prescription Required",
+                "strip": "Packet of 15g Powder",
+                "Manufacturer": "Zydus Cadila",
+                "Salt_Composition": "Calcium Polystyrene Sulphonate (15gm)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Ketoadd Tablet ",
+                "img": "https://ibb.co/S6KRZvT",
+                "average_rating": 2.4,
+                "price": "415Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 20 Tablets",
+                "Manufacturer": "Sun Pharmaceutical Industries Ltd",
+                "Salt_Composition": "Alpha Ketoanalogue (NA)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Ketomac Shampoo ",
+                "img": "https://ibb.co/XxXttfV",
+                "average_rating": 2.5,
+                "price": "234Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 110ml Shampoo",
+                "Manufacturer": "Torque Pharmaceuticals Pvt Ltd",
+                "Salt_Composition": "Ketoconazole (2% w/v)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Ketorol DT Tablet ",
+                "img": "https://ibb.co/L9F3WkL",
+                "average_rating": 2.6,
+                "price": "133Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets DT",
+                "Manufacturer": "Dr Reddy's Laboratories Ltd",
+                "Salt_Composition": "Ketorolac (10mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Keto Soap ",
+                "img": "https://ibb.co/y5c2Wgj",
+                "average_rating": 2.8,
+                "price": "115Rs",
+                "prescription": "Prescription Required",
+                "strip": "Packet of 50gm Soap",
+                "Manufacturer": "Med Manor Organics Pvt Ltd",
+                "Salt_Composition": "Ketoconazole (2% w/w)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Keto Sterile Tablet",
+                "img": "https://ibb.co/6PvsYhj",
+                "average_rating": 3.7,
+                "price": "3790Rs",
+                "prescription": "Prescription Required",
+                "strip": "Packet of 100 Tablets",
+                "Manufacturer": "Fresenius Kabi India Pvt Ltd",
+                "Salt_Composition": "Alpha Ketoanalogue (NA)"
             }
         ]
     },
     {
         "id": 12,
-        "name": "Betnovate C Cream",
         "products_id": 1,
-        "img": "https://ibb.co/y8m3Qmy",
-        "average_rating": 4.5,
-        "price": "38Rs",
-        "prescription": "Prescription Required",
-        "strip":"Tube of 30g Cream",
-        "Manufacturer":"Glaxo SmithKline Pharmaceuticals Ltd",
-        "Salt_Composition":"Betamethasone (0.1% w/w) + Clioquinol (Iodochlorhydroxyquin) (3% w/w)",
-        "productType": [
+        "category": "L",
+        "sub_Category": [
             {
-                "productType_id": "2",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Lasix Injection ",
+                "img": "https://ibb.co/KqNBB9B",
+                "average_rating": 3.6,
+                "price": "11Rs",
+                "prescription": "Prescription Required",
+                "strip": "Vial of 4ml Injection",
+                "Manufacturer": "Sanofi India Ltd",
+                "Salt_Composition": "Furosemide (10mg/ml)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Lasix Tablet ",
+                "img": "https://ibb.co/zJC35cL",
+                "average_rating": 2.5,
+                "price": "12Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Sanofi India Ltd",
+                "Salt_Composition": "Furosemide (40mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Letroz Tablet ",
+                "img": "https://ibb.co/SXP0vyC",
+                "average_rating": 2.5,
+                "price": "206Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 5 Tablets",
+                "Manufacturer": "Sun Pharmaceutical Industries Ltd",
+                "Salt_Composition": "Letrozole (2.5mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Levocet Tablet ",
+                "img": "https://ibb.co/qnb1JNf",
+                "average_rating": 2.7,
+                "price": "47Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Hetero Healthcare Limited",
+                "Salt_Composition": "Levocetirizine (5mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Lipagyln Tablet ",
+                "img": "https://ibb.co/M9cmQYQ",
+                "average_rating": 3.7,
+                "price": "365Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip fo 10 Tablets",
+                "Manufacturer": "Zydus Cadila",
+                "Salt_Composition": "Saroglitazar (4mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Lopamide Tablet ",
+                "img": "https://ibb.co/ccn6gB0",
+                "average_rating": 3.8,
+                "price": "21Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Torrent Pharmaceuticals Ltd",
+                "Salt_Composition": "Loperamide (2mg)"
             }
         ]
     },
     {
         "id": 13,
-        "name": "Budecort 200 Inhaler",
         "products_id": 1,
-        "img": "https://ibb.co/khsqhNd",
-        "average_rating": 3.2,
-        "price": "396Rs",
-        "prescription": "Prescription Required",
-        "strip":"Packet of 200 MDI Inhaler",
-        "Manufacturer":"Cipla Ltd.",
-        "Salt_Composition":"Budesonide (200mcg)",
-        "productType": [
+        "category": "M",
+        "sub_Category": [
             {
-                "productType_id": "2",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Manforce 50mg Tablet ",
+                "img": "https://ibb.co/3z96T9L",
+                "average_rating": 3.6,
+                "price": "270Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 4 Tablets",
+                "Manufacturer": "Mankind Pharma Ltd",
+                "Salt_Composition": "Sildenafil (100mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Maxtra Syrup ",
+                "img": "https://ibb.co/wC4kWc2",
+                "average_rating": 4.4,
+                "price": "87Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 60ml Syrup",
+                "Manufacturer": "Zuventus Healthcare Ltd",
+                "Salt_Composition": "Chlorpheniramine Maleate (2mg/5ml) + Phenylephrine (5mg/5ml)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Megalis 20 Tablet ",
+                "img": "https://ibb.co/T8KvmY9",
+                "average_rating": 2.6,
+                "price": "46Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip fo 4 Tablets",
+                "Manufacturer": "Macleods Pharmaceuticals Pvt Ltd",
+                "Salt_Composition": "Tadalafil (10mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Mobizox Tablet ",
+                "img": "https://ibb.co/zHHwh92",
+                "average_rating": 4.9,
+                "price": "197Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Sun Pharmaceutical Industries Ltd",
+                "Salt_Composition": "Chlorzoxazone (500mg) + Diclofenac (50mg) + Paracetamol (325mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Monticope Tablet ",
+                "img": "https://ibb.co/7vzfL5g",
+                "average_rating": 4.7,
+                "price": "98Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Mankind Pharma Ltd",
+                "Salt_Composition": "Levocetirizine (5mg) + Montelukast (10mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Myospaz Forte Tablet ",
+                "img": "https://ibb.co/xqNrgpM",
+                "average_rating": 3.8,
+                "price": "280Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 5 Tablets",
+                "Manufacturer": "Win-Medicare Pvt Ltd",
+                "Salt_Composition": "Chlorzoxazone (500mg) + Diclofenac (50mg) + Paracetamol (325mg)"
             }
         ]
     },
     {
         "id": 14,
-        "name": "Candid B Cream",
         "products_id": 1,
-        "img": "https://ibb.co/ysLZmRp",
-        "average_rating": 3.7,
-        "price": "133Rs",
-        "prescription": "Prescription Required",
-        "strip":"Tube of 20g Cream",
-        "Manufacturer":"Glenmark Pharmaceuticals Ltd",
-        "Salt_Composition":"Beclometasone (0.025% w/w) + Clotrimazole (1% w/w)",
-        "productType": [
+        "category": "N",
+        "sub_Category": [
             {
-                "productType_id": "3",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Nefrosave Tablet ",
+                "img": "https://ibb.co/JnWHKvX",
+                "average_rating": 3.3,
+                "price": "199Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Fourrts India Laboratories Pvt Ltd",
+                "Salt_Composition": "Taurine (500mg) + Acetylcysteine (150mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Nicip Tablet ",
+                "img": "https://ibb.co/3TZxjK3",
+                "average_rating": 3.7,
+                "price": "39Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Cipla Ltd",
+                "Salt_Composition": "Nimesulide (100mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Nise Tablet ",
+                "img": "https://ibb.co/ZK0PBPn",
+                "average_rating": 3.8,
+                "price": "98Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Dr Reddy's Laboratories Ltd",
+                "Salt_Composition": "Nimesulide (100mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Nodosis Tablet ",
+                "img": "https://ibb.co/yhKSWJ1",
+                "average_rating": 2.7,
+                "price": "48Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 15 Tablets",
+                "Manufacturer": "Steadfast Medishield Pvt Ltd",
+                "Salt_Composition": "Sodium Bicarbonate (500mg)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Normaxin Tablet ",
+                "img": "https://ibb.co/5nSccK9",
+                "average_rating": 3.4,
+                "price": "59Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Systopic Laboratories Pvt Ltd",
+                "Salt_Composition": "Chlordiazepoxide (5mg) + Clidinium (2.5mg) + Dicyclomine (10mg) + Rabeprazole (10mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Novelon Tablet ",
+                "img": "https://ibb.co/f1kcgtX",
+                "average_rating": 3.7,
+                "price": "239Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 21 Tablets",
+                "Manufacturer": "Organon (India) Ltd",
+                "Salt_Composition": "Ethinyl Estradiol (0.03mg) + Desogestrel (0.15mg)"
             }
         ]
     },
     {
         "id": 15,
-        "name": "Cheston Cold Tablets",
         "products_id": 1,
-        "img": "https://ibb.co/bK6pjz2",
-        "average_rating": 3.8,
-        "price": "42Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 tablet",
-        "Manufacturer":"Cipla Ltd.",
-        "Salt_Composition":"Ambroxol (30mg) + Levocetirizine (5mg) + Paracetamol (325mg) + Phenylephrine (5mg)",
-        "productType": [
+        "category": "O",
+        "sub_Category": [
             {
-                "productType_id": "3",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "O2 Tablet ",
+                "img": "https://ibb.co/TKW28Gz",
+                "average_rating": 3.5,
+                "price": "149Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Medley Pharmaceuticals",
+                "Salt_Composition": "Ofloxacin (200mg) + Ornidazole (500mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Okacet Tablet ",
+                "img": "https://ibb.co/Fz3TcgK",
+                "average_rating": 3.4,
+                "price": "18Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Cipla Ltd",
+                "Salt_Composition": "Cetirizine (10mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Omez Capsule ",
+                "img": "https://ibb.co/89M9hXm",
+                "average_rating": 3.5,
+                "price": "55Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 20 Capsule",
+                "Manufacturer": "Dr Reddy's Laboratories Ltd",
+                "Salt_Composition": "Omeprazole (20mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Ondem Syrup ",
+                "img": "https://ibb.co/yX4JSPG",
+                "average_rating": 5.0,
+                "price": "37Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 30ml Oral Syrup",
+                "Manufacturer": "Alkem Laboratories Ltd",
+                "Salt_Composition": "Ondansetron (2mg/5ml)"
+            },
+            {
+                "subcategory_id": 5,
+                "subcategory_name": "Optineuron Injection ",
+                "img": "https://ibb.co/Sxgnxr0",
+                "average_rating": 4.9,
+                "price": "10Rs",
+                "prescription": "Prescription Required",
+                "strip": "Ampoule of 3 injection",
+                "Manufacturer": "Lupin Ltd",
+                "Salt_Composition": "Thiamine(Vitamin B1) (100mg) + Vitamin B6 (Pyridoxine) (100mg) + Cyanocobalamin (1000mcg) + Vitamin B2 (5mg) + Nicotinamide (100mg) + D-Panthenol (50mg)"
+            },
+            {
+                "subcategory_id": 6,
+                "subcategory_name": "Ornof Tablet ",
+                "img": "https://ibb.co/0qcBpkf",
+                "average_rating": 2.3,
+                "price": "130Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip fo 10 tablets",
+                "Manufacturer": "Aristo Pharmaceuticals Pvt Ltd",
+                "Salt_Composition": "Ofloxacin (200mg) + Ornidazole (500mg)"
             }
         ]
     },
     {
         "id": 16,
-        "name": "Cipladine Ointment",
         "products_id": 1,
-        "img": "https://ibb.co/cJ0HCpr",
-        "average_rating": 4.4,
-        "price": "26Rs",
-        "prescription": "Prescription Required",
-        "strip":"Tube of 10g Ointment",
-        "Manufacturer":"Cipla Ltd.",
-        "Salt_Composition":"Povidone Iodine (5% w/w)",
-        "productType": [
+        "category": "P",
+        "sub_Category": [
             {
-                "productType_id": "3",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Pacitane Tablet ",
+                "img": "https://ibb.co/ChQJqrr",
+                "average_rating": 2.2,
+                "price": "40Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip fo 30 TAblets",
+                "Manufacturer": "Pfizer Ltd",
+                "Salt_Composition": "Trihexyphenidyl (2mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Pan 40 Tablet ",
+                "img": "https://ibb.co/XsGwsVN",
+                "average_rating": 2.7,
+                "price": "149Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 40 Tablets",
+                "Manufacturer": "Alkem Laboratories Ltd",
+                "Salt_Composition": "Pantoprazole (40mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Peinorm Tablet ",
+                "img": "https://ibb.co/q71M10m",
+                "average_rating": 2.5,
+                "price": "13Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Ipca Laboratories Ltd",
+                "Salt_Composition": "Metoclopramide (10mg)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Pulmoclear Tablet ",
+                "img": "https://ibb.co/nbW7z6r",
+                "average_rating": 2.8,
+                "price": "189Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Fourrts India Laboratories Pvt Ltd",
+                "Salt_Composition": "Acebrophylline (100mg) + Acetylcysteine (600mg)"
             }
         ]
     },
     {
         "id": 17,
-        "name": "Clavam 625 Tablet",
         "products_id": 1,
-        "img": "https://ibb.co/g6169dY",
-        "average_rating": 4.8,
-        "price": "208Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 tablets",
-        "Manufacturer":"Alkem Laboratories Ltd",
-        "Salt_Composition":"Amoxycillin (500mg) + Clavulanic Acid (125mg)",
-        "productType": [
+        "category": "Q",
+        "sub_Category": [
             {
-                "productType_id": "3",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Q-Car Tablet ",
+                "img": "https://ibb.co/xzgMsvj",
+                "average_rating": 3.8,
+                "price": "300Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Nexgen Pharma",
+                "Salt_Composition": "Coenzyme Q10 (50mg) + Levo-carnitine (500mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Quadrajel Gel ",
+                "img": "https://ibb.co/Q9hg1xj",
+                "average_rating": 3.3,
+                "price": "57Rs",
+                "prescription": "Prescription Required",
+                "strip": "Tube of 15gm Dental Gel",
+                "Manufacturer": "Fourrts India Laboratories Pvt Ltd",
+                "Salt_Composition": "Lidocaine (2% w/w) + Chlorhexidine Gluconate (1% w/w) + Metronidazole (1% w/w)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Quadcream ",
+                "img": "https://ibb.co/hCs5Zp9",
+                "average_rating": 3.4,
+                "price": "45Rs",
+                "prescription": "Prescription Required",
+                "strip": "Tube of 15gm Tube",
+                "Manufacturer": "Laborate Pharmaceuticals India Ltd",
+                "Salt_Composition": "Beclometasone (NA) + Clioquinol (Iodochlorhydroxyquin) (NA) + Gentamicin (NA) + Tolnaftate (NA)"
+            },
+            {
+                "subcategory_id": 4,
+                "subcategory_name": "Qutan 50 Tablet ",
+                "img": "https://ibb.co/PC7W8Xk",
+                "average_rating": 3.5,
+                "price": "52Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Intas Pharmaceuticals Ltd",
+                "Salt_Composition": "Quetiapine (100mg)"
             }
         ]
     },
     {
         "id": 18,
-        "name": "Combiflame Tablets",
         "products_id": 1,
-        "img": "https://ibb.co/n6LwFcp",
-        "average_rating": 2.8,
-        "price": "41Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 20 tablet",
-        "Manufacturer":"Sanofi India Ltd",
-        "Salt_Composition":"Ibuprofen (400mg) + Paracetamol (325mg)",
-        "productType": [
+        "category": "R",
+        "sub_Category": [
             {
-                "productType_id": "3",
-                "productType_name": "Medicine"
+                "subcategory_id": 1,
+                "subcategory_name": "Refresh Tears Eye Drop ",
+                "img": "https://ibb.co/XYxC5rk",
+                "average_rating": 2.9,
+                "price": "87Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 10ml Eye Drop",
+                "Manufacturer": "Allergan India Pvt Ltd",
+                "Salt_Composition": "Carboxymethylcellulose (0.5% w/v)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Reheptin Tablet ",
+                "img": "https://ibb.co/3fDHjgW",
+                "average_rating": 2.7,
+                "price": "111Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Mankind Pharma Ltd",
+                "Salt_Composition": "Metadoxine (500mg) + Silymarin (140mg) + L-Ornithine L-Aspartate (150mg) + Vitamin B6 (Pyridoxine) (3mg) + Folic Acid (1.5mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "ROKO Tablet ",
+                "img": "https://ibb.co/XsxvjCs",
+                "average_rating": 4.6,
+                "price": "20Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Capsule",
+                "Manufacturer": "Cipla Ltd.",
+                "Salt_Composition": "Loperamide (2mg)"
             }
         ]
     },
     {
         "id": 19,
-        "name": "Crya D Capsule",
         "products_id": 1,
-        "img": "https://ibb.co/pbp45Xy",
-        "average_rating": 2.5,
-        "price": "48Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Capsule",
-        "Manufacturer":"Systopic Laboratories Pvt Ltd",
-        "Salt_Composition":"Domperidone (30mg) + Rabeprazole (20mg)",
-        "productType": [
-            {
-                "productType_id": "3",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 20,
-        "name": "Daflon 500mg Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/YRFJvjz",
-        "average_rating": 2.2,
-        "price": "138Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablet",
-        "Manufacturer":"Serdia Pharmaceuticals India Pvt Ltd",
-        "Salt_Composition":"Diosmin (450mg) + Hesperidin (50mg)",
-        "productType": [
-            {
-                "productType_id": "4",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 21,
-        "name": "Deviry 10mg Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/P1Q1NkD",
-        "average_rating": 3.5,
-        "price": "60Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablet",
-        "Manufacturer":"Torrent Pharmaceuticals Ltd",
-        "Salt_Composition":"Medroxyprogesterone acetate (10mg)",
-        "productType": [
-            {
-                "productType_id": "4",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 22,
-        "name": "Dexona Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/wCGq18K",
-        "average_rating": 2.5,
-        "price": "3Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 20 Capsule",
-        "Manufacturer":"Zydus Cadila",
-        "Salt_Composition":"Dexamethasone (0.5mg)",
-        "productType": [
-            {
-                "productType_id": "4",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 23,
-        "name": "Dolo 625 Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/XSz3HwD",
-        "average_rating": 2.6,
-        "price": "30Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Micro Labs Ltd",
-        "Salt_Composition":"Paracetamol (650mg)",
-        "productType": [
-            {
-                "productType_id": "4",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 24,
-        "name": "Doxinate Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/p2yDZrC",
-        "average_rating": 2.5,
-        "price": "208Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 30 Tablets",
-        "Manufacturer":"Maneesh Pharmaceuticals Ltd",
-        "Salt_Composition":"Doxylamine (10mg) + Vitamin B6 (Pyridoxine) (10mg)",
-        "productType": [
-            {
-                "productType_id": "4",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 25,
-        "name": "Dynapar Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/wwJZN65",
-        "average_rating": 3.6,
-        "price": "68Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 tablets",
-        "Manufacturer":"Troikaa Pharmaceuticals Ltd",
-        "Salt_Composition":"Diclofenac (50mg) + Paracetamol (325mg)",
-        "productType": [
-            {
-                "productType_id": "4",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 26,
-        "name": "Ecosprin 20 Gold Capsule",
-        "products_id": 1,
-        "img": "https://ibb.co/TwW9J8p",
-        "average_rating": 3.8,
-        "price": "148Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"USV Ltd.",
-        "Salt_Composition":"Atorvastatin (20mg) + Aspirin (75mg)",
-        "productType": [
-            {
-                "productType_id": "5",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 27,
-        "name": "Enzar Forte Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/3pWLycT",
-        "average_rating": 4.2,
-        "price": "148Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Torrent Pharmaceuticals Ltd",
-        "Salt_Composition":"Pancreatin (170mg) + Sodium Tauroglycocholate (65mg)",
-        "productType": [
-            {
-                "productType_id": "5",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 28,
-        "name": "Enzoflam Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/NprZ4fk",
-        "average_rating": 4.5,
-        "price": "138Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Alkem Laboratories Ltd",
-        "Salt_Composition":"Diclofenac (50mg) + Paracetamol (325mg) + Serratiopeptidase (15mg)",
-        "productType": [
-            {
-                "productType_id": "5",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 29,
-        "name": "Etizola 0.25 Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/9G3XXvt",
-        "average_rating": 4.6,
-        "price": "58Rs",
-        "Manufacturer":"Macleods Pharmaceuticals Pvt Ltd",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 tablet",
-        "Salt_Composition":"Etizolam (0.5mg)",
-        "productType": [
-            {
-                "productType_id": "5",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 30,
-        "name": "Evion LC Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/5vkRxfM",
-        "average_rating": 4.8,
-        "price": "48Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Merck Ltd",
-        "Salt_Composition":"Levo-carnitine (150mg) + Vitamin E (200mg)",
-        "productType": [
-            {
-                "productType_id": "5",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 31,
-        "name": "Febrex Plus Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/W0p3wCB",
-        "average_rating": 3.8,
-        "price": "58Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Indoco Remedies Ltd.",
-        "Salt_Composition":"Chlorpheniramine Maleate (2mg) + Paracetamol (500mg) + Phenylephrine (10mg)",
-        "productType": [
-            {
-                "productType_id": "6",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 32,
-        "name": "Flagyl 400 Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/xhZ3r20",
-        "average_rating": 3.9,
-        "price": "28Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Abbott",
-        "Salt_Composition":"Metronidazole (400mg)",
-        "productType": [
-            {
-                "productType_id": "6",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 33,
-        "name": "Flexon MR Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/TvcYwPp",
-        "average_rating": 4.2,
-        "price": "24Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strips of 10 Tablets",
-        "Manufacturer":"Aristo Pharmaceuticals Pvt Ltd",
-        "Salt_Composition":"Ibuprofen (400mg) + Paracetamol (325mg) + Chlorzoxazone (250mg)",
-        "productType": [
-            {
-                "productType_id": "6",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 34,
-        "name": "Flexon Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/Kw4tRst",
-        "average_rating": 3.6,
-        "price": "28Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Aristo Pharmaceuticals Pvt Ltd",
-        "Salt_Composition":"Ibuprofen (400mg) + Paracetamol (325mg)",
-        "productType": [
-            {
-                "productType_id": "6",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 35,
-        "name": "Folvite 5mg Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/FVJJ2vF",
-        "average_rating": 2.2,
-        "price": "68Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 5 Tablets ",
-        "Manufacturer":"Pfizer Ltd.",
-        "Salt_Composition":"Folic Acid (5mg)",
-        "productType": [
-            {
-                "productType_id": "6",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 36,
-        "name": "Foracort Inhaler 200",
-        "products_id": 1,
-        "img": "https://ibb.co/8PHskcF",
-        "average_rating": 3.5,
-        "price": "360Rs",
-        "prescription": "Prescription Required",
-        "strip":"Packet of 10 MDI inhaler",
-        "Manufacturer":"Cipla Ltd.",
-        "Salt_Composition":"Formoterol (6mcg) + Budesonide (200mcg)",
-        "productType": [
-            {
-                "productType_id": "6",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 37,
-        "name": "Gabapin NT 100 Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/f8xH2pH",
-        "average_rating": 4.2,
-        "price": "428Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Intas Pharmaceuticals Ltd",
-        "Salt_Composition":"Gabapentin (400mg) + Nortriptyline (10mg)",
-        "productType": [
-            {
-                "productType_id": "7",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 38,
-        "name": "Gabapin NT Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/RgM4jwX",
-        "average_rating": 3.4,
-        "price": "108Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Intas Pharmaceuticals Ltd",
-        "Salt_Composition":"Gabapentin (400mg) + Nortriptyline (10mg)",
-        "productType": [
-            {
-                "productType_id": "7",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 39,
-        "name": "Glycomet 500 SR Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/FKLN69v",
-        "average_rating": 4.2,
-        "price": "48Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets SR",
-        "Manufacturer":"Franco-Indian Pharmaceuticals Pvt Ltd",
-        "Salt_Composition":"Metformin (500mg)",
-        "productType": [
-            {
-                "productType_id": "7",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 40,
-        "name": "Grilinctus BM Syrup",
-        "products_id": 1,
-        "img": "https://ibb.co/KW9ZZc0",
-        "average_rating": 3.6,
-        "price": "108Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 100ml Syrup",
-        "Manufacturer":"Franco-Indian Pharmaceuticals Pvt Ltd",
-        "Salt_Composition":"Terbutaline (2.5mg/5ml) + Bromhexine (8mg/5ml)",
-        "productType": [
-            {
-                "productType_id": "7",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 41,
-        "name": "Grilinctus Syrup",
-        "products_id": 1,
-        "img": "https://ibb.co/vx5gKvg",
-        "average_rating": 3.3,
-        "price": "128Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 100ml Syrup",
-        "Manufacturer":"Franco-Indian Pharmaceuticals Pvt Ltd",
-        "Salt_Composition":"Ammonium Chloride (60mg/5ml) + Chlorpheniramine Maleate (2.5mg/5ml) + Dextromethorphan Hydrobromide (5mg/5ml) + Guaifenesin (50mg/5ml)",
-        "productType": [
-            {
-                "productType_id": "7",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 42,
-        "name": "Gudcef 200 Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/FVwVqm0",
-        "average_rating": 4.5,
-        "price": "148Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Mankind Pharma Ltd",
-        "Salt_Composition":"Cefpodoxime Proxetil (200mg)",
-        "productType": [
-            {
-                "productType_id": "7",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 43,
-        "name": "HCQS 200 Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/c3nTnBk",
-        "average_rating": 2.2,
-        "price": "99Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Ipca Laboratories Ltd",
-        "Salt_Composition":"Hydroxychloroquine (200mg)",
-        "productType": [
-            {
-                "productType_id": "8",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 44,
-        "name": "Headset Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/KFGv1p1",
-        "average_rating": 2.4,
-        "price": "118Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 2 Talets",
-        "Manufacturer":"Lupin Ltd",
-        "Salt_Composition":"Sumatriptan (85mg) + Naproxen (500mg)",
-        "productType": [
-            {
-                "productType_id": "8",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 45,
-        "name": "Hepamerz Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/Drpg1Jg",
-        "average_rating": 2.8,
-        "price": "218Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Win-Medicare Pvt Ltd",
-        "Salt_Composition":"L-Ornithine L-Aspartate (150mg) + Pancreatin (100mg)",
-        "productType": [
-            {
-                "productType_id": "8",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 46,
-        "name": "Hetrazan 100 Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/WgkDQJS",
-        "average_rating": 2.7,
-        "price": "48Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 30 Tablets",
-        "Manufacturer":"Pfizer Ltd.",
-        "Salt_Composition":"Diethylcarbamazine (100mg)",
-        "productType": [
-            {
-                "productType_id": "8",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 47,
-        "name": "Hifenac P Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/fSXh8wL",
-        "average_rating": 2.7,
-        "price": "83Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Intas Pharmaceuticals Ltd",
-        "Salt_Composition":"Aceclofenac (100mg) + Paracetamol (325mg)",
-        "productType": [
-            {
-                "productType_id": "8",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 48,
-        "name": "HP Kit ",
-        "products_id": 1,
-        "img": "https://ibb.co/3CTB8BW",
-        "average_rating": 3.6,
-        "price": "123Rs",
-        "prescription": "Prescription Required",
-        "strip":"Packet of 1 Kit",
-        "Manufacturer":"Sun Pharmaceutical Industries Ltd",
-        "Salt_Composition":"Omeprazole (20mg) + Tinidazole (500mg) + Amoxycillin (750mg)",
-        "productType": [
-            {
-                "productType_id": "8",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 49,
-        "name": "Ibset Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/0qG8bLQ",
-        "average_rating": 3.8,
-        "price": "408Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Zydus Cadila",
-        "Salt_Composition":"Ramosetron (5mcg)",
-        "productType": [
-            {
-                "productType_id": "9",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 50,
-        "name": "Imodium Capsule ",
-        "products_id": 1,
-        "img": "https://ibb.co/KXWVh0Z",
-        "average_rating": 3.9,
-        "price": "15Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 4 Capsule",
-        "Manufacturer":"Janssen Pharmaceuticals",
-        "Salt_Composition":"Loperamide (2mg)",
-        "productType": [
-            {
-                "productType_id": "9",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 51,
-        "name": "Indocap SR Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/4JJRKfn",
-        "average_rating": 4.4,
-        "price": "118Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 tablet SR",
-        "Manufacturer":"Jagsonpal Pharmaceuticals Ltd",
-        "Salt_Composition":"Indomethacin (75mg)",
-        "productType": [
-            {
-                "productType_id": "9",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 52,
-        "name": "Intagesic MR Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/pn14hpW",
-        "average_rating": 5.0,
-        "price": "94Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Intas Pharmaceuticals Ltd",
-        "Salt_Composition":"Chlorzoxazone (250mg) + Diclofenac (50mg) + Paracetamol (325mg)",
-        "productType": [
-            {
-                "productType_id": "9",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 53,
-        "name": "Isolazine Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/b7rCY8H",
-        "average_rating": 4.0,
-        "price": "87Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Lupin Ltd",
-        "Salt_Composition":"Isosorbide Dinitrate (20mg) + Hydralazine (37.5mg)",
-        "productType": [
-            {
-                "productType_id": "9",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 54,
-        "name": "Isotroin 20 Capsule ",
-        "products_id": 1,
-        "img": "https://ibb.co/ZY8CdJF",
-        "average_rating": 3.0,
-        "price": "299Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Soft Gelatin Capsule",
-        "Manufacturer":"Cipla Ltd",
-        "Salt_Composition":"Isotretinoin (20mg)",
-        "productType": [
-            {
-                "productType_id": "9",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 55,
-        "name": "Jalra 50mg Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/7NtMGwc",
-        "average_rating": 3.0,
-        "price": "300Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"USV Ltd",
-        "Salt_Composition":"Vildagliptin (50mg)",
-        "productType": [
-            {
-                "productType_id": "10",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 56,
-        "name": "Jenvac Vaccine ",
-        "products_id": 1,
-        "img": "https://ibb.co/pXMLG9H",
-        "average_rating": 3.0,
-        "price": "677Rs",
-        "prescription": "Prescription Required",
-        "strip":"Prefilled Syringeof 0.5ml Injection",
-        "Manufacturer":"Bharat Biotech",
-        "Salt_Composition":"Inactivated Japanese Encephalitis virus protein (5mcg)",
-        "productType": [
-            {
-                "productType_id": "10",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 58,
-        "name": "Jointace DN Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/ZXtkpV3",
-        "average_rating": 3.0,
-        "price": "352Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Meyer Organics Pvt Ltd",
-        "Salt_Composition":"Glucosamine (750mg) + Diacerein (50mg) + Methyl Sulfonyl Methane (250mg)",
-        "productType": [
-            {
-                "productType_id": "10",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 59,
-        "name": "Jupiros 10 Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/5cqs0TB",
-        "average_rating": 4.6,
-        "price": "171Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Alkem Laboratories Ltd",
-        "Salt_Composition":"Rosuvastatin (10mg)",
-        "productType": [
-            {
-                "productType_id": "10",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 60,
-        "name": "Jupiros F Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/vVC78V9",
-        "average_rating": 2.0,
-        "price": "84Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Alkem Laboratories Ltd",
-        "Salt_Composition":"Fenofibrate (160mg) + Rosuvastatin (10mg)",
-        "productType": [
-            {
-                "productType_id": "10",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 61,
-        "name": "Just Tear Eye Drop ",
-        "products_id": 1,
-        "img": "https://ibb.co/7r127FC",
-        "average_rating": 2.0,
-        "price": "96Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 10ml Eye Drop",
-        "Manufacturer":"Sunways India Pvt Ltd",
-        "Salt_Composition":"Carboxymethylcellulose (0.5% w/v)",
-        "productType": [
-            {
-                "productType_id": "10",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 62,
-        "name": "K Bind Powder ",
-        "products_id": 1,
-        "img": "https://ibb.co/RBgVkCY",
-        "average_rating": 2.2,
-        "price": "159Rs",
-        "prescription": "Prescription Required",
-        "strip":"Packet of 15g Powder",
-        "Manufacturer":"Zydus Cadila",
-        "Salt_Composition":"Calcium Polystyrene Sulphonate (15gm)",
-        "productType": [
-            {
-                "productType_id": "11",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 63,
-        "name": "Ketoadd Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/S6KRZvT",
-        "average_rating": 2.4,
-        "price": "415Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 20 Tablets",
-        "Manufacturer":"Sun Pharmaceutical Industries Ltd",
-        "Salt_Composition":"Alpha Ketoanalogue (NA)",
-        "productType": [
-            {
-                "productType_id": "11",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 64,
-        "name": "Ketomac Shampoo ",
-        "products_id": 1,
-        "img": "https://ibb.co/XxXttfV",
-        "average_rating": 2.5,
-        "price": "234Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 110ml Shampoo",
-        "Manufacturer":"Torque Pharmaceuticals Pvt Ltd",
-        "Salt_Composition":"Ketoconazole (2% w/v)",
-        "productType": [
-            {
-                "productType_id": "11",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 65,
-        "name": "Ketorol DT Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/L9F3WkL",
-        "average_rating": 2.6,
-        "price": "133Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets DT",
-        "Manufacturer":"Dr Reddy's Laboratories Ltd",
-        "Salt_Composition":"Ketorolac (10mg)",
-        "productType": [
-            {
-                "productType_id": "11",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 66,
-        "name": "Keto Soap ",
-        "products_id": 1,
-        "img": "https://ibb.co/y5c2Wgj",
-        "average_rating": 2.8,
-        "price": "115Rs",
-        "prescription": "Prescription Required",
-        "strip":"Packet of 50gm Soap",
-        "Manufacturer":"Med Manor Organics Pvt Ltd",
-        "Salt_Composition":"Ketoconazole (2% w/w)",
-        "productType": [
-            {
-                "productType_id": "11",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 67,
-        "name": "Keto Sterile Tablet",
-        "products_id": 1,
-        "img": "https://ibb.co/6PvsYhj",
-        "average_rating": 3.7,
-        "price": "3790Rs",
-        "prescription": "Prescription Required",
-        "strip":"Packet of 100 Tablets",
-        "Manufacturer":"Fresenius Kabi India Pvt Ltd",
-        "Salt_Composition":"Alpha Ketoanalogue (NA)",
-        "productType": [
-            {
-                "productType_id": "11",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 68,
-        "name": "Lasix Injection ",
-        "products_id": 1,
-        "img": "https://ibb.co/KqNBB9B",
-        "average_rating": 3.6,
-        "price": "11Rs",
-        "prescription": "Prescription Required",
-        "strip":"Vial of 4ml Injection",
-        "Manufacturer":"Sanofi India Ltd",
-        "Salt_Composition":"Furosemide (10mg/ml)",
-        "productType": [
-            {
-                "productType_id": "12",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 69,
-        "name": "Lasix Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/zJC35cL",
-        "average_rating": 2.5,
-        "price": "12Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Sanofi India Ltd",
-        "Salt_Composition":"Furosemide (40mg)",
-        "productType": [
-            {
-                "productType_id": "12",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 70,
-        "name": "Letroz Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/SXP0vyC",
-        "average_rating": 2.5,
-        "price": "206Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 5 Tablets",
-        "Manufacturer":"Sun Pharmaceutical Industries Ltd",
-        "Salt_Composition":"Letrozole (2.5mg)",
-        "productType": [
-            {
-                "productType_id": "12",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 71,
-        "name": "Levocet Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/qnb1JNf",
-        "average_rating": 2.7,
-        "price": "47Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Hetero Healthcare Limited",
-        "Salt_Composition":"Levocetirizine (5mg)",
-        "productType": [
-            {
-                "productType_id": "12",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 72,
-        "name": "Lipagyln Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/M9cmQYQ",
-        "average_rating": 3.7,
-        "price": "365Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip fo 10 Tablets",
-        "Manufacturer":"Zydus Cadila",
-        "Salt_Composition":"Saroglitazar (4mg)",
-        "productType": [
-            {
-                "productType_id": "12",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 73,
-        "name": "Lopamide Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/ccn6gB0",
-        "average_rating": 3.8,
-        "price": "21Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Torrent Pharmaceuticals Ltd",
-        "Salt_Composition":"Loperamide (2mg)",
-        "productType": [
-            {
-                "productType_id": "12",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 74,
-        "name": "Manforce 50mg Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/3z96T9L",
-        "average_rating": 3.6,
-        "price": "270Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 4 Tablets",
-        "Manufacturer":"Mankind Pharma Ltd",
-        "Salt_Composition":"Sildenafil (100mg)",
-        "productType": [
-            {
-                "productType_id": "13",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 75,
-        "name": "Maxtra Syrup ",
-        "products_id": 1,
-        "img": "https://ibb.co/wC4kWc2",
-        "average_rating": 4.4,
-        "price": "87Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 60ml Syrup",
-        "Manufacturer":"Zuventus Healthcare Ltd",
-        "Salt_Composition":"Chlorpheniramine Maleate (2mg/5ml) + Phenylephrine (5mg/5ml)",
-        "productType": [
-            {
-                "productType_id": "13",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 76,
-        "name": "Megalis 20 Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/T8KvmY9",
-        "average_rating": 2.6,
-        "price": "46Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip fo 4 Tablets",
-        "Manufacturer":"Macleods Pharmaceuticals Pvt Ltd",
-        "Salt_Composition":"Tadalafil (10mg)",
-        "productType": [
-            {
-                "productType_id": "13",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 78,
-        "name": "Mobizox Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/zHHwh92",
-        "average_rating": 4.9,
-        "price": "197Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Sun Pharmaceutical Industries Ltd",
-        "Salt_Composition":"Chlorzoxazone (500mg) + Diclofenac (50mg) + Paracetamol (325mg)",
-        "productType": [
-            {
-                "productType_id": "13",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 79,
-        "name": "Monticope Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/7vzfL5g",
-        "average_rating": 4.7,
-        "price": "98Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Mankind Pharma Ltd",
-        "Salt_Composition":"Levocetirizine (5mg) + Montelukast (10mg)",
-        "productType": [
-            {
-                "productType_id": "13",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 80,
-        "name": "Myospaz Forte Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/xqNrgpM",
-        "average_rating": 3.8,
-        "price": "280Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 5 Tablets",
-        "Manufacturer":"Win-Medicare Pvt Ltd",
-        "Salt_Composition":"Chlorzoxazone (500mg) + Diclofenac (50mg) + Paracetamol (325mg)",
-        "productType": [
-            {
-                "productType_id": "13",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 81,
-        "name": "Nefrosave Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/JnWHKvX",
-        "average_rating": 3.3,
-        "price": "199Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Fourrts India Laboratories Pvt Ltd",
-        "Salt_Composition":"Taurine (500mg) + Acetylcysteine (150mg)",
-        "productType": [
-            {
-                "productType_id": "14",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 82,
-        "name": "Nicip Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/3TZxjK3",
-        "average_rating": 3.7,
-        "price": "39Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Cipla Ltd",
-        "Salt_Composition":"Nimesulide (100mg)",
-        "productType": [
-            {
-                "productType_id": "14",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 83,
-        "name": "Nise Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/ZK0PBPn",
-        "average_rating": 3.8,
-        "price": "98Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Dr Reddy's Laboratories Ltd",
-        "Salt_Composition":"Nimesulide (100mg)",
-        "productType": [
-            {
-                "productType_id": "14",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 84,
-        "name": "Nodosis Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/yhKSWJ1",
-        "average_rating": 2.7,
-        "price": "48Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 15 Tablets",
-        "Manufacturer":"Steadfast Medishield Pvt Ltd",
-        "Salt_Composition":"Sodium Bicarbonate (500mg)",
-        "productType": [
-            {
-                "productType_id": "14",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 85,
-        "name": "Normaxin Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/5nSccK9",
-        "average_rating": 3.4,
-        "price": "59Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Systopic Laboratories Pvt Ltd",
-        "Salt_Composition":"Chlordiazepoxide (5mg) + Clidinium (2.5mg) + Dicyclomine (10mg) + Rabeprazole (10mg)",
-        "productType": [
-            {
-                "productType_id": "14",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 86,
-        "name": "Novelon Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/f1kcgtX",
-        "average_rating": 3.7,
-        "price": "239Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 21 Tablets",
-        "Manufacturer":"Organon (India) Ltd",
-        "Salt_Composition":"Ethinyl Estradiol (0.03mg) + Desogestrel (0.15mg)",
-        "productType": [
-            {
-                "productType_id": "14",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 87,
-        "name": "O2 Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/TKW28Gz",
-        "average_rating": 3.5,
-        "price": "149Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Medley Pharmaceuticals",
-        "Salt_Composition":"Ofloxacin (200mg) + Ornidazole (500mg)",
-        "productType": [
-            {
-                "productType_id": "15",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 88,
-        "name": "Okacet Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/Fz3TcgK",
-        "average_rating": 3.4,
-        "price": "18Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Cipla Ltd",
-        "Salt_Composition":"Cetirizine (10mg)",
-        "productType": [
-            {
-                "productType_id": "15",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 89,
-        "name": "Omez Capsule ",
-        "products_id": 1,
-        "img": "https://ibb.co/89M9hXm",
-        "average_rating": 3.5,
-        "price": "55Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 20 Capsule",
-        "Manufacturer":"Dr Reddy's Laboratories Ltd",
-        "Salt_Composition":"Omeprazole (20mg)",
-        "productType": [
-            {
-                "productType_id": "15",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 90,
-        "name": "Ondem Syrup ",
-        "products_id": 1,
-        "img": "https://ibb.co/yX4JSPG",
-        "average_rating": 5.0,
-        "price": "37Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 30ml Oral Syrup",
-        "Manufacturer":"Alkem Laboratories Ltd",
-        "Salt_Composition":"Ondansetron (2mg/5ml)",
-        "productType": [
-            {
-                "productType_id": "15",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 91,
-        "name": "Optineuron Injection ",
-        "products_id": 1,
-        "img": "https://ibb.co/Sxgnxr0",
-        "average_rating": 4.9,
-        "price": "10Rs",
-        "prescription": "Prescription Required",
-        "strip":"Ampoule of 3 injection",
-        "Manufacturer":"Lupin Ltd",
-        "Salt_Composition":"Thiamine(Vitamin B1) (100mg) + Vitamin B6 (Pyridoxine) (100mg) + Cyanocobalamin (1000mcg) + Vitamin B2 (5mg) + Nicotinamide (100mg) + D-Panthenol (50mg)",
-        "productType": [
-            {
-                "productType_id": "15",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 92,
-        "name": "Ornof Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/0qcBpkf",
-        "average_rating": 2.3,
-        "price": "130Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip fo 10 tablets",
-        "Manufacturer":"Aristo Pharmaceuticals Pvt Ltd",
-        "Salt_Composition":"Ofloxacin (200mg) + Ornidazole (500mg)",
-        "productType": [
-            {
-                "productType_id": "15",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 93,
-        "name": "Pacitane Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/ChQJqrr",
-        "average_rating": 2.2,
-        "price": "40Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip fo 30 TAblets",
-        "Manufacturer":"Pfizer Ltd",
-        "Salt_Composition":"Trihexyphenidyl (2mg)",
-        "productType": [
-            {
-                "productType_id": "16",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 94,
-        "name": "Pan 40 Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/XsGwsVN",
-        "average_rating": 2.7,
-        "price": "149Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 40 Tablets",
-        "Manufacturer":"Alkem Laboratories Ltd",
-        "Salt_Composition":"Pantoprazole (40mg)",
-        "productType": [
-            {
-                "productType_id": "16",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 95,
-        "name": "Peinorm Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/q71M10m",
-        "average_rating": 2.5,
-        "price": "13Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Ipca Laboratories Ltd",
-        "Salt_Composition":"Metoclopramide (10mg)",
-        "productType": [
-            {
-                "productType_id": "16",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 96,
-        "name": "Pulmoclear Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/nbW7z6r",
-        "average_rating": 2.8,
-        "price": "189Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Fourrts India Laboratories Pvt Ltd",
-        "Salt_Composition":"Acebrophylline (100mg) + Acetylcysteine (600mg)",
-        "productType": [
-            {
-                "productType_id": "16",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 97,
-        "name": "Q-Car Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/xzgMsvj",
-        "average_rating": 3.8,
-        "price": "300Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Nexgen Pharma",
-        "Salt_Composition":"Coenzyme Q10 (50mg) + Levo-carnitine (500mg)",
-        "productType": [
-            {
-                "productType_id": "17",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 98,
-        "name": "Quadrajel Gel ",
-        "products_id": 1,
-        "img": "https://ibb.co/Q9hg1xj",
-        "average_rating": 3.3,
-        "price": "57Rs",
-        "prescription": "Prescription Required",
-        "strip":"Tube of 15gm Dental Gel",
-        "Manufacturer":"Fourrts India Laboratories Pvt Ltd",
-        "Salt_Composition":"Lidocaine (2% w/w) + Chlorhexidine Gluconate (1% w/w) + Metronidazole (1% w/w)",
-        "productType": [
-            {
-                "productType_id": "17",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 99,
-        "name": "Quadcream ",
-        "products_id": 1,
-        "img": "https://ibb.co/hCs5Zp9",
-        "average_rating": 3.4,
-        "price": "45Rs",
-        "prescription": "Prescription Required",
-        "strip":"Tube of 15gm Tube",
-        "Manufacturer":"Laborate Pharmaceuticals India Ltd",
-        "Salt_Composition":"Beclometasone (NA) + Clioquinol (Iodochlorhydroxyquin) (NA) + Gentamicin (NA) + Tolnaftate (NA)",
-        "productType": [
-            {
-                "productType_id": "17",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 100,
-        "name": "Qutan 50 Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/PC7W8Xk",
-        "average_rating": 3.5,
-        "price": "52Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Intas Pharmaceuticals Ltd",
-        "Salt_Composition":"Quetiapine (100mg)",
-        "productType": [
-            {
-                "productType_id": "17",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 101,
-        "name": "Refresh Tears Eye Drop ",
-        "products_id": 1,
-        "img": "https://ibb.co/XYxC5rk",
-        "average_rating": 2.9,
-        "price": "87Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 10ml Eye Drop",
-        "Manufacturer":"Allergan India Pvt Ltd",
-        "Salt_Composition":"Carboxymethylcellulose (0.5% w/v)",
-        "productType": [
-            {
-                "productType_id": "17",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 102,
-        "name": "Reheptin Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/3fDHjgW",
-        "average_rating": 2.7,
-        "price": "111Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Mankind Pharma Ltd",
-        "Salt_Composition":"Metadoxine (500mg) + Silymarin (140mg) + L-Ornithine L-Aspartate (150mg) + Vitamin B6 (Pyridoxine) (3mg) + Folic Acid (1.5mg)",
-        "productType": [
-            {
-                "productType_id": "17",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 103,
-        "name": "ROKO Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/XsxvjCs",
-        "average_rating": 4.6,
-        "price": "20Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Capsule",
-        "Manufacturer":"Cipla Ltd.",
-        "Salt_Composition":"Loperamide (2mg)",
-        "productType": [
-            {
-                "productType_id": "17",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 104,
-        "name": "Signoflam Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/Tqzy8wL",
-        "average_rating": 3.0,
-        "price": "113Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Lupin Ltd",
-        "Salt_Composition":"Aceclofenac (100mg) + Paracetamol (325mg) + Serratiopeptidase (15mg)",
-        "productType": [
-            {
-                "productType_id": "18",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 105,
-        "name": "Sinarest Syrup ",
-        "products_id": 1,
-        "img": "https://ibb.co/2ybv4xr",
-        "average_rating": 2.0,
-        "price": "121Rs",
-        "prescription": "Prescription Required",
-        "strip":"Bottle of 100ml Syrup",
-        "Manufacturer":"Centaur Pharmaceuticals Pvt Ltd",
-        "Salt_Composition":"Chlorpheniramine Maleate (1mg) + Phenylephrine (5mg) + Paracetamol (125mg) + Sodium Citrate (60mg)",
-        "productType": [
-            {
-                "productType_id": "18",
-                "productType_name": "Medicine"
-            }
-        ]
-    },
-    {
-        "id": 106,
-        "name": "Sinarest Tablet ",
-        "products_id": 1,
-        "img": "https://ibb.co/YL4RyJW",
-        "average_rating": 2.0,
-        "price": "61Rs",
-        "prescription": "Prescription Required",
-        "strip":"Strip of 10 Tablets",
-        "Manufacturer":"Centaur Pharmaceuticals Pvt Ltd",
-        "Salt_Composition":"Chlorpheniramine Maleate (2mg) + Paracetamol (500mg) + Phenylephrine (10mg)",
-        "productType": [
-            {
-                "productType_id": "18",
-                "productType_name": "Medicine"
+        "category": "S",
+        "sub_Category": [
+            {
+                "subcategory_id": 1,
+                "subcategory_name": "Signoflam Tablet ",
+                "img": "https://ibb.co/Tqzy8wL",
+                "average_rating": 3.0,
+                "price": "113Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Lupin Ltd",
+                "Salt_Composition": "Aceclofenac (100mg) + Paracetamol (325mg) + Serratiopeptidase (15mg)"
+            },
+            {
+                "subcategory_id": 2,
+                "subcategory_name": "Sinarest Syrup ",
+                "img": "https://ibb.co/2ybv4xr",
+                "average_rating": 2.0,
+                "price": "121Rs",
+                "prescription": "Prescription Required",
+                "strip": "Bottle of 100ml Syrup",
+                "Manufacturer": "Centaur Pharmaceuticals Pvt Ltd",
+                "Salt_Composition": "Chlorpheniramine Maleate (1mg) + Phenylephrine (5mg) + Paracetamol (125mg) + Sodium Citrate (60mg)"
+            },
+            {
+                "subcategory_id": 3,
+                "subcategory_name": "Sinarest Tablet ",
+                "img": "https://ibb.co/YL4RyJW",
+                "average_rating": 2.0,
+                "price": "61Rs",
+                "prescription": "Prescription Required",
+                "strip": "Strip of 10 Tablets",
+                "Manufacturer": "Centaur Pharmaceuticals Pvt Ltd",
+                "Salt_Composition": "Chlorpheniramine Maleate (2mg) + Paracetamol (500mg) + Phenylephrine (10mg)"
             }
         ]
     }
