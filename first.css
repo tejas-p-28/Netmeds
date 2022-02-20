@@ -124,6 +124,25 @@ form.example button:hover {
 
 .nav-link{
     font-size: 20px;
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+}
+.nav-link:after{
+    content:'';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.nav-link:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 .btn-danger1{
     float: right !important;
@@ -351,21 +370,53 @@ hr{
     font-size: 30px;
 }
 /* Main Content Css Ends */
-
-.socials{
-    margin-left: 1%;
+/* Footer Css Starts*/
+.copyright{
     margin-bottom: 3%;
 }
+.socials{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    float: left;
+    height: ;
+    width: 30%;
+}
+
 .socials1{
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
+    margin-left: 2%;
+}
+.featuredFooter{
     margin-left: 1%;
+    margin-bottom: 2%;
+    float: left;
+    height: ;
+    width: 30%;
+}
+.featuredFooter > a{
+    text-decoration: none;
+    color: #000 !important;
+    font-size: 20px;
+    margin-left: 5%;
+    display: block;
 }
 .partner{
-    margin-bottom: 3%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    display: block;
+}
+.partner > img{
+    height: 30px; 
+    width: 45px; 
+    margin-left: 1%;
+    display: inline-block;
 }
 .services{
     margin-left: 1%;
+    margin-bottom:2%;
+    height: 75%;
+    width: ;
 }
 .services > a {
     text-decoration: none;
@@ -373,15 +424,24 @@ hr{
     font-size: 20px;
     margin-left: 1.5%;
 }
-
+/* Footer Css Ends*/
 
 
 @media screen and (max-width:1350px){
     
     .img{
-        height:319px !important;
-        width: 250px !important;
-        margin-left: 4% !important;
+        height:360px !important;
+        width: 295px !important;
+        margin-left: 2% !important;
+    }
+    
+}
+@media screen and (max-width:1300px){
+    
+    .img{
+        height:322px !important;
+        width: 265px !important;
+        margin-left: 2% !important;
     }
     
 }
