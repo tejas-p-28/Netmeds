@@ -1,10 +1,16 @@
 body{
     margin: auto;
-    overflow-x: hidden !important;
-    background-color: #c6d1da;
+    background-color: #cae9e0 !important;
+    overflow-x: hidden;
+    margin-right:auto;
 }
+.mydark{
+    background-color: rgb(43, 42, 42) !important;
+}
+
 a{
     text-decoration: none;
+    color: #fff !important;
 }
 /*Header Css Starts*/
 .form-horizontal{
@@ -54,7 +60,7 @@ a{
     margin-top: 1%;
     width: 34%;
 }
-.header > select{
+select{
     float: left;
     font-size: 17px;
     border: 1px solid grey;
@@ -147,102 +153,7 @@ form.example button:hover {
     background-color: #da3c4c;
     color: white;
 }
-/*header css ends*/
-
-/* breadcrumb css starts*/
-.breadcrumbContainer{
-    margin-left: 6%;
-    float: left;
-    margin-top: 3% !important;
-}
-.breadcrumb-item > a{
-    font-weight: bold;
-    color: grey !important;
-}
-
-/* breadcrumb css ends*/
-.container1{
-    display: inline-block;
-    width: 100%;
-}
-.filter > h3{
-    margin-top: 2%;
-    color:  #444141;
-    margin-left: 1%;
-}
-.filterContent > h3{
-    margin-top: 1%;
-    color:  #444141;
-    margin-left: 1%;
-}
-.filter{
-    width: 20%;
-    height: 500px;
-    float: left;
-    margin-left: 4%;
-}
-p > input{
-    float: right;
-    margin-right: 15%;
-    height: 18px;
-    width: 18px;
-    margin-top: 2%;
-}
-.filterContent{
-    width: 65%;
-    height: 1000px;
-    float: left;
-    margin-left: 1%;
-    margin-right: 5%;
-}
-.filterContent > h3{
-    float: left;
-}
-.filterContent > select{
-    margin-right: 25%;
-    float: right;
-    margin-top: 2%;
-    font-size: 18px;
-}
-.filterContent > p{
-    margin-right: 25%;
-    float: right;
-    margin-top: 2%;
-    font-size: 18px;
-}
-.filterContent > select{
-    height: 40px;
-    width: 170px;
-    margin-right: -30%;
-    margin-top: 1%;
-}
-.row{
-    margin-top: 8%;
-}
-.card{
-    box-shadow:10px 20px 10px grey ;
-    margin-bottom: 10%;
-}
-.card > img{
-    height: 200px;
-}
-.card-body{
-    color: #000;
-}
-.card-body > h4{
-    text-overflow: clip;
-    font-size: 18px;
-}
-details{
-    display: inline;
-}
-.offerimg{
-    background-image: url(images/deal/offerimg.svg);
-    width: 40%;
-    font-weight: bold;
-    color: #fff !important;
-}
-
+/*Header Css Ends */
 
 /* Footer Css Starts*/
 .copyright{
@@ -252,7 +163,6 @@ details{
     margin-left: 5%;
     margin-bottom: 2%;
     float: left;
-    height: ;
     width: 30%;
 }
 
@@ -265,7 +175,6 @@ details{
     margin-left: 1%;
     margin-bottom: 2%;
     float: left;
-    height: ;
     width: 30%;
 }
 .featuredFooter > a{
@@ -290,7 +199,6 @@ details{
     margin-left: 1%;
     margin-bottom:2%;
     height: 75%;
-    width: ;
 }
 .services > a {
     text-decoration: none;

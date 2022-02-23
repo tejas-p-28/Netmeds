@@ -1,10 +1,16 @@
 body{
     margin: auto;
-    overflow-x: hidden !important;
-    background-color: #c6d1da;
+    background-color: #cae9e0 !important;
+    overflow-x: hidden;
+    margin-right:auto;
 }
+.mydark{
+    background-color: rgb(43, 42, 42) !important;
+}
+
 a{
     text-decoration: none;
+    color: #fff !important;
 }
 /*Header Css Starts*/
 .form-horizontal{
@@ -54,7 +60,7 @@ a{
     margin-top: 1%;
     width: 34%;
 }
-.header > select{
+select{
     float: left;
     font-size: 17px;
     border: 1px solid grey;
@@ -147,7 +153,7 @@ form.example button:hover {
     background-color: #da3c4c;
     color: white;
 }
-/*header css ends*/
+/*Header Css Ends */
 
 /* breadcrumb css starts*/
 .breadcrumbContainer{
@@ -242,7 +248,6 @@ details{
     font-weight: bold;
     color: #fff !important;
 }
-
 
 /* Footer Css Starts*/
 .copyright{
