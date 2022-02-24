@@ -1,176 +1,282 @@
 <html>
-    <head>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Pharmaco</title>
-        <link rel="icon" href="images/icon1.jpeg">
-        <link rel="stylesheet" href="medicine.css">
-    </head>
-    <body>
-        <div class="form-horizontal">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Pharmaco</a>
-                <button class="dropbtn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                    Pincode <i class="fa fa-caret-down"></i>
-                </button>  
-                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                    <div class="offcanvas-header">
-                        <h1 class="offcanvas-title" id="offcanvasExampleLabel">Choose Your Location</h1>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <div>
-                            <input type="text" placeholder="Enter Your Pincode" style="height:50px">
-                            <button type="button" class="btn btn-primary" id="pincodecheckbutton" data-bs-toggle="dropdown" style="height:50px">Check</button>
-                        </div>
-                    </div>
-                </div>
-                <form class="example" action="" style="margin:auto;">
-                    <input type="text" placeholder="Search medicines/Healthcare products @18% Off" name="search2">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Pharmaco</title>
+    <link rel="icon" href="images/icon1.jpeg">
+    <link rel="stylesheet" href="medicine.css">
+</head>
+
+<body>
+    <!--Header Starts-->
+    <div class="form-horizontal">
+        <div class="container-fluid">
+            <div class="header">
+                <a class="navbar-brand" href="index.html">Pharmaco</a>
+                <select id="product" style="text-align: center;" onChange="productList()">
+                    <option>Products Available</option>
+                </select>
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search medicines/Healthcare products" name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
-                <i class="fa fa-cart-plus"></i>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal"data-bs-target="#staticBackdrop">Login</button>
-                <button type="button" class="btn btn-success" data-bs-toggle="modal"data-bs-target="#staticBackdrop">Signup</button>   
+                <div class="weather">
+                    <p onload="geolocation()">
+                    <p id="icon"></p>
+                    <p id="address"></p>
+                    </p>
+                </div>
+                <button class="btn btn-danger1" id="myDark" onclick="changeMode()">Mode</button>
             </div>
         </div>
-        <div class="sort">
-            <h4>Medicine index starting from A</h4>
-            <a href="a.html" class="sortcard">
-                <p>A</p>
-            </a>
-            <a href="b.html" class="sortcard">
-                <p>B</p>
-            </a>
-            <a href="c.html" class="sortcard">
-                <p>C</p>
-            </a>
-            <a href="d.html" class="sortcard">
-                <p>D</p>
-            </a>
-            <a href="e.html" class="sortcard">
-                <p>E</p>
-            </a>
-            <a href="f.html" class="sortcard">
-                <p>F</p>
-            </a>
-            <a href="g.html" class="sortcard">
-                <p>G</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>H</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>I</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>J</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>K</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>L</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>M</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>N</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>O</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>P</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>Q</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>R</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>S</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>T</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>U</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>V</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>W</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>X</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>Y</p>
-            </a>
-            <a href="a.html" class="sortcard">
-                <p>Z</p>
-            </a>
-        </div>
-        <div class="row">
-            <div class="col-md-2">
-                <div class="card">
-                    <img src="images/medicines/allegra120mgtablet.png" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Allegra 120mg Tablet</h4>
-                        <p class="card-text"></p>
-                    </div> 
-                </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="medicine.html">Order Medicines</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="product.html">Healthcare Products</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="#">Offers</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="#">Login / Signup</a>
+                    </li>
+                    <li class="nav-item pe-5">
+                        <a class="nav-link" href="#"><i class="fa fa-cart-plus"
+                                style="justify-content: flex-end;"></i></a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-2">
-                <div class="card">
-                    <img src="images/medicines/ascoril LS syrup.jpeg" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Ascoril-LS Syrup</h4>
-                        <p class="card-text"></p>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="card">
-                    <img src="images/medicines/allegra120mgtablet.png" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Allegra 120mg Tablet</h4>
-                        <p class="card-text"></p>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="card">
-                    <img src="images/medicines/allegra120mgtablet.png" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Allegra 120mg Tablet</h4>
-                        <p class="card-text"></p>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="card">
-                    <img src="images/medicines/allegra120mgtablet.png" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Allegra 120mg Tablet</h4>
-                        <p class="card-text"></p>
-                    </div> 
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="card">
-                    <img src="images/medicines/allegra120mgtablet.png" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Allegra 120mg Tablet</h4>
-                        <p class="card-text"></p>
-                    </div> 
+        </nav>
+    </div>
+    <!--Header Ends-->
+
+    <div class="sort">
+        <h4>Medicine index starting from A</h4>
+        <a href="a.html" class="sortcard">
+            <p>A</p>
+        </a>
+        <a href="b.html" class="sortcard">
+            <p>B</p>
+        </a>
+        <a href="c.html" class="sortcard">
+            <p>C</p>
+        </a>
+        <a href="d.html" class="sortcard">
+            <p>D</p>
+        </a>
+        <a href="e.html" class="sortcard">
+            <p>E</p>
+        </a>
+        <a href="f.html" class="sortcard">
+            <p>F</p>
+        </a>
+        <a href="g.html" class="sortcard">
+            <p>G</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>H</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>I</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>J</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>K</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>L</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>M</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>N</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>O</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>P</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>Q</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>R</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>S</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>T</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>U</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>V</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>W</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>X</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>Y</p>
+        </a>
+        <a href="a.html" class="sortcard">
+            <p>Z</p>
+        </a>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://i.ibb.co/kXpM18L/allegra120mgtablet.png" alt="">
+                <div class="card-body">
+                    <b><h4 class="card-title">Allegra 120mg Tablet</h4></b>
+                    MRP <strike>₹210</strike>
+                    <b><p>₹198</p></b>
+                    <div class="offerimg">5% OFF!</div>
+                    <p class="card-text">Prescription Required</p>
+
+                    <center><button class="btn btn-primary">Details</button></center>
                 </div>
             </div>
         </div>
-    </body>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://i.ibb.co/f4H8dj2/ascoril-LS-syrup.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Ascoril-LS Syrup</h4>
+                    MRP <strike>₹250</strike>
+                    <b><p>₹198</p></b>
+                    <div class="offerimg">5% OFF!</div>
+                    <p class="card-text">Prescription Required</p>
+                    <center><button class="btn btn-primary">Details</button></center>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://i.ibb.co/LhWd81Q/ascorildplussyrupsugarfree.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Ascoril D Plus Syrup</h4>
+                    MRP <strike>₹250</strike>
+                    <b><p>₹198</p></b>
+                    <div class="offerimg">5% OFF!</div>
+                    <p class="card-text">Prescription Required</p>
+                    <center><button class="btn btn-primary">Details</button></center>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://i.ibb.co/Yyp7r2Q/augmentin.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Augmentin 625 Duo <details>
+                            <summary></summary>
+                            <p>Tablets</p>
+                        </details>
+                    </h4>
+                    MRP <strike>₹250</strike>
+                    <b><p>₹198</p></b>
+                    <div class="offerimg">5% OFF!</div>
+                    <p class="card-text">Prescription Required</p>
+                    <center><button class="btn btn-primary">Details</button></center>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://i.ibb.co/sFV9bKn/avominetablet.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Avomine Tablet</h4>
+                    MRP <strike>₹250</strike>
+                    <b><p>₹198</p></b>
+                    <div class="offerimg">5% OFF!</div>
+                    <p class="card-text">Prescription Required</p>
+                    <center><button class="btn btn-primary">Details</button></center>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://i.ibb.co/5sWtqMd/azee500tablet.png" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Azee 500 Tablet</h4>
+                    MRP <strike>₹250</strike>
+                    <b><p>₹198</p></b>
+                    <div class="offerimg">5% OFF!</div>
+                    <p class="card-text">Prescription Required</p>
+                    <center><button class="btn btn-primary">Details</button></center>
+                </div>
+            </div>
+        </div>
+        <center><h4>That's All Folk!!!</h4></center>
+    </div>
+    <hr>
+</body>
+<footer>
+    <div class="copyright">
+        <center>
+            <h5><b>&copy;2022 Tejas.All Rights Reserved </b></h6>
+        </center>
+    </div>
+    <div class="socials">
+        <h5><b>Follow us on</b></h5>
+        <a href="https://www.facebook.com/tejas.b.patil.12" target="_blank"><img src="images/socials/facebook.jpeg"
+                class="socials1" alt="Instagram"></a>
+        <a href="https://www.instagram.com/innocent_boy_tp/" target="_blank"><img src="images/socials/insta.jpeg"
+                class="socials1" alt="Facebook"></a>
+        <a href="https://github.com/tp-the-developer" target="_blank"><img src="images/socials/githb.jpeg"
+                class="socials1" alt="Github"></a>
+        <a href="https://www.linkedin.com/in/tejas-patil-623430218/" target="_blank"><img
+                src="images/socials/linkedin.jpeg" class="socials1" alt="LinkedIn"></a>
+        <a href="https://mobile.twitter.com/TejasPa98739034" target="_blank"><img src="images/socials/twitter1.jpeg"
+                class="socials1" alt="Twitter"></a>
+    </div>
+    <div class="featuredFooter">
+        <h5><b>Featured Category</b></h5>
+        <a href="">Covid Essentials</a>
+        <a href="">Healthcare Products</a>
+        <a href="">Nutrition Drinks</a>
+        <a href="">Personal Care</a>
+        <a href="">Ayurvedic Care</a>
+        <a href="">Skin Care</a>
+        <a href="">Sexual Wellness</a>
+        <a href="">Home Care</a>
+    </div>
+    <div class="services">
+        <h5><b>Our Services</b></h5>
+        <a href="medicine.html">Order Medicines</a><br>
+        <a href="">Healthcare Products</a>
+    </div>
+    <div class="partner">
+        <h5><b>Our Payments Partner</b></h5>
+        <img src="images/footer/amazon.svg" alt="Amazon Pay">
+        <img src="images/footer/gpay.svg" alt="Google Pay">
+        <img src="images/footer/mastercard.svg" alt="MasterCard">
+        <img src="images/footer/mobikwik.svg" alt="Mobikwik">
+        <img src="images/footer/paytm.svg" alt="Paytm">
+        <img src="images/footer/phonepay.svg" alt="PhonePay">
+        <img src="images/footer/rupay.svg" alt="Rupay">
+        <img src="images/footer/visa.svg" alt="Visa">
+    </div>
+</footer>
+
 </html>

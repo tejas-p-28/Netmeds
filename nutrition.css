@@ -228,9 +228,12 @@ p > input{
 .card{
     box-shadow:10px 20px 10px grey ;
     margin-bottom: 10%;
+    background-color: #e8e0e0;
+    border: 1px groove black;
 }
 .card > img{
     height: 200px;
+    align-items: center !important;
 }
 .card-body{
     color: #000;
@@ -243,7 +246,7 @@ details{
     display: inline;
 }
 .offerimg{
-    background-image: url(images/deal/offerimg.svg);
+    background-image: url("images/deal/offerimg.svg");
     width: 40%;
     font-weight: bold;
     color: #fff !important;
