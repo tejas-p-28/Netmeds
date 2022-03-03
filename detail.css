@@ -155,7 +155,75 @@ form.example button:hover {
 }
 /*Header Css Ends */
 
+.detail > h1{
+    text-align: center;
+}
+.img{
+    box-shadow:10px 20px 10px grey;
+    height:400px;
+    margin-left:5%;
+    float:left;
+}
+.img > img{
+    height:100%;
+    width: 100%;
+}
+.container{
+    width:45%;
+    float:left;
+    background-color: #fff;
+    margin-left:5%;
+}
+.checked{
+    color: green;
+}
+.unchecked{
+    color:red;
+}
+.offerimg{
+    background-image: url(images/deal/offerimg.svg);
+    width: 20%;
+    font-weight: bold;
+    text-align: center;
+    color: #fff !important;
+    margin-top:1%;
+    margin-bottom:2%;
+}
+.feature{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-top: 3%; 
+    margin-left: 4%;
+}
+.featureContainer{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0%;
+}
+.feature > p{
+    font-size: 15px;
+    line-height: 7px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn{
+    margin-left:5%;
+    margin-top:3%;
+}
+.btn-success{
+    width:40%;
+}
+.btn-secondary{
+    width:40%;
+}
+
 /* Footer Css Starts*/
+footer{
+    display:inline-block;
+    width:100%;
+    margin-top:5%;
+}
 .copyright{
     margin-bottom: 3%;
 }
