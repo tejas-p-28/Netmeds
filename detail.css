@@ -1,8 +1,8 @@
 body{
     margin: auto;
-    background-color: #cae9e0 !important;
     overflow-x: hidden;
     margin-right:auto;
+    height: auto;
 }
 .mydark{
     background-color: rgb(43, 42, 42) !important;
@@ -157,12 +157,22 @@ form.example button:hover {
 
 .detail > h1{
     text-align: center;
+    margin-top:2%;
+    color:#0eb184;
+    margin-bottom:1%;
+}
+.content > h2{
+    text-align:center;
+    color: #745f5f;
+    margin-top: 3%;
 }
 .img{
     box-shadow:10px 20px 10px grey;
-    height:400px;
+    height:350px;
     margin-left:5%;
     float:left;
+    border-left:1px dotted black;
+    border-top:1px dotted black;
 }
 .img > img{
     height:100%;
@@ -171,8 +181,10 @@ form.example button:hover {
 .container{
     width:45%;
     float:left;
-    background-color: #fff;
     margin-left:5%;
+    box-shadow:10px 20px 10px grey;
+    border-left:1px dotted black;
+    border-top:1px dotted black;
 }
 .checked{
     color: green;
@@ -190,11 +202,12 @@ form.example button:hover {
     margin-bottom:2%;
 }
 .feature{
-    display: inline-block;
+    float:left;
     height: 100px;
     width: 100px;
     margin-top: 3%; 
     margin-left: 4%;
+    margin-bottom: 5%;
 }
 .featureContainer{
     height: 100px;
@@ -203,26 +216,31 @@ form.example button:hover {
 }
 .feature > p{
     font-size: 15px;
-    line-height: 7px;
     font-weight: bold;
     text-align: center;
 }
-.btn{
+
+.btn-success{
+    width:90%;
+    font-weight: bold;
     margin-left:5%;
     margin-top:3%;
+    margin-bottom:5%;
 }
-.btn-success{
-    width:40%;
-}
-.btn-secondary{
-    width:40%;
+hr{
+    display:inline-block;
+    color: black;
+    z-index: 100;
+    width: 100%;
+    margin-top: 3%;
+    height: 2px !important;
 }
 
 /* Footer Css Starts*/
 footer{
     display:inline-block;
     width:100%;
-    margin-top:5%;
+    margin-top:2%;
 }
 .copyright{
     margin-bottom: 3%;
